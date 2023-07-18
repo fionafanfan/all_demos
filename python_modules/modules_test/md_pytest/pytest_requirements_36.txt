@@ -1,0 +1,6 @@
+pytest==7.0.1
+pytest-html==3.2.0
+pytest-xdist==3.0.2
+pytest-ordering==0.6
+pytest-rerunfailures==10.3
+allure-pytest==2.13.2

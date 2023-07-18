@@ -1,0 +1,6 @@
+pytest单元测试框架B站讲解课程(机构老师讲的，有些视频重复讲了3遍):
+https://www.bilibili.com/video/BV1py4y1t7bJ/?p=2&spm_id_from=pageDriver&vd_source=9ab8a945335cbaf24c13e51eba88b195
+
+个人博主讲解pytest（几张图画得很清晰， 步骤看评论有评论说比上面得讲得清楚些）：
+https://www.bilibili.com/video/BV1Pa411u7Mq/?spm_id_from=333.337.search-card.all.click&vd_source=9ab8a945335cbaf24c13e51eba88b195
+https://www.bilibili.com/video/BV1Pa411u7Mq?p=19&vd_source=9ab8a945335cbaf24c13e51eba88b195
