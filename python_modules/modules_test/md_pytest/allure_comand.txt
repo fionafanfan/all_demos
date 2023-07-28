@@ -1,0 +1,70 @@
+https://zhuanlan.zhihu.com/p/636582327
+它是一个生成HTML测试报告的工具包
+使用java开发，所以需要java环境
+功能强大 , 生成的报告美观、直观
+需要用pytest去搜集测试用例
+使用浏览器打开，更易进行持续集成
+
+java	allure使用java开发，所以必须要有运行环境	https://www.oracle.com/cn/java/technologies/downloads/
+allure	生成测试报告	https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline
+python	编写自动化所需语言	https://www.python.org/
+pycharm	开发工具	https://www.jetbrains.com/pycharm/download/#section=windows
+pytest	python第三方包，使用它来搜集测试用例	pip install pytest
+
+
+https://www.rstk.cn/news/1119143.html?action=onClick
+
+–clean-alluredir 这个选项用来清除之前生成的结果
+但是所有用例的历史数据都没有， 而不是代码层面删除的用例数据没有。
+
+allure serve或open：（）
+https://blog.csdn.net/weixin_43966315/article/details/122360705
+
+# Todo: 以web服务的方式打开报告， 目前这种打开报告的方式，不能加载数据
+# Todo: 可能还会有一直开启java.exe进程问题， 所以这个方式后面可能还会有问题。
+os.system("allure serve ./allure_reports  -h 127.0.0.1 -p 9999")
+查看allure的报告的方式：
+https://blog.csdn.net/lxp_mocheng/article/details/126959330
+
+解决方式-参考（未实践）：
+Pytest+Allure+Anywhere：测试报告生成后本地运行，分享给局域网内其他同事查阅
+https://blog.csdn.net/lxp_mocheng/article/details/126959330
+
+4、解决办法：
+安装node.js，使用npm命令安装Anywhere
+
+npm install -g anywhere
+
+5、安装成功后，进入 alllure 的测试报告所在目录
+6、shift +鼠标右键 ，点击【在此处打开 Powershell 窗口】
+7、在打开窗口输入 anywhere，启动了 http 和 https 两个服务，且会以默认浏览器自动打开http的地址
+
+nodejs下载： https://nodejs.cn/download/
+二、安装步骤
+1、双击安装包，一直点击下一步。
+2、点击change按钮，更换到自己的指定安装位置，点击下一步（不修改默认位置也是可以的 ）。
+3、一直点击下一步，最后安装成功即可
+
+我希望将全模块所在路径和缓存路径放在我node.js安装的文件夹中，
+则在我安装的文件夹【D:\Tools_an\nodejs_an】下创建两个文件夹【node_global_me】及【node_cache_me】如下图
+新建两个文件夹：
+npm config set prefix "D:\Tools_an\nodejs_an\node_global_me"
+npm config set cache "D:\Tools_an\nodejs_an\node_cache_me"
+
+修改系统环境变量
+将【用户变量】下的【Path】修改为【D:\Tools_an\nodejs_an\node_global_me】，之后点击确定。
+添加环境变量：
+在【系统变量】下新建【NODE_PATH】【D:\Tools_an\nodejs_an\node_global_me\node_modules】
+
+
+验证：
+注：若执行命令npm install express -g 出现如下报错
+是由于权限的原因，右击Nodejs文件夹->属性->安全，点击编辑，将所有权限都✔即可
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+重点看allure(到时候做讲解的时候，可以用这个参考):
+标记作用: https://zhuanlan.zhihu.com/p/636582327
+
+allure替换logo为自己的logo：
+参考链接：https://blog.csdn.net/weixin_44688529/article/details/123688054
+https://blog.csdn.net/weixin_44275820/article/details/107830786?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0-107830786-blog-123688054.235^v38^pc_relevant_sort_base2&spm=1001.2101.3001.4242.1&utm_relevant_index=1

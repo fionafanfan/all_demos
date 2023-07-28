@@ -4,3 +4,4 @@ pytest-xdist==3.0.2
 pytest-ordering==0.6
 pytest-rerunfailures==10.3
 allure-pytest==2.13.2
+requests==2.27.1

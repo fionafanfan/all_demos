@@ -12,8 +12,9 @@ import pytest
 
 
 if __name__ == '__main__':
-    pytest.main()
-    # os.system("allure generate temp -o reports  --clean")
+    # pytest.main()
+    pytest.main(['-vs', 'testcase/test_parametrize.py'])
+    os.system("allure generate temp -o allure_reports  --clean")
     # pytest.main(['-v'])
     # pytest.main(['-s'])
     # pytest.main(['-vs'])

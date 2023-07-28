@@ -127,7 +127,14 @@ jdk安装方式： https://www.liaoxuefeng.com/wiki/1252599548343744/12805072916
 - 执行命令
     - 生成临时的json文件报告： --alluredir ./temp
     - 通过临时的json文件生成allure报告: os.system("allure generate temp -o reports  --clean")
-- allure 报告的定制： 比如可以修改报告上的一些logo啊， 把默认的改成自己的logo
+- allure 报告的定制： 比如可以修改报告上的一些logo啊， 把默认的改成自己的logo 
+allure官网： http://allure.qatools.ru/
+```json 
+@allure.epic('淘宝')      # 工程级别
+@allure.feature('设置')   # 模块级别，一级标签
+@allure.story('账户安全')  # 模块级别，二级标签
+@allure.title('用例标题：test_001')  # 三级标签
+```
 ![img_1.png](../../../statics/imgs/allure_report_temp_json_data_demo.png)
 ![img.png](../../../statics/imgs/allure_report_files_tree.png)
 ![img.png](../../../statics/imgs/allure_report_result_demo.png)

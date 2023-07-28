@@ -38,3 +38,4 @@ class TestInterfaceFixture(object):
 
     def test_02(self):
         print("测试用例-2")
+

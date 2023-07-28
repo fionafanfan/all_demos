@@ -1,0 +1,4 @@
+如何在 Python 中动态调用函数，九种方法有大用处，特别是在框架设计的时候:
+https://xiaoshen.blog.csdn.net/article/details/129876506?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-2-129876506-blog-121381363.235%5Ev38%5Epc_relevant_anti_t3&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-2-129876506-blog-121381363.235%5Ev38%5Epc_relevant_anti_t3&utm_relevant_index=3
+【Python】 如何动态添加类属性与方法:
+https://blog.csdn.net/feit2417/article/details/81508092

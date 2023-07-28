@@ -1,0 +1,26 @@
+pytest+ allure + yaml + requests + selenium + jenkins
+
+数据驱动- 写好公共的代码后， 只要按规范填写yaml数据即可完成用例
+单接口测试 - 鉴权 cookies， session， token 等
+多关联接口测试- 依赖多个接口， 需要取前一个数据接口的值 作为下一个接口的参数传入，才能测试
+ui ， 需要selenium 来模拟人登录界面， 比如登录测试 就是典型的 可以通过 ui 及数据驱动完成
+
+pytest组合yaml实现数据驱动，yaml文件作为用例数据源，控制测试用例的执行，使得测试用例数据维护更加方便快捷
+python接口自动化之yaml实现数据驱动(单接口): https://blog.csdn.net/qq_38484679/article/details/126408178
+
+
+yaml 文件介绍:
+对象：键值对的集合，用冒号 “:” 表示
+数组：一组按次序排列的值，前加 “-”
+纯量：单个的、不可再分的值
+字符串
+布尔值
+整数
+浮点数
+Null
+时间
+日期
+
+data 目录：存放 yaml 数据文件
+func 目录：存放被测函数文件
+testcase 目录：存放测试用例文件
