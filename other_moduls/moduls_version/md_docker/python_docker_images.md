@@ -21,3 +21,23 @@ https://juejin.cn/post/6844903752483209224
 alpine 安装 selenium / ChromeDriver / chrome
 
 https://blog.csdn.net/zyy247796143/article/details/123266186(亲测有用)
+https://www.jianshu.com/p/009ff8ba87ba(亲测有用，差不多)
+
+
+fc-list :lang=zh 查看字体（查看有用）
+
+chromium-browser --version 查看chrome版本 （查看有用）
+
+chromedriver --version 查看驱动版本（查看有用）
+
+python --version 查看python版本（查看有用）
+
+pip list 查看python模块版本（查看有用）
+
+apk --version apk包管理工具（查看有用）
+
+selenium-grid
+selenium爬虫chrome容器化部署实战:
+https://blog.csdn.net/jgku/article/details/127548990  (最终使用方案)
+
+--restart always
