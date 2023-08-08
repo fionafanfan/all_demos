@@ -17,6 +17,9 @@ https://www.rstk.cn/news/1119143.html?action=onClick
 –clean-alluredir 这个选项用来清除之前生成的结果
 但是所有用例的历史数据都没有， 而不是代码层面删除的用例数据没有。
 
+遇到的问题-python的allure报告显示时间戳问题：
+http://bbs.51testing.com/thread-1290152-1-1.html
+
 allure serve或open：（）
 https://blog.csdn.net/weixin_43966315/article/details/122360705
 

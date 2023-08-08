@@ -41,3 +41,28 @@ selenium爬虫chrome容器化部署实战:
 https://blog.csdn.net/jgku/article/details/127548990  (最终使用方案)
 
 --restart always
+
+
+参考链接：https://blog.csdn.net/kingwinstar/article/details/128570422
+不知道大家有没有遇到这种场景，部署在docker环境的项目，需要通过域名访问外部一些资源，
+但因为没有配置dns解析，因此需要通过配置hosts来进行访问。
+本文就来聊聊可以通过哪些方式可以在docker容器中配置hosts
+方法一：启动容器的时候加上“–add-host”
+docker run --add-host='www.lyb-geek.com:127.0.0.1' --add-host='www.lyb-geek.cn:192.168.3.1' --name hello-docker -it 192.168.0.1:5002/lybgeek/hello-docker:1.0
+(有用)
+方法二：如果是通过docker-compose启动容器，可以配置extra_hosts属性
+```version: '3.7'
+services:
+  hello-docker:
+    restart: always
+    image: 192.168.0.1:5002/lybgeek/hello-docker:1.0
+    extra_hosts:
+    - "www.lyb-geek.com:127.0.0.1"
+    - "www.lyb-geek.cn:192.168.3.1"
+    container_name: hello-docker
+    network_mode: bridge
+    ports:
+     - "80:80"
+    environment:
+     - ENV=dev    
+```
