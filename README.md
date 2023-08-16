@@ -30,6 +30,7 @@
 譬如：
 - conda create -n all_demos_py36 python==3.6
 - conda create -n all_demos_py37 python==3.7
+- conda create -n all_demos_py3_10 python==3.10
 - conda create -n all_demos_py37_md_pytest python==3.7
 
 激活环境： conda activate all_demos_py36
