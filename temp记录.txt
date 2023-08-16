@@ -1,0 +1,9 @@
+https://blog.csdn.net/yuan2019035055/article/details/128408178
+xlrd高版本不支持xlsx文件，
+要么将xlsx版本降低为1.2.0版本
+要不将所读取的xlsx文件改为xls文件， 需要用wps打开另存为xls类型文件， 而不是简单的修改后缀名，否则不生效（试过有效）
+
+pandasql(在pandas中使用sql查询，实现千万行数据内存计算):
+https://zhuanlan.zhihu.com/p/629076504
+
+Fugue、DuckDB、pandasql：https://www.zadmei.com/zpzzxscx.html
