@@ -13,6 +13,7 @@ The example module supplies one function, factorial().  For example,
 120
 """
 
+
 def factorial(n):
     """Return the factorial of n, an exact integer >= 0.
 
