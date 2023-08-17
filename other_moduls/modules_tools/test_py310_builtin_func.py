@@ -4,6 +4,7 @@
 # @Date     : 2023/8/16 18:30
 # @File     : test_py310_builtin_func.py
 # @Desc     :
+
 class TestBuiltinFunc(object):
     def test_abs(self):
         test_datas = [(-1, 1), (-1.1, 1.1)]
