@@ -7,3 +7,6 @@ pandasql(在pandas中使用sql查询，实现千万行数据内存计算):
 https://zhuanlan.zhihu.com/p/629076504
 
 Fugue、DuckDB、pandasql：https://www.zadmei.com/zpzzxscx.html
+
+
+一些AI方向awesome： https://tianchi.aliyun.com/forum/post/73158?spm=a2c22.21852664.0.0.6a7c379crVMgev
