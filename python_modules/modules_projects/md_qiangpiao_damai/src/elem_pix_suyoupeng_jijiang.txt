@@ -1,0 +1,6 @@
+pyautogui.click(x=779, y=272)  # 选票页面-场次
+pyautogui.click(x=731, y=368)  # 选票页面-看台-380
+pyautogui.click(x=893, y=366)  # 选票页面-看台-580
+pyautogui.click(x=1062, y=362)  # 选票页面-看台780
+pyautogui.click(x=723, y=421)  # 选票页面-内场-1080
+pyautogui.click(x=888, y=422)  # 选票页面-内场-1280
