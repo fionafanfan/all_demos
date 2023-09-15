@@ -130,7 +130,7 @@ io相关：
 3. format()
 4. open()
 
-3.7把呢不能新加的几个内置函数：
+3.7版本中新加的几个内置函数：
 1. breakpoint()
 
 3.10版本新增加了几个内置函数：
@@ -194,6 +194,28 @@ print(sys.builtin_module_names)
 扩展/嵌入常见问题：
 
 
+
+sys模块阅读：
+
+动态变量：
+静态变量：
+比较有记忆点的变量(源码原文注释：variables with complex values)：
+sys.orig_argv：传给 Python 可执行文件的原始命令行参数列表。
+sys.path:是一个由路径字符串组成的列表， 可以通过site模块使用.pth文件来扩展sys.path（还没有进行实践过）
+
+函数：
+
+观察sys.py源码， 可以通过idea看到下面一些注释， 可以弄清楚这些含义。
+# real signature unknown
+# real signature unknown; restored from __doc__
+# real signature unknown; NOTE: unreliably restored from __doc__ 
+# reliably restored by inspect : 是指使用inspect模块可以可靠地恢复函数定义
+
+sys模块中的函数真正的实现都是用c语言实现的， 没有python源码，而sys.py模块中只是用一个空方法占位而已。
+这个函数的具体实现不用python编写，而是由例如C这种高效语法编写，在包中只用一个空方法占位，调用的时候是调用C语言实现的方法
+(有些附带注释的接口是提供给用户看的，告诉用户如何使用，有的函数的实现代码你是看不到的，你最多看到一些接口说明。
+是ide为了提供友好提示而搞的
+)
 
 
 

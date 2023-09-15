@@ -1,0 +1,10 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Author   : xianxiafan
+# @Date     : 2023/9/14 16:11
+# @File     : module_sys_demo_argv.py
+# @Desc     : https://zhuanlan.zhihu.com/p/150835014#:~:text=Python%20sys%20%E6%A8%A1%E5%9D%97%E8%AF%A6%E8%A7%A3%201%201.%20%E7%AE%80%E4%BB%8B%20%E2%80%9Csys%E2%80%9D%E5%8D%B3%E2%80%9Csystem%E2%80%9D%EF%BC%8C%E2%80%9C%E7%B3%BB%E7%BB%9F%E2%80%9D%E4%B9%8B%E6%84%8F%E3%80%82%20%E8%AF%A5%E6%A8%A1%E5%9D%97%E6%8F%90%E4%BE%9B%E4%BA%86%E4%B8%80%E4%BA%9B%E6%8E%A5%E5%8F%A3%EF%BC%8C%E7%94%A8%E4%BA%8E%E8%AE%BF%E9%97%AE,%E4%B8%80%E4%B8%AA%E6%9C%89%E8%B6%A3%E7%9A%84%E5%8A%9F%E8%83%BD%20%E6%8E%A5%E4%B8%8B%E6%9D%A5%E8%AE%A9%E6%88%91%E4%BB%AC%E6%94%BE%E6%9D%BE%E4%B8%80%E4%B8%8B%E3%80%82%20%E6%AF%8F%E6%AC%A1%E6%89%93%E5%BC%80%20Python%20%E7%9A%84%E4%BA%A4%E4%BA%92%E5%BC%8F%E7%95%8C%E9%9D%A2%EF%BC%8C%E6%88%91%E4%BB%AC%E9%83%BD%E4%BC%9A%E7%9C%8B%E5%88%B0%E4%B8%80%E4%B8%AA%E6%8F%90%E7%A4%BA%E7%AC%A6%20%3E%3E%3E%20%E3%80%82%20
+import sys
+
+# 利用好这个属性，可以极大增强 Python 脚本的交互性。
+print(f"命令行参数:{sys.argv}")

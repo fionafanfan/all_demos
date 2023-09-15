@@ -9,5 +9,6 @@ https://zhuanlan.zhihu.com/p/629076504
 Fugue、DuckDB、pandasql：https://www.zadmei.com/zpzzxscx.html
 
 
+cpython解读参考教程地址（知乎）：https://zhuanlan.zhihu.com/p/79656976
 一些AI方向awesome： https://tianchi.aliyun.com/forum/post/73158?spm=a2c22.21852664.0.0.6a7c379crVMgev
 中国12大AI研究院，高调的低调的你pick谁：https://mp.weixin.qq.com/s?spm=a2c22.21852664.0.0.72524412qtR67n&__biz=MzA3NDIyMjM1NA==&mid=2649031435&idx=1&sn=cc349f988219b911c12518ed5fd94f3d&chksm=8712bd76b065346056595cd43c2d8b61197c578ce5a324f494415b29b4bfe5706d2917f6c39a&scene=21#wechat_redirect
