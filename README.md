@@ -32,7 +32,7 @@
 - conda create -n all_demos_py37 python==3.7
 - conda create -n all_demos_py3_10 python==3.10
 - conda create -n all_demos_py37_md_pytest python==3.7
-
+- conda create -n cpython31010_demo python==3.10
 激活环境： conda activate all_demos_py36
 
 然后在新建的虚拟环境中， 安装对应的依赖包： pip install -r requirements.txt -i https://pypi.douban.com/simple/
