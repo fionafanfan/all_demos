@@ -1,6 +1,13 @@
 # cpython源码分析
 
 cpython-3.10.10
+编译后， 通过vis stuido2022 社区版加载pcbuild.sln文件导入44个解决方案，通过列表查看入口文件:
+* Python/Source Files/ python.c 文件 写了入口函数:
+  * main()
+    * Py_BytesMain()
+  * vmmain()
+    * 【MS_WIDOWS】 Py_Main()
+    
 * Modules
   * main.c (python解释器主程序入口, 源码中是这样注释的: Python interpreter main program)
     * include
