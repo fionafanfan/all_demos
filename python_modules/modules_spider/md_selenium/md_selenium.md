@@ -95,5 +95,22 @@ self._driver = webdriver.Chrome(ChromeDriverManager(path = utils.abs_path('packa
                                 **self.chrome_driver_init_params())
 self._driver.implicitly_wait(_IMPLICIT_WAIT_TIME)
 """
-
 ```
+- webdriver_manager
+  - core
+    - download_manager.py
+      - DownloadManager 
+      - WDMDownloadManager(DownloadManager)
+    - driver.py 
+      - Driver 
+    - manager.py 
+      - DriverManager
+    - http.py 
+      - HttpClient 
+      - WDMHttpClient(HttpClient)
+  - drivers
+    - chrome.py
+      - ChromeDriver(Driver)
+  - chrome.py 
+    - ChromeDriverManager(DriverManager)
+    - ChromeDriver
