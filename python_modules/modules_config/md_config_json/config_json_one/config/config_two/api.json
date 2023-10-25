@@ -1,0 +1,8 @@
+{
+  "redis_value": {
+    "STOCK_K_LINE_RT": "xxx"
+  },
+  "redis_key": {
+    "STOCK_K_LINE_RT": "AUTO_TEST:LIST:TICK:{stockCode}"
+  }
+}

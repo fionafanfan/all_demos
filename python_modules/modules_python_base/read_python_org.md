@@ -217,6 +217,11 @@ sysÄ£¿éÖÐµÄº¯ÊýÕæÕýµÄÊµÏÖ¶¼ÊÇÓÃcÓïÑÔÊµÏÖµÄ£¬ Ã»ÓÐpythonÔ´Âë£¬¶øsys.pyÄ£¿éÖÐÖ»ÊÇÓ
 ÊÇideÎªÁËÌá¹©ÓÑºÃÌáÊ¾¶ø¸ãµÄ
 )
 
+# python3.7Ö®ÓÚpython3.6±ä»¯
+* ÐÂµÄÓï·¨ÌØÕ÷
+* ÐÂµÄÄÚÖÃº¯Êý
+* ÐÂµÄ¿â
+
 
 
 

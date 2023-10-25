@@ -1,0 +1,20 @@
+{
+  "mysql": {
+    "stock":
+    {
+      "host": "xxxx",
+      "port": 3306,
+      "user": "vv-finance",
+      "password": "",
+      "database": "vv_finance_stock",
+      "__table__": ["t_us_trade_statistics"]
+    }
+  },
+  "redis":
+  {
+    "cluster": {
+      "host": [],
+      "password": ""
+    }
+  }
+}
