@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【检查市净率】【pbr】 期望结果(融聚汇): 44.9129 真实结果(投管):44.88175  对比结果：False
+INFO     auto_test:logger.py:93 测试【TSLA.us】【检查市净率】【pbr】 期望结果(融聚汇): 13.66378 真实结果(投管):13.66378  对比结果：True

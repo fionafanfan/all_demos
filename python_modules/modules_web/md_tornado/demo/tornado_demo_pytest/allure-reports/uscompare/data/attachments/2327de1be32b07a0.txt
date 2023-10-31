@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【计算5分钟涨跌幅】【min5ChgPct】 期望结果(融聚汇): None 真实结果(投管):0.0005  对比结果：False
+INFO     auto_test:logger.py:93 测试【TSLA.us】【计算5分钟涨跌幅】【min5ChgPct】 期望结果(融聚汇): None 真实结果(投管):0.0001  对比结果：False

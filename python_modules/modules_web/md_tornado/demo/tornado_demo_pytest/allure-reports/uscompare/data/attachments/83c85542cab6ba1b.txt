@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【计算营业额复合增长率（三年）】【turnoverAddRate3year】 期望结果(融聚汇): 14.9 真实结果(投管):14.9  对比结果：True
+INFO     auto_test:logger.py:93 测试【TSLA.us】【计算营业额复合增长率（三年）】【turnoverAddRate3year】 期望结果(融聚汇): 49.1 真实结果(投管):49.1  对比结果：True

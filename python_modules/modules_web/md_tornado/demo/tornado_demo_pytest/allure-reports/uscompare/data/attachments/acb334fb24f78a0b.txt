@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【计算大单净流入】【bigNetIn】 期望结果(融聚汇): 221782968.6841 真实结果(投管):221782968.6841  对比结果：True
+INFO     auto_test:logger.py:93 测试【TSLA.us】【计算大单净流入】【bigNetIn】 期望结果(融聚汇): 624342629.0245 真实结果(投管):624342629.0245  对比结果：True

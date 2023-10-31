@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【检查总市值】【totalMarketValue】 期望结果(融聚汇): 2704682000000 真实结果(投管):2704682000000  对比结果：True
+INFO     auto_test:logger.py:93 测试【TSLA.us】【检查总市值】【totalMarketValue】 期望结果(融聚汇): 672293600000 真实结果(投管):672293600000  对比结果：True

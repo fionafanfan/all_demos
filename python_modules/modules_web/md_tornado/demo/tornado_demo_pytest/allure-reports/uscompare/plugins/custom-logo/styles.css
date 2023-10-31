@@ -1,0 +1,19 @@
+.side-nav {
+    background: #041529;
+}
+.side-nav__brand {
+  background: url('wq_logo.png') no-repeat left center !important;
+    margin-left: 10px;
+  height: 40px;
+  background-size: contain !important;
+}
+
+.side-nav__brand span{
+	display: none;
+}
+
+.side-nav__brand:after{
+	content: "WQ";
+	margin-left: 20px;
+
+}

@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【检查最高】【high】 期望结果(融聚汇): 174.01 真实结果(投管):174.01  对比结果：True
+INFO     auto_test:logger.py:93 测试【TSLA.us】【检查最高】【high】 期望结果(融聚汇): 216.98 真实结果(投管):216.98  对比结果：True

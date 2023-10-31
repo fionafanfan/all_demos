@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【计算近一年涨跌幅】【nearlyYear1ChgPct】 期望结果(融聚汇): 0.1803 真实结果(投管):0.1803  对比结果：True
+INFO     auto_test:logger.py:93 测试【TSLA.us】【计算近一年涨跌幅】【nearlyYear1ChgPct】 期望结果(融聚汇): -0.011 真实结果(投管):-0.011  对比结果：True

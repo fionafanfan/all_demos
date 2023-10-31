@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【计算涨跌额】【chg】 期望结果(融聚汇): 0.63 真实结果(投管):0.12  对比结果：False
+INFO     auto_test:logger.py:93 测试【TSLA.us】【计算涨跌额】【chg】 期望结果(融聚汇): 4.52 真实结果(投管):0.09  对比结果：False

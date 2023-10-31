@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【检查沽空量】【shortShares】 期望结果(融聚汇): 8728945 真实结果(投管):10009071  对比结果：False
+INFO     auto_test:logger.py:93 测试【TSLA.us】【检查沽空量】【shortShares】 期望结果(融聚汇): 47227348 真实结果(投管):32243006  对比结果：False

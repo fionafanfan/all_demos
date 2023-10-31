@@ -1,0 +1,3 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【计算资产负债比率】【balanceSheetRatios】 期望结果(融聚汇): 85.64 真实结果(投管):85.64  对比结果：True
+INFO     auto_test:logger.py:93 测试【TSLA.us】【计算资产负债比率】【balanceSheetRatios】 期望结果(融聚汇): 44.26 真实结果(投管):44.26  对比结果：True
+INFO     auto_test:logger.py:93 模块_后置操作成功

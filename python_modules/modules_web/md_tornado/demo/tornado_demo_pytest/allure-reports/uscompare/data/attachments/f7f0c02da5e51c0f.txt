@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【计算大单净流入占比】【bigNetInProportion】 期望结果(融聚汇): 0.30306 真实结果(投管):0.30306  对比结果：True
+INFO     auto_test:logger.py:93 测试【TSLA.us】【计算大单净流入占比】【bigNetInProportion】 期望结果(融聚汇): 2.143093 真实结果(投管):2.143093  对比结果：True

@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【计算DDX】【ddx】 期望结果(融聚汇): 1.65 真实结果(投管):2.52  对比结果：False
+INFO     auto_test:logger.py:93 测试【TSLA.us】【计算DDX】【ddx】 期望结果(融聚汇): 21.79 真实结果(投管):-3.87  对比结果：False

@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【计算净利润复合增长率（五年）】【netMarginAddRate5year】 期望结果(融聚汇): 15.6 真实结果(投管):15.6  对比结果：True
+INFO     auto_test:logger.py:93 测试【TSLA.us】【计算净利润复合增长率（五年）】【netMarginAddRate5year】 期望结果(融聚汇): 49.29 真实结果(投管):49.29  对比结果：True

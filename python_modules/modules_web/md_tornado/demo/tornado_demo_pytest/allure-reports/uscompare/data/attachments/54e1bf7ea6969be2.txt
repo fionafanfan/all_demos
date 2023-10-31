@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【计算DDZ】【ddz】 期望结果(融聚汇): 14.325643 真实结果(投管):18.815073  对比结果：False
+INFO     auto_test:logger.py:93 测试【TSLA.us】【计算DDZ】【ddz】 期望结果(融聚汇): 15.798359 真实结果(投管):-3.38421  对比结果：False

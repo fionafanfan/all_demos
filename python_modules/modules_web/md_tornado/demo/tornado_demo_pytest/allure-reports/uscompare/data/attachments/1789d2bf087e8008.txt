@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【计算振幅】【swing】 期望结果(融聚汇): 0.0038 真实结果(投管):0.0236  对比结果：False
+INFO     auto_test:logger.py:93 测试【TSLA.us】【计算振幅】【swing】 期望结果(融聚汇): 0.0113 真实结果(投管):0.0682  对比结果：False

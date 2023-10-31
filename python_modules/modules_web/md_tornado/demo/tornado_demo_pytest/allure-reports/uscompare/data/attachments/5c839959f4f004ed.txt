@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【计算5日内飘红天数】【ddxRiseDaysIn5Day】 期望结果(融聚汇): 3 真实结果(投管):4  对比结果：False
+INFO     auto_test:logger.py:93 测试【TSLA.us】【计算5日内飘红天数】【ddxRiseDaysIn5Day】 期望结果(融聚汇): 4 真实结果(投管):0  对比结果：False

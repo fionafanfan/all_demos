@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【计算毛利润复合增长率（三年）】【grossProfitAddRate3year】 期望结果(融聚汇): 20.46 真实结果(投管):20.46  对比结果：True
+INFO     auto_test:logger.py:93 测试【TSLA.us】【计算毛利润复合增长率（三年）】【grossProfitAddRate3year】 期望结果(融聚汇): 72.41 真实结果(投管):72.41  对比结果：True

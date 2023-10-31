@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【计算营业额复合增长率（五年）】【turnoverAddRate5year】 期望结果(融聚汇): 11.52 真实结果(投管):11.52  对比结果：True
+INFO     auto_test:logger.py:93 测试【TSLA.us】【计算营业额复合增长率（五年）】【turnoverAddRate5year】 期望结果(融聚汇): 47.27 真实结果(投管):47.27  对比结果：True

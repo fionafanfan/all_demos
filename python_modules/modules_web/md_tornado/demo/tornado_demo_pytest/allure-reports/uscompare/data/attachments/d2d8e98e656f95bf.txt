@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【计算每股收益】【eps】 期望结果(融聚汇): 6.11 真实结果(投管):6.11  对比结果：True
+INFO     auto_test:logger.py:93 测试【TSLA.us】【计算每股收益】【eps】 期望结果(融聚汇): 3.62 真实结果(投管):3.62  对比结果：True

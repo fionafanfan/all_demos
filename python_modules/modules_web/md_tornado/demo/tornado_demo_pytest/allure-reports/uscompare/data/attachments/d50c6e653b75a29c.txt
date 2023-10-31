@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【计算DDY】【ddy】 期望结果(融聚汇): -23.534199 真实结果(投管):-23.897328  对比结果：False
+INFO     auto_test:logger.py:93 测试【TSLA.us】【计算DDY】【ddy】 期望结果(融聚汇): -3.649829 真实结果(投管):7.364163  对比结果：False

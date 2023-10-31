@@ -1,0 +1,41 @@
+2023-10-31 10:43:03,311-INFO-MainThread-(tornado_server.py:56):main(): server is running at 8016....!!
+2023-10-31 10:44:54,841-INFO-MainThread-(tornado_server.py:56):main(): server is running at 8016....!!
+2023-10-31 10:46:10,155-INFO-MainThread-(tornado_server.py:56):main(): server is running at 8016....!!
+2023-10-31 10:51:49,638-INFO-MainThread-(tornado_server.py:56):main(): server is running at 8016....!!
+2023-10-31 10:52:35,025-INFO-MainThread-(tornado_server.py:56):main(): server is running at 8016....!!
+2023-10-31 10:53:58,447-INFO-MainThread-(tornado_server.py:48):main(): server is running at 8016....!!
+2023-10-31 10:54:56,564-INFO-MainThread-(tornado_server.py:48):main(): server is running at 8016....!!
+2023-10-31 10:56:34,636-INFO-MainThread-(tornado_server.py:48):main(): server is running at 8016....!!
+2023-10-31 10:56:54,172-INFO-MainThread-(tornado_server.py:48):main(): server is running at 8016....!!
+2023-10-31 11:01:35,251-INFO-MainThread-(tornado_server.py:48):main(): server is running at 8016....!!
+2023-10-31 11:03:19,225-INFO-MainThread-(tornado_server.py:48):main(): server is running at 8016....!!
+2023-10-31 11:04:57,600-INFO-MainThread-(tornado_server.py:47):main(): server is running at 8016....!!
+2023-10-31 11:07:53,004-INFO-MainThread-(tornado_server.py:47):main(): server is running at 8016....!!
+2023-10-31 11:09:45,377-INFO-MainThread-(tornado_server.py:43):main(): server is running at 8016....!!
+2023-10-31 11:12:31,851-INFO-MainThread-(tornado_server.py:43):main(): server is running at 8016....!!
+2023-10-31 11:12:49,302-INFO-MainThread-(base_handler.py:41):args_parse(): --------------baseHandler args_parse begin--------------
+2023-10-31 11:12:49,302-INFO-MainThread-(base_handler.py:48):args_parse(): ---base---handler-body_data:b'{"question": "\\u95ee\\u9898\\uff1axxxx"}'
+2023-10-31 11:12:49,303-INFO-MainThread-(base_handler.py:71):args_parse(): 传入参数: {'question': '问题：xxxx', 'ip': '127.0.0.1'}
+2023-10-31 11:12:49,304-INFO-MainThread-(demo_handler.py:30):post(): 
+*********************接收參數*************************:{'question': '问题：xxxx', 'ip': '127.0.0.1'}
+2023-10-31 11:12:49,304-INFO-MainThread-(demo_handler.py:39):post(): 补充默认參數后的完整参数:{'question': '问题：xxxx'}
+2023-10-31 11:12:49,305-INFO-MainThread-(demo_handler.py:42):post(): 請求结果:{'answer': '答案内容', 'question': '问题：xxxx'}
+2023-10-31 11:12:49,305-INFO-MainThread-(demo_handler.py:58):post(): 最終返回的数据:{'code': 0, 'msg': '請求成功', 'data': {'answer': '答案内容', 'question': '问题：xxxx'}} 所耗時間:0.0010001659393310547 秒
+2023-10-31 11:13:18,340-INFO-MainThread-(tornado_server.py:43):main(): server is running at 8016....!!
+2023-10-31 11:13:22,204-INFO-MainThread-(base_handler.py:41):args_parse(): --------------baseHandler args_parse begin--------------
+2023-10-31 11:13:22,205-INFO-MainThread-(base_handler.py:48):args_parse(): ---base---handler-body_data:b'{"question": "\\u95ee\\u9898\\uff1axxxx"}'
+2023-10-31 11:13:22,205-INFO-MainThread-(base_handler.py:71):args_parse(): 传入参数: {'question': '问题：xxxx', 'ip': '127.0.0.1'}
+2023-10-31 11:13:22,206-INFO-MainThread-(demo_handler.py:27):post(): 
+*********************接收參數*************************:{'question': '问题：xxxx', 'ip': '127.0.0.1'}
+2023-10-31 11:13:22,206-INFO-MainThread-(demo_handler.py:36):post(): 补充默认參數后的完整参数:{'question': '问题：xxxx'}
+2023-10-31 11:13:22,206-INFO-MainThread-(demo_handler.py:39):post(): 請求结果:{'answer': '答案内容', 'question': '问题：xxxx'}
+2023-10-31 11:13:22,207-INFO-MainThread-(demo_handler.py:55):post(): 最終返回的数据:{'code': 0, 'msg': '請求成功', 'data': {'answer': '答案内容', 'question': '问题：xxxx'}} 所耗時間:0.0 秒
+2023-10-31 11:13:32,320-INFO-MainThread-(base_handler.py:41):args_parse(): --------------baseHandler args_parse begin--------------
+2023-10-31 11:13:32,320-INFO-MainThread-(base_handler.py:48):args_parse(): ---base---handler-body_data:b'{"question": "\\u95ee\\u9898\\uff1axxxx"}'
+2023-10-31 11:13:32,321-INFO-MainThread-(base_handler.py:71):args_parse(): 传入参数: {'question': '问题：xxxx', 'ip': '127.0.0.1'}
+2023-10-31 11:13:32,321-INFO-MainThread-(demo_handler.py:27):post(): 
+*********************接收參數*************************:{'question': '问题：xxxx', 'ip': '127.0.0.1'}
+2023-10-31 11:13:32,321-INFO-MainThread-(demo_handler.py:36):post(): 补充默认參數后的完整参数:{'question': '问题：xxxx'}
+2023-10-31 11:13:32,321-INFO-MainThread-(demo_handler.py:39):post(): 請求结果:{'answer': '答案内容', 'question': '问题：xxxx'}
+2023-10-31 11:13:32,322-INFO-MainThread-(demo_handler.py:55):post(): 最終返回的数据:{'code': 0, 'msg': '請求成功', 'data': {'answer': '答案内容', 'question': '问题：xxxx'}} 所耗時間:0.0009980201721191406 秒
+2023-10-31 11:18:53,723-INFO-MainThread-(tornado_server.py:45):main(): server is running at 8016....!!

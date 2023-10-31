@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【计算10日DDY】【ddy10day】 期望结果(融聚汇): 1.425 真实结果(投管):-19.141  对比结果：False
+INFO     auto_test:logger.py:93 测试【TSLA.us】【计算10日DDY】【ddy10day】 期望结果(融聚汇): 0.78 真实结果(投管):7.941  对比结果：False

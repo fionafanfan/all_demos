@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Oct 24 19:02:37 CST 2023","Tue Oct 24 19:02:37 CST 2023","4","testcases.quotation","test_hk_quotation_yidong_check","TestHkQuotationYidongCheck","","","主力买入",""
+"passed","Tue Oct 24 19:02:37 CST 2023","Tue Oct 24 19:02:37 CST 2023","4","testcases.quotation","test_hk_quotation_yidong_check","TestHkQuotationYidongCheck","","","单笔冲涨",""
+"passed","Tue Oct 24 19:02:37 CST 2023","Tue Oct 24 19:02:37 CST 2023","4","testcases.quotation","test_hk_quotation_yidong_check","TestHkQuotationYidongCheck","","","主力卖出",""
+"passed","Tue Oct 24 19:02:37 CST 2023","Tue Oct 24 19:02:37 CST 2023","4","testcases.quotation","test_hk_quotation_yidong_check","TestHkQuotationYidongCheck","","","单笔冲跌",""

@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【计算PEG】【peg】 期望结果(融聚汇): 5.233 真实结果(投管):5.202  对比结果：False
+INFO     auto_test:logger.py:93 测试【TSLA.us】【计算PEG】【peg】 期望结果(融聚汇): 0.458 真实结果(投管):0.528  对比结果：False

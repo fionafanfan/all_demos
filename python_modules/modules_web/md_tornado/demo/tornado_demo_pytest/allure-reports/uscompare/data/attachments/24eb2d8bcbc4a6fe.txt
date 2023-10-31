@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【检查换手率】【turnoverRate】 期望结果(融聚汇): 0.0 真实结果(投管):0.0036  对比结果：False
+INFO     auto_test:logger.py:93 测试【TSLA.us】【检查换手率】【turnoverRate】 期望结果(融聚汇): 0.0001 真实结果(投管):0.0556  对比结果：False

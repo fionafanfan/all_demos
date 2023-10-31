@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【计算净利润复合增长率（三年）】【netMarginAddRate3year】 期望结果(融聚汇): 21.78 真实结果(投管):21.78  对比结果：True
+INFO     auto_test:logger.py:93 测试【TSLA.us】【计算净利润复合增长率（三年）】【netMarginAddRate3year】 期望结果(融聚汇): 149.13 真实结果(投管):149.13  对比结果：True

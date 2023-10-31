@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【计算中单净流入占比】【middleNetInProportion】 期望结果(融聚汇): -0.453714 真实结果(投管):-0.453714  对比结果：True
+INFO     auto_test:logger.py:93 测试【TSLA.us】【计算中单净流入占比】【middleNetInProportion】 期望结果(融聚汇): -2.901414 真实结果(投管):-2.901414  对比结果：True

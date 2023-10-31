@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【计算特大单净流入】【outsizeNetIn】 期望结果(融聚汇): 837360676.7136 真实结果(投管):837360676.7136  对比结果：True
+INFO     auto_test:logger.py:93 测试【TSLA.us】【计算特大单净流入】【outsizeNetIn】 期望结果(融聚汇): 579139567.8988 真实结果(投管):579139567.8988  对比结果：True

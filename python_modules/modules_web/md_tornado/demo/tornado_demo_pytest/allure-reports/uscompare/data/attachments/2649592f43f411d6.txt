@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【检查昨收】【preClose】 期望结果(融聚汇): 172.88 真实结果(投管):172.88  对比结果：True
+INFO     auto_test:logger.py:93 测试【TSLA.us】【检查昨收】【preClose】 期望结果(融聚汇): 211.99 真实结果(投管):211.99  对比结果：True

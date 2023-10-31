@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【计算经营溢利复合增长率（五年）】【operatingProfitAddRate5year】 期望结果(融聚汇): 14.75 真实结果(投管):14.75  对比结果：True
+INFO     auto_test:logger.py:93 测试【TSLA.us】【计算经营溢利复合增长率（五年）】【operatingProfitAddRate5year】 期望结果(融聚汇): 56.69 真实结果(投管):56.69  对比结果：True

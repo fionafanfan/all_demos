@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【检查量比】【quantityRate】 期望结果(融聚汇): 0.97 真实结果(投管):0.97  对比结果：True
+INFO     auto_test:logger.py:93 测试【TSLA.us】【检查量比】【quantityRate】 期望结果(融聚汇): 1.22 真实结果(投管):1.23  对比结果：False

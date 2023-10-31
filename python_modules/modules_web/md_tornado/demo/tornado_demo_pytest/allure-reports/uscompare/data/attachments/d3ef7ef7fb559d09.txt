@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【计算每股净资产】【netAssetPerShare】 期望结果(融聚汇): 3.178 真实结果(投管):3.178  对比结果：True
+INFO     auto_test:logger.py:93 测试【TSLA.us】【计算每股净资产】【netAssetPerShare】 期望结果(融聚汇): 14.129 真实结果(投管):14.129  对比结果：True

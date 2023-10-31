@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【检查成交量】【volume】 期望结果(融聚汇): 55980109 真实结果(投管):55980109  对比结果：True
+INFO     auto_test:logger.py:93 测试【TSLA.us】【检查成交量】【volume】 期望结果(融聚汇): 150683368 真实结果(投管):150683368  对比结果：True

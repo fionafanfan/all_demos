@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【检查股息率TTM】【dpsRateTtm】 期望结果(融聚汇): 0.53757 真实结果(投管):0.53795  对比结果：False
+INFO     auto_test:logger.py:93 测试【TSLA.us】【检查股息率TTM】【dpsRateTtm】 期望结果(融聚汇): 0.0 真实结果(投管):0  对比结果：True

@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【计算月初至今涨跌幅】【monthToNowChgPct】 期望结果(融聚汇): 0.0105 真实结果(投管):0.0105  对比结果：True
+INFO     auto_test:logger.py:93 测试【TSLA.us】【计算月初至今涨跌幅】【monthToNowChgPct】 期望结果(融聚汇): -0.1524 真实结果(投管):-0.1524  对比结果：True

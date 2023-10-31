@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【检查最新价】【lastPrice】 期望结果(融聚汇): 173.0 真实结果(投管):173  对比结果：True
+INFO     auto_test:logger.py:93 测试【TSLA.us】【检查最新价】【lastPrice】 期望结果(融聚汇): 212.08 真实结果(投管):212.08  对比结果：True

@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【计算5日DDY】【ddy5day】 期望结果(融聚汇): -2.079 真实结果(投管):-7.214  对比结果：False
+INFO     auto_test:logger.py:93 测试【TSLA.us】【计算5日DDY】【ddy5day】 期望结果(融聚汇): -1.373 真实结果(投管):13.153  对比结果：False

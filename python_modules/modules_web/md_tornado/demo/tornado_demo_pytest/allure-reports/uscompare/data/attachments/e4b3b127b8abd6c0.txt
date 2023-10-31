@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【检查总股本】【totalShares】 期望结果(融聚汇): 15634000000.0 真实结果(投管):15634000000  对比结果：True
+INFO     auto_test:logger.py:93 测试【TSLA.us】【检查总股本】【totalShares】 期望结果(融聚汇): 3170000000.0 真实结果(投管):3170000000  对比结果：True

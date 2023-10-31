@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【计算总资产复合增长率（五年）】【totalAssetsAddRate5year】 期望结果(融聚汇): -1.23 真实结果(投管):-1.23  对比结果：True
+INFO     auto_test:logger.py:93 测试【TSLA.us】【计算总资产复合增长率（五年）】【totalAssetsAddRate5year】 期望结果(融聚汇): 23.5 真实结果(投管):23.5  对比结果：True

@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【计算30日涨跌幅】【day30ChgPct】 期望结果(融聚汇): -0.0355 真实结果(投管):-0.0355  对比结果：True
+INFO     auto_test:logger.py:93 测试【TSLA.us】【计算30日涨跌幅】【day30ChgPct】 期望结果(融聚汇): -0.2248 真实结果(投管):-0.2248  对比结果：True

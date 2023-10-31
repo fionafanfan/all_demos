@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【计算5日换手率】【day5TurnoverRate】 期望结果(融聚汇): 0.0187 真实结果(投管):0.0187  对比结果：True
+INFO     auto_test:logger.py:93 测试【TSLA.us】【计算5日换手率】【day5TurnoverRate】 期望结果(融聚汇): 0.2502 真实结果(投管):0.2502  对比结果：True

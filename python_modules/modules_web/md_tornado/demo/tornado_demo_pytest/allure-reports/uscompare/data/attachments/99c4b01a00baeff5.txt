@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【检查委比】【appointThan】 期望结果(融聚汇): -0.75 真实结果(投管):-0.538462  对比结果：False
+INFO     auto_test:logger.py:93 测试【TSLA.us】【检查委比】【appointThan】 期望结果(融聚汇): 0.02439 真实结果(投管):-0.818182  对比结果：False

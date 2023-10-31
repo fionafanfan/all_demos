@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【计算主力资金流出】【majorOutAmount】 期望结果(融聚汇): 832692361.7633 真实结果(投管):832692361.7633  对比结果：True
+INFO     auto_test:logger.py:93 测试【TSLA.us】【计算主力资金流出】【majorOutAmount】 期望结果(融聚汇): 2742782100.3235 真实结果(投管):2742782100.3235  对比结果：True

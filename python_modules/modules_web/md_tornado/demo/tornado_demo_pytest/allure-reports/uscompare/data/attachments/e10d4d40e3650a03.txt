@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【计算总资产】【totalAssets】 期望结果(融聚汇): 352755000000 真实结果(投管):352755000000  对比结果：True
+INFO     auto_test:logger.py:93 测试【TSLA.us】【计算总资产】【totalAssets】 期望结果(融聚汇): 82338000000 真实结果(投管):82338000000  对比结果：True

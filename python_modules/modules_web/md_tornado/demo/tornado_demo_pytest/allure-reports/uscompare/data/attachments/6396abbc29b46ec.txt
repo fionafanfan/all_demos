@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【计算经营溢利复合增长率（三年）】【operatingProfitAddRate3year】 期望结果(融聚汇): 23.61 真实结果(投管):23.61  对比结果：True
+INFO     auto_test:logger.py:93 测试【TSLA.us】【计算经营溢利复合增长率（三年）】【operatingProfitAddRate3year】 期望结果(融聚汇): 457.1 真实结果(投管):457.1  对比结果：True

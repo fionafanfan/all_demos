@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【计算5日振幅】【day5Swing】 期望结果(融聚汇): 0.047504 真实结果(投管):0.047504  对比结果：True
+INFO     auto_test:logger.py:93 测试【TSLA.us】【计算5日振幅】【day5Swing】 期望结果(融聚汇): 0.215316 真实结果(投管):0.215316  对比结果：True

@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【检查市盈率TTM】【perTtm】 期望结果(融聚汇): 28.79988 真实结果(投管):28.7799  对比结果：False
+INFO     auto_test:logger.py:93 测试【TSLA.us】【检查市盈率TTM】【perTtm】 期望结果(融聚汇): 62.50905 真实结果(投管):62.50905  对比结果：True

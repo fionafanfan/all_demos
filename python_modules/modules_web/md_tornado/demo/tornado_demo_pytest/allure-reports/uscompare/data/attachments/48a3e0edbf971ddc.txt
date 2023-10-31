@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【计算每股盈利复合增长率（三年）】【perShareAddRate3year】 期望结果(融聚汇): 27.16 真实结果(投管):27.15  对比结果：False
+INFO     auto_test:logger.py:93 测试【TSLA.us】【计算每股盈利复合增长率（三年）】【perShareAddRate3year】 期望结果(融聚汇): 283.58 真实结果(投管):283.58  对比结果：True

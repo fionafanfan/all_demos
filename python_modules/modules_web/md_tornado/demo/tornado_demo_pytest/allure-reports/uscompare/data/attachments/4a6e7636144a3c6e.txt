@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【计算DDX连续飘红天数】【ddxRiseDays】 期望结果(融聚汇): 3 真实结果(投管):10  对比结果：False
+INFO     auto_test:logger.py:93 测试【TSLA.us】【计算DDX连续飘红天数】【ddxRiseDays】 期望结果(融聚汇): 3 真实结果(投管):0  对比结果：False

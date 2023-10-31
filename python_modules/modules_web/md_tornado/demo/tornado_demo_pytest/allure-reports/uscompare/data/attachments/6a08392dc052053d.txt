@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【计算营业利润】【operatingProfit】 期望结果(融聚汇): 119437000000 真实结果(投管):119437000000  对比结果：True
+INFO     auto_test:logger.py:93 测试【TSLA.us】【计算营业利润】【operatingProfit】 期望结果(融聚汇): 13832000000 真实结果(投管):13832000000  对比结果：True

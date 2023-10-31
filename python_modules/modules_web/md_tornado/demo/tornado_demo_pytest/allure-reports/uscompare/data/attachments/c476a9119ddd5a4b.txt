@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【检查市盈率（静）】【perLyr】 期望结果(融聚汇): 28.31424 真实结果(投管):28.2946  对比结果：False
+INFO     auto_test:logger.py:93 测试【TSLA.us】【检查市盈率（静）】【perLyr】 期望结果(融聚汇): 58.58564 真实结果(投管):58.56077  对比结果：False

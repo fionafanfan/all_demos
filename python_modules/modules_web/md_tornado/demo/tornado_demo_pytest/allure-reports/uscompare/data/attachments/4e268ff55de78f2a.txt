@@ -1,0 +1,2 @@
+INFO     auto_test:logger.py:93 测试【AAPL.us】【30日换手率】【day30TurnoverRate】 期望结果(融聚汇): 0.1135 真实结果(投管):0.1135  对比结果：True
+INFO     auto_test:logger.py:93 测试【TSLA.us】【30日换手率】【day30TurnoverRate】 期望结果(融聚汇): 1.312 真实结果(投管):1.312  对比结果：True
