@@ -26,14 +26,25 @@ class IndexHandler(tornado.web.RequestHandler):
         self.write('please use post method')
 
 
+class ReportHandler(tornado.web.RequestHandler):
+    def get(self):
+        print('protocol:{}'.format(self.request.protocol))
+        self.render('hkyidong/index.html')
+
+    def post(self):
+        self.write('please use post method')
+
+
 def make_app():
     return tornado.web.Application([
         (r"/demo", DemoHandler),  # demo handler
         (r"/hello", HelloHandler),  # hello handler
-        (r'.*', IndexHandler),  # 首页
+        (r"/report", ReportHandler),  # report handler
+        (r'/index', IndexHandler),  # 首页
+        # (r'.*', IndexHandler),  # 首页
         ],
-        template_path="templates",
-        static_path='templates',
+        template_path="allure_reports_hkyidong",
+        static_path='allure_reports_hkyidong',
         debug=True
     )
 
