@@ -18,11 +18,11 @@ PORT = 8016
 
 
 class IndexHandler(tornado.web.RequestHandler):
-    def get(self, *args, **kwargs):
+    def get(self):
         print('protocol:{}'.format(self.request.protocol))
         self.render('index.html')
 
-    def post(self, *args, **kwargs):
+    def post(self):
         self.write('please use post method')
 
 
