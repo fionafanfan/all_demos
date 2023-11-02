@@ -18,7 +18,21 @@ talib（51cto博客，均线指标实现教程）： https://blog.51cto.com/u_16213338/7272531
 14. dma
 15. vr
 16. wmsr
-17. nine_turn_sequence 
+17. nine_turn_sequence
+
+
+talib所有指标：https://codeleading.com/article/49013187313/
+ma均线：http://www.360doc.com/content/12/0121/07/15913066_1081938559.shtml(利用talib和matplot绘图)
+1. ma（等同sma）移动平均线：
+2. sma最简单移动平均线: https://baike.baidu.com/item/SMA%E5%9D%87%E7%BA%BF/7238642?fr=ge_ala (ma是统称，sma就是最基础的简单ma)
+3. wma加权移动平均线（加权方式：末日、线性、梯形、平方系数）: 
+4. ema（expma, exp原单词exponential指数的意思，代表增长得越来越快的意思）指数移动平均线（也可以看作时WMA的一种特殊形式，以指数形式进行加权）：
+5. dema(DEMA = EMA1 + ( EMA1 - EMA2 )): DEMA其实就是普通的指数移动平均线EMA1加上EMA1 与EMA2的差值，和之前介绍的赫尔均线计算方法类似: https://baijiahao.baidu.com/s?id=1778083107684819027&wfr=spider&for=pc
+DEMA的优势在于，通过计算两个指数移动平均线的差值，能够更敏锐地捕捉到价格的快速波动和趋势转折点，减少了指标的滞后性，同时能保持较好的平滑性https://baijiahao.baidu.com/s?id=1778083107684819027&wfr=spider&for=pc （带公式说明，易懂）
+6. tema（等同T3）三指数移动平均线：https://baijiahao.baidu.com/s?id=1778083107684819027&wfr=spider&for=pc （带公式说明，易懂）
+7. trima三角异动平均线(): https://www.cnblogs.com/wintalau/p/11616277.html
+8. kama考夫曼自适应均线: https://baijiahao.baidu.com/s?id=1772380549617827193&wfr=spider&for=pc
+9. mama（也同AMA，MAMA自适应移动平均线，MESA Adaptive）:
 
 # 百度百科了解 股票形态指标
 1. ma：https://baike.baidu.com/item/MACD%E6%8C%87%E6%A0%87/6271283?fr=ge_ala#1
