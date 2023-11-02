@@ -14,6 +14,14 @@ ALLURE_DIR_NAME = "allure-reports"
 ROOT_DIR = f"D:/aGitData/local_fiona_projects/all_demos/python_modules/modules_web/md_tornado/demo/tornado_demo_pytest"
 
 
+class AutoTestHandler(tornado.web.RequestHandler):
+    def get(self):
+        pass
+
+    def post(self):
+        pass
+
+
 class ReportHandler(tornado.web.RequestHandler):
     def get(self):
         # 重定向到Allure报告的index.html页面
@@ -33,7 +41,9 @@ def gen_allure_report_routes():
 
 def make_app():
     report_routes = gen_allure_report_routes()
-    return tornado.web.Application(report_routes + [])
+    return tornado.web.Application(report_routes + [
+                                       (r"/autotest/run", AutoTestHandler)]
+                                   )
 
 
 if __name__ == "__main__":
