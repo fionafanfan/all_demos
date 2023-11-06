@@ -34,6 +34,15 @@ DEMA的优势在于，通过计算两个指数移动平均线的差值，能够更敏锐地捕捉到价格的快速波
 8. kama考夫曼自适应均线: https://baijiahao.baidu.com/s?id=1772380549617827193&wfr=spider&for=pc
 9. mama（也同AMA，MAMA自适应移动平均线，MESA Adaptive）:
 
+
+形态理解：
+1. 五线顺上: close > MA5 > MA10> MA20 > MA60> MA60
+2. 一阳穿三线（阳线，收盘价>开盘价）：open < MA5、MA10、MA30 < close
+3. 三金叉: MACD金叉P1死叉S1、kdj金叉P2死叉S2、MA金叉P1死叉S3  满足条件: P1> (S1、 S2 、S3) & P2> (S1、 S2 、S3) & P3> (S1、 S2 、S3) 
+4. w底： https://zhuanlan.zhihu.com/p/558793135
+5. 上升九转： closeX> (closeX-X4), close价格大于前4个中的任意一个，就开始从1开始计数，如果后面9个都满足要求，就完成上升九转，否则重新就开始计数。
+是卖出信号，任务都完成了上升九转，后面可能就会降下来了。
+
 # 百度百科了解 股票形态指标
 1. ma：https://baike.baidu.com/item/MACD%E6%8C%87%E6%A0%87/6271283?fr=ge_ala#1
 移动平均线能够反应出价格趋势走向，所谓移动平均线，就是把某段时间的股价加以平均，再依据这个平均值作出平均线图像
