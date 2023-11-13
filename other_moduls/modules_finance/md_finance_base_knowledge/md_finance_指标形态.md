@@ -1,6 +1,7 @@
 # 形态指标 （起指导意义：购买信号 or 售出信号； 说到底是一种趋势追踪的工具）
 参考资料
 talib（51cto博客，均线指标实现教程）： https://blog.51cto.com/u_16213338/7272531
+半小时股票漫画： https://read.douban.com/reader/ebook/139832326/?from=book
 
 1. ma： ma多头排列、ma空头排列
 2. ema
@@ -20,6 +21,11 @@ talib（51cto博客，均线指标实现教程）： https://blog.51cto.com/u_16213338/7272531
 16. wmsr
 17. nine_turn_sequence
 
+专业词：
+1. 平仓
+2. 加仓 
+3. 做空 
+4. 反向做空
 
 talib所有指标：https://codeleading.com/article/49013187313/
 ma均线：http://www.360doc.com/content/12/0121/07/15913066_1081938559.shtml(利用talib和matplot绘图)
@@ -33,6 +39,17 @@ DEMA的优势在于，通过计算两个指数移动平均线的差值，能够更敏锐地捕捉到价格的快速波
 7. trima三角异动平均线(): https://www.cnblogs.com/wintalau/p/11616277.html
 8. kama考夫曼自适应均线: https://baijiahao.baidu.com/s?id=1772380549617827193&wfr=spider&for=pc
 9. mama（也同AMA，MAMA自适应移动平均线，MESA Adaptive）:
+
+SAR:
+1. sar: 又叫抛物线指标或停损转向操作点指标，其全称叫“Stop and Reverse，缩写SAR”; 
+属于价格与时间并重的分析工具;由于组成SAR的点以弧形的方式移动，故称“抛物转向”。
+https://baike.baidu.com/item/SAR%E6%8C%87%E6%A0%87/6329095?fr=aladdin
+(https://baike.baidu.com/item/SAR%E6%8C%87%E6%A0%87/6329095?fr=aladdin)
+
+KDJ：
+1. kdj： KDJ中文名又叫随机指标，英文名叫Stochastic oscillator，由乔治·莱恩（George Lane）于20世纪50年代首创，最早用于期货市场。
+它主要是利用价格波动的真实波幅来反映价格走势的强弱和超买超卖现象，在价格尚未上升或下降之前发出买卖信号
+（https://zhuanlan.zhihu.com/p/523967712）
 
 
 形态理解：
