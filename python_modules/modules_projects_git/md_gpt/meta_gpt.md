@@ -55,6 +55,7 @@ CONFIG = Config()  # 实例化配置对象，加载配置
 ```python
 @File    : metagpt/team.py (software_company.py)
 @Desc    :  
+from pydantic import BaseModel, Field  #  https://docs.pydantic.dev/latest/  python 数据类型验证库
 from metagpt.config import CONFIG
 
 def invest(self, investment: float):
@@ -75,3 +76,71 @@ def _check_balance(self):
 self.max_budget = self._get("MAX_BUDGET", 10.0)
 self.total_cost = 0.0
 ```
+
+```python
+@File metagpt/
+```
+```python
+@File metagpt/role.py
+
+ self._llm = LLM() if not is_human else HumanProvider()
+```
+```python
+@File metagpt/llm.py  # 模型选择路口 代码里是4选一。
+
+def LLM() -> "BaseGPTAPI":
+    """ initialize different LLM instance according to the key field existence"""
+    # TODO a little trick, can use registry to initialize LLM instance further
+    if CONFIG.openai_api_key:
+        llm = OpenAIGPTAPI()
+    elif CONFIG.claude_api_key:
+        llm = Claude()
+    elif CONFIG.spark_api_key:
+        llm = SparkAPI()
+    elif CONFIG.zhipuai_api_key:
+        llm = ZhiPuAIGPTAPI()
+    else:
+        raise RuntimeError("You should config a LLM configuration first")
+
+    return llm
+```
+
+```python
+@File  metagpt/actions/action.py
+    @retry(stop=stop_after_attempt(3), wait=wait_fixed(1))
+    async def _aask_v1(
+        self,
+        prompt: str,
+        output_class_name: str,
+        output_data_mapping: dict,
+        system_msgs: Optional[list[str]] = None,
+        format="markdown",  # compatible to original format
+    ) -> ActionOutput:
+        """Append default prefix"""
+        if not system_msgs:
+            system_msgs = []
+        system_msgs.append(self.prefix)
+        content = await self.llm.aask(prompt, system_msgs)    # 重点：回复的主要函数
+        logger.debug(content)
+        output_class = ActionOutput.create_model_class(output_class_name, output_data_mapping)
+
+        if format == "json":
+            pattern = r"\[CONTENT\](\s*\{.*?\}\s*)\[/CONTENT\]"
+            matches = re.findall(pattern, content, re.DOTALL)
+
+            for match in matches:
+                if match:
+                    content = match
+                    break
+
+            parsed_data = CustomDecoder(strict=False).decode(content)   # 重点校验格式是否是正确的，json格式。
+
+        else:  # using markdown parser
+            parsed_data = OutputParser.parse_data_with_mapping(content, output_data_mapping)
+
+        logger.debug(parsed_data)
+        instruct_content = output_class(**parsed_data)
+        return ActionOutput(content, instruct_content)
+```
+
+总结：  跑完了MyProductManager + MyArchitect  成功生成了产品、架构师的结果输出。 后续还有程序员和项目经理、测试人员。
