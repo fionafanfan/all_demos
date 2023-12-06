@@ -35,6 +35,7 @@ config/key.yaml （自己新建，修改为自己想要的配置）
 @File    : metagpt/config.py 
 @Desc    :  加载配置， 单例
 
+
 class Config(metaclass=Singleton):
     def __init__(self):
         pass 
@@ -54,7 +55,9 @@ CONFIG = Config()  # 实例化配置对象，加载配置
 
 ```python
 @File    : metagpt/team.py (software_company.py)
-@Desc    :  
+@Desc    : 
+
+
 from pydantic import BaseModel, Field  #  https://docs.pydantic.dev/latest/  python 数据类型验证库
 from metagpt.config import CONFIG
 
@@ -79,14 +82,18 @@ self.total_cost = 0.0
 
 ```python
 @File metagpt/
+
 ```
+
 ```python
 @File metagpt/role.py
 
  self._llm = LLM() if not is_human else HumanProvider()
 ```
+
 ```python
 @File metagpt/llm.py  # 模型选择路口 代码里是4选一。
+
 
 def LLM() -> "BaseGPTAPI":
     """ initialize different LLM instance according to the key field existence"""
@@ -107,40 +114,113 @@ def LLM() -> "BaseGPTAPI":
 
 ```python
 @File  metagpt/actions/action.py
-    @retry(stop=stop_after_attempt(3), wait=wait_fixed(1))
-    async def _aask_v1(
-        self,
-        prompt: str,
-        output_class_name: str,
-        output_data_mapping: dict,
-        system_msgs: Optional[list[str]] = None,
-        format="markdown",  # compatible to original format
-    ) -> ActionOutput:
-        """Append default prefix"""
-        if not system_msgs:
-            system_msgs = []
-        system_msgs.append(self.prefix)
-        content = await self.llm.aask(prompt, system_msgs)    # 重点：回复的主要函数
-        logger.debug(content)
-        output_class = ActionOutput.create_model_class(output_class_name, output_data_mapping)
 
-        if format == "json":
-            pattern = r"\[CONTENT\](\s*\{.*?\}\s*)\[/CONTENT\]"
-            matches = re.findall(pattern, content, re.DOTALL)
 
-            for match in matches:
-                if match:
-                    content = match
-                    break
+@retry(stop=stop_after_attempt(3), wait=wait_fixed(1))
+async def _aask_v1(
+    self,
+    prompt: str,
+    output_class_name: str,
+    output_data_mapping: dict,
+    system_msgs: Optional[list[str]] = None,
+    format="markdown",  # compatible to original format
+) -> ActionOutput:
+    """Append default prefix"""
+    if not system_msgs:
+        system_msgs = []
+    system_msgs.append(self.prefix)
+    content = await self.llm.aask(prompt, system_msgs)    # 重点：回复的主要函数
+    logger.debug(content)
+    output_class = ActionOutput.create_model_class(output_class_name, output_data_mapping)
 
-            parsed_data = CustomDecoder(strict=False).decode(content)   # 重点校验格式是否是正确的，json格式。
+    if format == "json":
+        pattern = r"\[CONTENT\](\s*\{.*?\}\s*)\[/CONTENT\]"
+        matches = re.findall(pattern, content, re.DOTALL)
 
-        else:  # using markdown parser
-            parsed_data = OutputParser.parse_data_with_mapping(content, output_data_mapping)
+        for match in matches:
+            if match:
+                content = match
+                break
 
-        logger.debug(parsed_data)
-        instruct_content = output_class(**parsed_data)
-        return ActionOutput(content, instruct_content)
+        parsed_data = CustomDecoder(strict=False).decode(content)   # 重点校验格式是否是正确的，json格式。
+
+    else:  # using markdown parser
+        parsed_data = OutputParser.parse_data_with_mapping(content, output_data_mapping)
+
+    logger.debug(parsed_data)
+    instruct_content = output_class(**parsed_data)
+    return ActionOutput(content, instruct_content)
 ```
 
 总结：  跑完了MyProductManager + MyArchitect  成功生成了产品、架构师的结果输出。 后续还有程序员和项目经理、测试人员。
+
+```python
+"""
+pass 
+"""
+
+
+# 解析代码， 用正则匹配的方式。 
+# 代码示例：
+text = "```## utils.py  def calculate_score(food_value): pass## hello.py  def hello(food_value): pass```"
+blocks = CodeParser.parse_code(block="", text=text)
+
+
+@classmethod
+def parse_code(cls, text: str, lang: str = "") -> str:
+    pattern = rf"```{lang}.*?\s+(.*?)```"
+    match = re.search(pattern, text, re.DOTALL)
+    if match:
+        code = match.group(1)
+    else:
+        raise Exception
+    return code
+```
+
+```python
+@File metagpt/actions/search_and_summarize.py 
+
+# 关于ai search问题: https://blog.csdn.net/qq_35812205/article/details/129482775
+# duckduckgo_search+gpt解决实时性问题
+# https://github.com/deedy5/duckduckgo_search
+# https://duckduckgo.com
+#  self._get_url("POST", "https://duckduckgo.com", data={"q": keywords}) 网页开了vpn能打开请求，但是api请求不通.
+# https://duckduckgo.com/?q=wikipedia&kp=0&kl=cn-zh  #将会发起一次关键词为「wikipedia」（q=wikipedia）、不过滤搜索结果（kp=0）、地区范围为中国（kl=cn-zh）的搜索。
+# DuckDuckGo 是一家独立的互联网隐私保护公司，为那些厌倦了被跟踪的网络环境，并希望获得简单解决方案的用户提供服务。与 Chrome 和其他浏览器不同，我们的免费首选浏览器内置了十多项强大的隐私保护功能，包括我们的搜索引擎，该引擎取代了 Google，并且不会跟踪您的搜索历史记录。
+# DuckDuckGo介绍：https://www.zhihu.com/question/20707559
+# MeiliSearch 是一个开源的全文搜索引擎: https://github.com/meilisearch/meilisearch
+# https://www.meilisearch.com/
+# https://www.meilisearch.com/docs/learn/getting_started/quick_start
+class SearchEngineType(Enum):
+    SERPAPI_GOOGLE = "serpapi"
+    SERPER_GOOGLE = "serper"
+    DIRECT_GOOGLE = "google"  # googleapi需要开通账号，试用api key
+    DUCK_DUCK_GO = "ddg"  # 网页可访问，但是api请求不通
+    CUSTOM_ENGINE = "custom"
+    
+class SearchAndSummarize(Action):
+    """
+    #### for Search
+    ## Supported values: serpapi/google/serper/ddg
+    #SEARCH_ENGINE: serpapi
+    """
+    self.engine = engine or self.config.search_engine
+```
+
+```python
+@File example/sk_agent.py 
+
+"""
+semantic_kernel(微软开源)工具介绍：https://www.cnblogs.com/shanyou/p/17275581.html
+https://www.cnblogs.com/sheng-jie/p/17294842.html
+着手一些相关的知识储备，比如学习如何写得一手好的Prompt，了解一下目前主流的面向AI编程的开发框架，比如Python技术栈的LangChain，.NET技术栈的Semantic Kernal。
+Semantic Kernel (SK) 是一个轻量级的 SDK，它允许你轻松地将传统编程语言与最新的大型语言模型 (LLM) AI "提示"相结合，其提供开箱即用的模板、链接和规划功能。
+"""
+
+```
+
+```python
+@File example/
+
+# https://github.com/AUTOMATIC1111/stable-diffusion-webui
+```
