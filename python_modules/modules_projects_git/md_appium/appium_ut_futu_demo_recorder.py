@@ -1,0 +1,73 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Author   : xianxiafan
+# @Date     : 2023/12/25 16:11
+# @File     : appium_ut_futu_demo_recorder.py
+# @Desc     :
+actions = ActionChains(driver)
+actions.w3c_actions = ActionBuilder(driver, mouse=PointerInput(interaction.POINTER_TOUCH, "touch"))
+actions.w3c_actions.pointer_action.move_to_location(754, 1783)
+actions.w3c_actions.pointer_action.pointer_down()
+actions.w3c_actions.pointer_action.pause(0.1)
+actions.w3c_actions.pointer_action.release()
+actions.perform()
+
+actions = ActionChains(driver)
+actions.w3c_actions = ActionBuilder(driver, mouse=PointerInput(interaction.POINTER_TOUCH, "touch"))
+actions.w3c_actions.pointer_action.move_to_location(739, 1783)
+actions.w3c_actions.pointer_action.pointer_down()
+actions.w3c_actions.pointer_action.pause(0.1)
+actions.w3c_actions.pointer_action.release()
+actions.perform()
+
+actions = ActionChains(driver)
+actions.w3c_actions = ActionBuilder(driver, mouse=PointerInput(interaction.POINTER_TOUCH, "touch"))
+actions.w3c_actions.pointer_action.move_to_location(261, 982)
+actions.w3c_actions.pointer_action.pointer_down()
+actions.w3c_actions.pointer_action.pause(0.1)
+actions.w3c_actions.pointer_action.release()
+actions.perform()
+
+actions = ActionChains(driver)
+actions.w3c_actions = ActionBuilder(driver, mouse=PointerInput(interaction.POINTER_TOUCH, "touch"))
+actions.w3c_actions.pointer_action.move_to_location(540, 1135)
+actions.w3c_actions.pointer_action.pointer_down()
+actions.w3c_actions.pointer_action.pause(0.1)
+actions.w3c_actions.pointer_action.release()
+actions.perform()
+
+actions = ActionChains(driver)
+actions.w3c_actions = ActionBuilder(driver, mouse=PointerInput(interaction.POINTER_TOUCH, "touch"))
+actions.w3c_actions.pointer_action.move_to_location(453, 797)
+actions.w3c_actions.pointer_action.pointer_down()
+actions.w3c_actions.pointer_action.pause(0.1)
+actions.w3c_actions.pointer_action.release()
+actions.perform()
+
+el1 = driver.find_element(by=AppiumBy.ID, value="cn.futu.trader:id/phone_number_input")
+el1.send_keys("15797737973")
+el2 = driver.find_element(by=AppiumBy.ID, value="cn.futu.trader:id/get_sms_verify_code")
+el2.click()
+actions = ActionChains(driver)
+actions.w3c_actions = ActionBuilder(driver, mouse=PointerInput(interaction.POINTER_TOUCH, "touch"))
+actions.w3c_actions.pointer_action.move_to_location(526, 1308)
+actions.w3c_actions.pointer_action.pointer_down()
+actions.w3c_actions.pointer_action.pause(0.1)
+actions.w3c_actions.pointer_action.release()
+actions.perform()
+
+actions = ActionChains(driver)
+actions.w3c_actions = ActionBuilder(driver, mouse=PointerInput(interaction.POINTER_TOUCH, "touch"))
+actions.w3c_actions.pointer_action.move_to_location(214, 1544)
+actions.w3c_actions.pointer_action.pointer_down()
+actions.w3c_actions.pointer_action.move_to_location(837, 1548)
+actions.w3c_actions.pointer_action.release()
+actions.perform()
+
+el3 = driver.find_element(by=AppiumBy.ID, value="cn.futu.trader:id/sms_verify_code_input")
+el3.send_keys("177018")
+el4 = driver.find_element(by=AppiumBy.ID, value="cn.futu.trader:id/login_btn")
+el4.click()
+el5 = driver.find_element(by=AppiumBy.ID, value="android:id/button2")
+el5.click()
+driver.execute_script('mobile: pressKey', {"keycode": 4})
