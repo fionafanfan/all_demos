@@ -1,0 +1,37 @@
+{
+  "apps": [
+    {
+      "package": "io.appium.settings",
+      "activity": "io.appium.settings.Settings",
+      "appLabel": "Appium Settings",
+      "versionCode": 62,
+      "versionName": "5.2.0",
+      "isHomeApp": false
+    },
+    {
+      "package": "com.cmschina.cmschina_hk_app",
+      "activity": "com.cmschina.cmschina_hk_app.MainActivity",
+      "appLabel": "招商证券国际",
+      "versionCode": 399,
+      "versionName": "3.0.0",
+      "isHomeApp": false
+    },
+    {
+      "package": "cn.damai",
+      "activity": "cn.damai.launcher.splash.SplashMainActivity",
+      "appLabel": "大麦",
+      "versionCode": 6000165,
+      "versionName": "8.5.3",
+      "isHomeApp": false
+    },
+    {
+      "package": "com.xyskkj.garderobe",
+      "activity": "com.xyskkj.garderobe.activity.WelcomeActivity",
+      "appLabel": "极简衣橱",
+      "versionCode": 759,
+      "versionName": "7.5.9",
+      "isHomeApp": false
+    }
+  ],
+  "filename": ""
+}

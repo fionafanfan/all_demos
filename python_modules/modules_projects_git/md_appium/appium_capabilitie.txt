@@ -1,0 +1,99 @@
+platformName：平台，Android/iOS
+platformVerison：系统版本
+deviceName：设备名
+appPackage：应用的包名
+appActivity：应用的页面名 Activity
+noReset: 防止清空缓存信息
+
+appium_capabilities = {
+  "platformName": "Android",
+  "automationName": "uiautomator2",
+  "appium.options": {
+    "automationName": "uiautomator2",
+    "deviceName": "192.168.0.151:5555",
+    "noRes": true,
+    "disableWindowAnimation": true,
+    "skipDeviceInitialization": true,
+    "autoGrantPermissions": true,
+    "suppressKillServer": true,
+    "hideKeyboard": true,
+    "noSign": true,
+    "skipUnlock": true,
+    "unlockStrategy": "uiautomator2"
+  },
+  "appPackage": "com.cmschina.cmschina_hk_app",
+  "appActivity": "com.cmschina.cmschina_hk_app.MainActivity",
+  "appium.settings": {
+    "ignoreUnimportantViews": true,
+    "allowInvisibleElements": true
+  },
+  "noReset": true
+}
+
+appium_capabilities = {
+  "platformName": "Android",
+  "appium:automationName": "uiautomator2",
+  "appium:appium.options": {
+    "automationName": "uiautomator2",
+    "deviceName": "192.168.0.172:5555",
+    "noRes": true
+  },
+  "appium:appPackage": "com.cmschina.cmschina_hk_app",
+  "appium:appActivity": "com.cmschina.cmschina_hk_app.MainActivity",
+  "appium:appium.settings": {
+    "ignoreUnimportantViews": true,
+    "allowInvisibleElements": true
+  },
+  "appium:noReset": true
+}
+
+capabilities = {
+  "platformName": "Android",
+  "appium.options": {
+    "automationName": "uiautomator2",
+    "deviceName": "192.168.0.172:5555",
+    "noRes": true
+  },
+  "appPackage": "com.cmschina.cmschina_hk_app",
+  "appActivity": "com.cmschina.cmschina_hk_app.MainActivity",
+  "appium.settings": {
+    "ignoreUnimportantViews": true,
+    "allowInvisibleElements": true
+  },
+  "noReset": true
+}
+
+
+appium_capabilities = {
+  "platformName": "Android",
+  "appium:automationName": "uiautomator2",
+  "appium:appium.options": {
+    "automationName": "uiautomator2",
+    "deviceName": "192.168.0.149:5555",
+    "noRes": true
+  },
+  "appium:appPackage": "cn.futu.trader",
+  "appium:appActivity": "cn.futu.trader.launch.activity.LaunchActivity",
+  "appium:appium.settings": {
+    "ignoreUnimportantViews": true,
+    "allowInvisibleElements": true
+  },
+  "appium:noReset": false
+}
+
+
+capabilities = {
+  "platformName": "Android",
+  "appium.options": {
+    "automationName": "uiautomator2",
+    "deviceName": "192.168.0.172:5555",
+    "noRes": true
+  },
+  "appPackage": "cn.futu.trader",
+  "appActivity": "cn.futu.trader.launch.activity.LaunchActivity",
+  "appium.settings": {
+    "ignoreUnimportantViews": true,
+    "allowInvisibleElements": true
+  },
+  "noReset": true
+}
