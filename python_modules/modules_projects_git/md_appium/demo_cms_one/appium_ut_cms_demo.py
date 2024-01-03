@@ -136,6 +136,10 @@ ElementSelect = namedtuple('ElementSelector', [
     'name', 'method', 'selector', 'status'
 ])
 
+ElementSelector = namedtuple('ElementSelector', [
+    'name', 'method', 'selector', 'status'
+])
+
 
 class CmsBot(object):
     """
@@ -252,15 +256,30 @@ class CmsBot(object):
         :return:
         """
         my_el = self.driver.find_element(AppiumBy.ANDROID_UIAUTOMATOR, Index.my)
+        page_status = self.select_element([ElementSelector(name='my', method=AppiumBy.ANDROID_UIAUTOMATOR,
+                                                           selector=Index.my,
+                                                           status='clickable')
 
-        return True
+                                           ])
+        if page_status == 'my':
+            return True
+        else:
+            return False
 
     def check_login_start_page(self):
         """
         确认是否已完成前置操作，处于可以进行交易登录条件
         :return:
         """
-        return True
+        page_status = self.select_element([ElementSelector(name='login_phone', method=AppiumBy.ANDROID_UIAUTOMATOR,
+                                                           selector=Login.login_phone_button,
+                                                           status='clickable')
+
+                                           ])
+        if page_status == 'login_phone':
+            return False
+        else:
+            return True
 
     def check_page_name(self):
         """
