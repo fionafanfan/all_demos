@@ -1,0 +1,252 @@
+C:\Users\fxxji>adb shell dumpsys activity activities
+ACTIVITY MANAGER ACTIVITIES (dumpsys activity activities)
+Display #0 (activities from top to bottom):
+
+  Stack #0: type=home mode=fullscreen
+  isSleeping=false
+  mBounds=Rect(0, 0 - 0, 0)
+    Task id #1
+    mBounds=Rect(0, 0 - 0, 0)
+    mMinWidth=-1
+    mMinHeight=-1
+    mLastNonFullscreenBounds=null
+    * TaskRecord{91dade6 #1 A=10060:com.huawei.android.launcher U=0 StackId=0 sz=1}
+      userId=0 effectiveUid=u0a60 mCallingUid=u0a60 mUserSetupComplete=true mCallingPackage=com.huawei.android.launcher
+      affinity=10060:com.huawei.android.launcher
+      intent={act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000300 cmp=com.huawei.android.launcher/.unihome.UniHomeLauncher}
+      realActivity=com.huawei.android.launcher/.unihome.UniHomeLauncher
+      autoRemoveRecents=false isPersistable=true numFullscreen=1 activityType=2
+      rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+      Activities=[ActivityRecord{7303d5e u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      mRootProcess=ProcessRecord{8f9e8cc 6927:com.huawei.android.launcher/u0a60}
+      stackId=0
+      hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE mSupportsPictureInPicture=false isResizeable=true lastActiveTime=304750500 (inactive for 4s)
+      * Hist #0: ActivityRecord{7303d5e u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}
+          packageName=com.huawei.android.launcher processName=com.huawei.android.launcher
+          launchedFromUid=0 launchedFromPackage=null userId=0
+          app=ProcessRecord{8f9e8cc 6927:com.huawei.android.launcher/u0a60}
+          Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000300 cmp=com.huawei.android.launcher/.unihome.UniHomeLauncher }
+          frontOfTask=true task=TaskRecord{91dade6 #1 A=10060:com.huawei.android.launcher U=0 StackId=0 sz=1}
+          taskAffinity=10060:com.huawei.android.launcher
+          realActivity=com.huawei.android.launcher/.unihome.UniHomeLauncher
+          baseDir=/system/app/HwLauncher6/HwLauncher6.apk
+          dataDir=/data/user_de/0/com.huawei.android.launcher
+          stateNotNeeded=true componentSpecified=false mActivityType=home
+          compat={480dpi} labelRes=0x7f0a00b4 icon=0x7f020223 theme=0x2060013
+          mLastReportedConfigurations:
+           mGlobalConfig={1.0 ?mcc?mnc [zh_CN_#Hans] ldltr sw360dp w360dp h751dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2255) mAppBounds=Rect(0, 85 - 1080, 2340) mWindowingMode=fullscreen mActivityType=undefined} nonFullScreen=0 suim:1 s.9}
+           mOverrideConfig={1.0 ?mcc?mnc [zh_CN_#Hans] ldltr sw360dp w360dp h751dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2255) mAppBounds=Rect(0, 85 - 1080, 2340) mWindowingMode=fullscreen mActivityType=home} nonFullScreen=0 suim:1 s.9}
+          CurrentConfiguration={1.0 ?mcc?mnc [zh_CN_#Hans] ldltr sw360dp w360dp h751dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2255) mAppBounds=Rect(0, 85 - 1080, 2340) mWindowingMode=fullscreen mActivityType=home} nonFullScreen=0 suim:1 s.9}
+          OverrideConfiguration={0.0 ?mcc?mnc ?localeList ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?ldr ?wideColorGamut ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=null mWindowingMode=undefined mActivityType=home} nonFullScreen=0}
+          launchFailed=false launchCount=0 lastLaunchTime=-19h7m55s531ms
+          haveState=false icicle=null
+          state=RESUMED stopped=false delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=true sleeping=false idle=true mStartingWindowState=STARTING_WINDOW_NOT_SHOWN
+          fullscreen=true noDisplay=false immersive=false launchMode=2
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=home
+          waitingVisible=false nowVisible=true lastVisibleTime=-4s952ms
+          connections=[ConnectionRecord{f4eae1e u0 CR IMP WACT com.huawei.search/.services.overlay.LauncherOverlayService:@805e259}, ConnectionRecord{802c4fd u0 CR IMP WACT com.huawei.intelligent/.remoteservice.LauncherOverlayService:@1389d54}, ConnectionRecord{7d4facb u0 CR IMP WACT com.huawei.intelligent/.remoteservice.LauncherOverlayService:@1389d54}]
+          resizeMode=RESIZE_MODE_RESIZEABLE
+          mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+
+    Running activities (most recent first):
+      TaskRecord{91dade6 #1 A=10060:com.huawei.android.launcher U=0 StackId=0 sz=1}
+        Run #0: ActivityRecord{7303d5e u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}
+
+    mResumedActivity: ActivityRecord{7303d5e u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}
+    mLastPausedActivity: ActivityRecord{7303d5e u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}
+
+  Stack #44: type=standard mode=fullscreen
+  isSleeping=false
+  mBounds=Rect(0, 0 - 0, 0)
+
+    Task id #44
+    mBounds=Rect(0, 0 - 0, 0)
+    mMinWidth=-1
+    mMinHeight=-1
+    mLastNonFullscreenBounds=null
+    * TaskRecord{4bb37ad #44 A=10006:android.task.contacts U=0 StackId=44 sz=1}
+      userId=0 effectiveUid=u0a6 mCallingUid=u0a60 mUserSetupComplete=true mCallingPackage=com.huawei.android.launcher
+      affinity=10006:android.task.contacts
+      intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.contacts/.activities.PeopleActivity}
+      origActivity=com.android.contacts/.activities.DialtactsActivity
+      realActivity=com.android.contacts/.activities.PeopleActivity
+      autoRemoveRecents=false isPersistable=true numFullscreen=1 activityType=1
+      rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+      Activities=[ActivityRecord{238c6c3 u0 com.android.contacts/.activities.DialtactsActivity t44}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      mRootProcess=ProcessRecord{8db7dd4 5431:com.android.contacts/u0a6}
+      stackId=44
+      hasBeenVisible=true mResizeMode=RESIZE_MODE_UNRESIZEABLE mSupportsPictureInPicture=false isResizeable=false lastActiveTime=304750433 (inactive for 4s)
+      * Hist #0: ActivityRecord{238c6c3 u0 com.android.contacts/.activities.DialtactsActivity t44}
+          packageName=com.android.contacts processName=com.android.contacts
+          launchedFromUid=10060 launchedFromPackage=com.huawei.android.launcher userId=0
+          app=ProcessRecord{8db7dd4 5431:com.android.contacts/u0a6}
+          Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.contacts/.activities.DialtactsActivity bnds=[15,2048][225,2321] }
+          frontOfTask=true task=TaskRecord{4bb37ad #44 A=10006:android.task.contacts U=0 StackId=44 sz=1}
+          taskAffinity=10006:android.task.contacts
+          realActivity=com.android.contacts/.activities.PeopleActivity
+          baseDir=/system/priv-app/ContactsHm/ContactsHm_signed_entry.apk
+          dataDir=/data/user/0/com.android.contacts
+          splitDir=[/system/priv-app/ContactsHm/contactsfa_release_signed_feature.apk]
+          stateNotNeeded=false componentSpecified=true mActivityType=standard
+          compat={480dpi} labelRes=0x7f0a0291 icon=0x7f030002 theme=0x7f120131
+          mLastReportedConfigurations:
+           mGlobalConfig={1.0 ?mcc?mnc [zh_CN_#Hans] ldltr sw360dp w360dp h751dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2255) mAppBounds=Rect(0, 85 - 1080, 2340) mWindowingMode=fullscreen mActivityType=undefined} nonFullScreen=0 suim:1 s.9}
+           mOverrideConfig={1.0 ?mcc?mnc [zh_CN_#Hans] ldltr sw360dp w360dp h751dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2255) mAppBounds=Rect(0, 85 - 1080, 2340) mWindowingMode=fullscreen mActivityType=standard} nonFullScreen=0 suim:1 s.9}
+          CurrentConfiguration={1.0 ?mcc?mnc [zh_CN_#Hans] ldltr sw360dp w360dp h751dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2255) mAppBounds=Rect(0, 85 - 1080, 2340) mWindowingMode=fullscreen mActivityType=standard} nonFullScreen=0 suim:1 s.9}
+          launchFailed=false launchCount=0 lastLaunchTime=-5s619ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=14604]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true mStartingWindowState=STARTING_WINDOW_REMOVED
+          fullscreen=true noDisplay=false immersive=false launchMode=2
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=standard
+          waitingVisible=false nowVisible=false lastVisibleTime=-5s241ms
+          resizeMode=RESIZE_MODE_UNRESIZEABLE
+          mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+          maxAspectRatio=2.5
+
+    Running activities (most recent first):
+      TaskRecord{4bb37ad #44 A=10006:android.task.contacts U=0 StackId=44 sz=1}
+        Run #0: ActivityRecord{238c6c3 u0 com.android.contacts/.activities.DialtactsActivity t44}
+
+    mLastPausedActivity: ActivityRecord{238c6c3 u0 com.android.contacts/.activities.DialtactsActivity t44}
+
+  Stack #43: type=standard mode=fullscreen
+  isSleeping=false
+  mBounds=Rect(0, 0 - 0, 0)
+
+    Task id #43
+    mBounds=Rect(0, 0 - 0, 0)
+    mMinWidth=-1
+    mMinHeight=-1
+    mLastNonFullscreenBounds=null
+    * TaskRecord{684e225 #43 A=10179:cn.futu.trader U=0 StackId=43 sz=1}
+      userId=0 effectiveUid=u0a179 mCallingUid=u0a179 mUserSetupComplete=true mCallingPackage=cn.futu.trader
+      affinity=10179:cn.futu.trader
+      intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=cn.futu.trader/.launch.activity.LaunchActivity}
+      realActivity=cn.futu.trader/.launch.activity.LaunchActivity
+      autoRemoveRecents=false isPersistable=true numFullscreen=1 activityType=1
+      rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+      Activities=[ActivityRecord{5345a68 u0 cn.futu.trader/.main.activity.MainActivity t43}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      mRootProcess=ProcessRecord{f058ef9 10481:cn.futu.trader/u0a179}
+      stackId=43
+      hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE mSupportsPictureInPicture=false isResizeable=true lastActiveTime=304701950 (inactive for 52s)
+      * Hist #0: ActivityRecord{5345a68 u0 cn.futu.trader/.main.activity.MainActivity t43}
+          packageName=cn.futu.trader processName=cn.futu.trader
+          launchedFromUid=10179 launchedFromPackage=cn.futu.trader userId=0
+          app=ProcessRecord{f058ef9 10481:cn.futu.trader/u0a179}
+          Intent { flg=0x10000000 cmp=cn.futu.trader/.main.activity.MainActivity }
+          frontOfTask=true task=TaskRecord{684e225 #43 A=10179:cn.futu.trader U=0 StackId=43 sz=1}
+          taskAffinity=10179:cn.futu.trader
+          realActivity=cn.futu.trader/.main.activity.MainActivity
+          baseDir=/data/app/cn.futu.trader-iq7U_fvFrePBCHAaDejcIg==/base.apk
+          dataDir=/data/user/0/cn.futu.trader
+          stateNotNeeded=false componentSpecified=true mActivityType=standard
+          compat={480dpi} labelRes=0x7f120041 icon=0x7f081146 theme=0x7f130116
+          mLastReportedConfigurations:
+           mGlobalConfig={1.0 ?mcc?mnc [zh_CN_#Hans] ldltr sw360dp w360dp h751dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2255) mAppBounds=Rect(0, 85 - 1080, 2340) mWindowingMode=fullscreen mActivityType=undefined} nonFullScreen=0 suim:1 s.9}
+           mOverrideConfig={1.0 ?mcc?mnc [zh_CN_#Hans] ldltr sw360dp w360dp h751dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2255) mAppBounds=Rect(0, 85 - 1080, 2340) mWindowingMode=fullscreen mActivityType=standard} nonFullScreen=0 suim:1 s.9}
+          CurrentConfiguration={1.0 ?mcc?mnc [zh_CN_#Hans] ldltr sw360dp w360dp h751dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2255) mAppBounds=Rect(0, 85 - 1080, 2340) mWindowingMode=fullscreen mActivityType=standard} nonFullScreen=0 suim:1 s.9}
+          taskDescription: label="null" icon=null iconResource=0 iconFilename=null primaryColor=ff292929
+           backgroundColor=fffafafa
+           statusBarColor=ff292929
+           navigationBarColor=ff000000
+          launchFailed=false launchCount=0 lastLaunchTime=-59s966ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=37716]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true mStartingWindowState=STARTING_WINDOW_NOT_SHOWN
+          fullscreen=true noDisplay=false immersive=false launchMode=2
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=standard
+          waitingVisible=false nowVisible=false lastVisibleTime=-56s842ms
+          resizeMode=RESIZE_MODE_RESIZEABLE
+          mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+
+    Running activities (most recent first):
+      TaskRecord{684e225 #43 A=10179:cn.futu.trader U=0 StackId=43 sz=1}
+        Run #0: ActivityRecord{5345a68 u0 cn.futu.trader/.main.activity.MainActivity t43}
+
+    mLastPausedActivity: ActivityRecord{5345a68 u0 cn.futu.trader/.main.activity.MainActivity t43}
+
+  Stack #41: type=standard mode=fullscreen
+  isSleeping=false
+  mBounds=Rect(0, 0 - 0, 0)
+
+    Task id #41
+    mBounds=Rect(0, 0 - 0, 0)
+    mMinWidth=-1
+    mMinHeight=-1
+    mLastNonFullscreenBounds=null
+    * TaskRecord{7d61abd #41 A=10022:com.cmschina.cmschina_hk_app U=0 StackId=41 sz=1}
+      userId=0 effectiveUid=u0a22 mCallingUid=u0a60 mUserSetupComplete=true mCallingPackage=com.huawei.android.launcher
+      affinity=10022:com.cmschina.cmschina_hk_app
+      intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.cmschina.cmschina_hk_app/.MainActivity}
+      realActivity=com.cmschina.cmschina_hk_app/.MainActivity
+      autoRemoveRecents=false isPersistable=true numFullscreen=1 activityType=1
+      rootWasReset=true mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+      Activities=[ActivityRecord{cb2f73d u0 com.cmschina.cmschina_hk_app/.MainActivity t41}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      mRootProcess=ProcessRecord{1a5eaa6 9861:com.cmschina.cmschina_hk_app/u0a22}
+      stackId=41
+      hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION mSupportsPictureInPicture=false isResizeable=true lastActiveTime=304640812 (inactive for 113s)
+      * Hist #0: ActivityRecord{cb2f73d u0 com.cmschina.cmschina_hk_app/.MainActivity t41}
+          packageName=com.cmschina.cmschina_hk_app processName=com.cmschina.cmschina_hk_app
+          launchedFromUid=10060 launchedFromPackage=com.huawei.android.launcher userId=0
+          app=ProcessRecord{1a5eaa6 9861:com.cmschina.cmschina_hk_app/u0a22}
+          Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.cmschina.cmschina_hk_app/.MainActivity bnds=[855,1018][1065,1325] }
+          frontOfTask=true task=TaskRecord{7d61abd #41 A=10022:com.cmschina.cmschina_hk_app U=0 StackId=41 sz=1}
+          taskAffinity=10022:com.cmschina.cmschina_hk_app
+          realActivity=com.cmschina.cmschina_hk_app/.MainActivity
+          baseDir=/data/app/com.cmschina.cmschina_hk_app-1rrV_hCbFyqKpWBgc0Ix8Q==/base.apk
+          dataDir=/data/user/0/com.cmschina.cmschina_hk_app
+          stateNotNeeded=false componentSpecified=true mActivityType=standard
+          compat={480dpi} labelRes=0x7f100021 icon=0x7f0e0002 theme=0x7f1100a5
+          mLastReportedConfigurations:
+           mGlobalConfig={1.0 ?mcc?mnc [zh_CN_#Hans] ldltr sw360dp w360dp h751dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2255) mAppBounds=Rect(0, 85 - 1080, 2340) mWindowingMode=fullscreen mActivityType=undefined} nonFullScreen=0 suim:1 s.9}
+           mOverrideConfig={1.0 ?mcc?mnc [zh_CN_#Hans] ldltr sw360dp w360dp h751dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2255) mAppBounds=Rect(0, 85 - 1080, 2340) mWindowingMode=fullscreen mActivityType=standard} nonFullScreen=0 suim:1 s.9}
+          CurrentConfiguration={1.0 ?mcc?mnc [zh_CN_#Hans] ldltr sw360dp w360dp h751dp 480dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2255) mAppBounds=Rect(0, 85 - 1080, 2340) mWindowingMode=fullscreen mActivityType=standard} nonFullScreen=0 suim:1 s.9}
+          taskDescription: label="招商证券国际" icon=null iconResource=0 iconFilename=null primaryColor=ffe92424
+           backgroundColor=fffafafa
+           statusBarColor=ff757575
+           navigationBarColor=fefcfcfb
+          launchFailed=false launchCount=0 lastLaunchTime=-2m7s998ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=4076]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true mStartingWindowState=STARTING_WINDOW_REMOVED
+          fullscreen=true noDisplay=false immersive=false launchMode=1
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=standard
+          waitingVisible=false nowVisible=false lastVisibleTime=-2m3s723ms
+          resizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION
+          mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+
+    Running activities (most recent first):
+      TaskRecord{7d61abd #41 A=10022:com.cmschina.cmschina_hk_app U=0 StackId=41 sz=1}
+        Run #0: ActivityRecord{cb2f73d u0 com.cmschina.cmschina_hk_app/.MainActivity t41}
+
+    mLastPausedActivity: ActivityRecord{cb2f73d u0 com.cmschina.cmschina_hk_app/.MainActivity t41}
+
+  ResumedActivity: ActivityRecord{7303d5e u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}
+  mFocusedStack=ActivityStack{2130e03 stackId=0 type=home mode=fullscreen visible=true translucent=false, 1 tasks} mLastFocusedStack=ActivityStack{2130e03 stackId=0 type=home mode=fullscreen visible=true translucent=false, 1 tasks}
+  mCurTaskIdForUser={0=44}
+  mUserStackInFront={}
+  displayId=0 stacks=4
+   mHomeStack=ActivityStack{2130e03 stackId=0 type=home mode=fullscreen visible=true translucent=false, 1 tasks}
+  isHomeRecentsComponent=true  KeyguardController:
+    mKeyguardShowing=false
+    mAodShowing=false
+    mKeyguardGoingAway=false
+    mOccluded=false
+    mDismissingKeyguardActivity=null
+    mDismissalRequested=false
+    mVisibilityTransactionDepth=0
+  LockTaskController
+    mLockTaskModeState=NONE
+    mLockTaskModeTasks=
+    mLockTaskPackages (userId:packages)=
+      u0:[]

@@ -1,0 +1,9 @@
+1、adb 如何检测特定的app有没有在后台运行吗?
+通过 adb（Android Debug Bridge）可以检测设备上特定的应用是否在后台运行。你可以使用以下命令：
+adb shell dumpsys activity | grep <package_name>
+
+2、 更好的方式？
+adb logcat | grep START  （确实更好点? 试过了，历史启动记录也在，不能实现实际的开启状态）
+
+3、driver.query_app_state(pkg)
+
