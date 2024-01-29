@@ -1,4 +1,5 @@
 chatgpt： https://mp.weixin.qq.com/s?__biz=MzA3MTg1OTM3MQ==&mid=2649978976&idx=5&sn=d25c833f4710b8375a05366c89d75202&chksm=8720f5a4b0577cb2c772d9d1fe91de991cbf09350f5264a8d6a3b9093a2223262c89b6cfd226&scene=27
+
 Anthropic claude： https://zhuanlan.zhihu.com/p/630462342?utm_id=0 (这个链接的方法不适用了)
 
 chatgpt:
@@ -13,7 +14,7 @@ chatgpt:
     一个邮箱用于注册，如Gmail, Outlook ；  我用的是：qq邮箱
     
     一个国外手机号，如果没有可以使用https://sms-activate.org ：
-    买的手机号， 充值1美元，7.4人民币， 74卢布，买了一个英格兰的手机号用来接收短信：xxxxx
+    买的手机号， 充值美元，74卢布，买了一个英格兰的手机号用来接收短信：xxxxx
     
     fxxanjing@163.com/R@SmsFiona@1-3
 
