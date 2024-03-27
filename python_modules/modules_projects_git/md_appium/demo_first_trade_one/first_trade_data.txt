@@ -1,0 +1,29 @@
+查询包名命令：adb shell pm list packages | findstr trade
+第一证券app包名：com.firstsechk.tc.trade
+Activity: com.afe.mobilecore.tcuicore.SplashBaseActivity
+
+
+appium_capabilities = {
+  "platformName": "Android",
+  "automationName": "uiautomator2",
+  "appium.options": {
+    "automationName": "uiautomator2",
+    "deviceName": "192.168.0.151:5555",
+    "noRes": true,
+    "disableWindowAnimation": true,
+    "skipDeviceInitialization": true,
+    "autoGrantPermissions": true,
+    "suppressKillServer": true,
+    "hideKeyboard": true,
+    "noSign": true,
+    "skipUnlock": true,
+    "unlockStrategy": "uiautomator2"
+  },
+  "appPackage": "package:com.firstsechk.tc.trade",
+  "appActivity": "com.afe.mobilecore.tcuicore.SplashBaseActivity",
+  "appium.settings": {
+    "ignoreUnimportantViews": true,
+    "allowInvisibleElements": true
+  },
+  "noReset": true
+}

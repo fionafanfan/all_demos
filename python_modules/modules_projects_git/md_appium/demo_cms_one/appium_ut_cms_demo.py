@@ -59,8 +59,13 @@ capabilities = {
 
 appium_server_url = 'http://localhost:4723'
 
+
 class Index(object):
     my = 'descriptionStartsWith("我的").index(4)'
+
+
+class Update(object):
+    next_time = ''  # 下次再说
 
 
 class Login(object):
@@ -137,8 +142,8 @@ class _MyWebDriverWait(WebDriverWait):
         self._timeout = timeout
 
 
-_IMPLICIT_WAIT_TIME = 10 # 全局隐式等待时间
-_EXPLICIT_WAIT_TIME = 3 # 全局显示等待时间
+_IMPLICIT_WAIT_TIME = 10  # 全局隐式等待时间
+_EXPLICIT_WAIT_TIME = 3  # 全局显示等待时间
 
 # 元素定位信息
 ElementSelect = namedtuple('ElementSelector', [
