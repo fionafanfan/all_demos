@@ -27,6 +27,42 @@ for research
 
 # Ô´ÂëÔÄ¶Á
 
+# metagpt information
+
+## roles - ¡¾role-½ÇÉ«¡¿
+
+### »ù±¾ÊôÐÔ
+   1. name-Ãû×Ö: Ð¡Àî
+   2. profile-Ö°Òµ: ¼Ü¹¹Ê¦/ÏîÄ¿¾­Àí/²úÆ·¾­Àí/¿ª·¢¹¤³ÌÊ¦/²âÊÔ¹¤³ÌÊ¦/ÏúÊÛ/Æ½Ì¨¿Í·þ/½Ì³Ì×èÁ¦/µ÷ÑÐÈËÔ±
+   3. goal-Ä¿±ê: xxxx
+   4. constrainsts-Ô¼ÊøÌõ¼þ: xxxx 
+   5. desc-ÃèÊö: xxxx
+   6. is_human-ÊÇÈËÀà: False / True 
+### ÆäËü¶¯×÷
+   1. states-×´Ì¬£º []
+   2. actions-¶¯×÷: []
+   3. role_id-½ÇÉ«ÊôÐÔid£º {name}_{profile}
+   4. rc(role-context)-½ÇÉ«ÉÏÏÂÎÄ: object
+   
+### ½ÇÉ«ÁÐ±í
+   0. ¡¾Boss-ÀÏ°å¡¿: Ò»¸öteam »òÕß Company »òÕßBoss ¹ÍÓ¶ÏÂÃæ¸÷¸ö½ÇÉ«ÅäºÏ¹¤×÷£¬ ¹¤×÷ÖÐÓÐ¹¤×÷³É¹ûµÄÉÏÏÂÓÎ×ª½ÓÒÀÀµ£¬×îºóµÃµ½Ò»¸ö×îºóµÄ³É¹û¡£ 
+   1. ¡¾architect-¼Ü¹¹Ê¦¡¿  Éè¼ÆÒ»¸ö¼ò½à¡¢¿ÉÓÃ¡¢ÍêÕûµÄpythonÏµÍ³
+   2. ¡¾project_manager-ÏîÄ¿¾­Àí¡¿  ¸ºÔð¼à¶½ÏîÄ¿Ö´ÐÐºÍÍÅ¶ÓÐ§ÂÊ¡£Ìá¸ßÍÅ¶ÓÐ§ÂÊ£¬±£Ö¤½»¸¶ÖÊÁ¿ºÍÊýÁ¿
+   3. ¡¾product_manager-²úÆ·¾­Àí¡¿  ¸ºÔð²úÆ·¿ª·¢ºÍ¹ÜÀíµÄ²úÆ·¾­Àí½ÇÉ«¡£ÓÐÐ§µØ´´ÔìÒ»¸ö³É¹¦µÄ²úÆ·
+   4. ¡¾engineer-¿ª·¢¹¤³ÌÊ¦¡¿  ¸ºÔð±àÐ´²¢¿ÉÄÜÉó²é´úÂë¡£
+   5. ¡¾qa_engineer-²âÊÔ¹¤³ÌÊ¦¡¿  ±àÐ´È«Ãæ¶ø½¡×³µÄ²âÊÔ£¬ÒÔÈ·±£´úÂë°´Ô¤ÆÚ¹¤×÷£¬Ã»ÓÐ´íÎó
+   6. ¡¾sales-ÏúÊÛ¡¿  ÎÒÊÇÁãÊÛÒµµÄÏúÊÛÏòµ¼¡£ÎÒ½ÐÐ¡Ã·¡£½ÓÏÂÀ´£¬ÎÒ½«»Ø´ðÒ»Ð©¿Í»§µÄÎÊÌâ¡£ Ö»»á¸ù¾ÝÖªÊ¶¿âÖÐµÄÐÅÏ¢»Ø´ðÎÊÌâ¡£
+   7. ¡¾customer_service-Æ½Ì¨¿Í·þ¡¿  ÄúÊÇ¸ÃÆ½Ì¨µÄÈË¹¤¿Í»§·þÎñ´ú±í£¬½«¸ù¾Ý¹æÔòºÍ³£¼ûÎÊÌâ½â´ð½øÐÐ»Ø¸´¡£
+   8. ¡¾tutorial assistant-½Ì³ÌÖúÀí¡¿  Éú³É½Ì³ÌÎÄµµ
+   9. ¡¾smart searcher-ÖÇÄÜÖúÊÖ¡¿  ¸ºÔðÏòÓÃ»§Ìá¹©ËÑË÷·þÎñµÄËÑË÷Õß½ÇÉ«¡£ÎªÓÃ»§Ìá¹©ËÑË÷·þÎñ, ´ð°¸·á¸»¶øÍêÕû)
+   10. ¡¾researcher-µ÷ÑÐÈËÔ±¡¿  ÊÕ¼¯ÐÅÏ¢²¢½øÐÐÑÐ¾¿
+   11. ¡¾sk_agent-Î¢ÈíÊµÏÖµÄÓïÒåÄÚºË¡¿  ¸ù¾Ý´«ÈëµÄÈÎÎñÃèÊöÖ´ÐÐÈÎÎñ
+   12. ¡¾invoice ocr assistant-·¢Æ±ocrÖúÊÖ¡¿  ·¢Æ±OCRÖúÊÖ£¬Ö§³Ö·¢Æ±PDF, png, jpgºÍzipÎÄ¼þµÄOCRÎÄ±¾Ê¶±ð;
+Éú³ÉÒ»¸ö°üº¬ÊÕ¿îÈË¡¢³ÇÊÐ¡¢×Ü½ð¶îºÍ·¢Æ±¿ª¾ßÈÕÆÚµÄ±í¸ñ;
+²¢¸ù¾Ý·¢Æ±µÄOCRÊ¶±ð½á¹û¶Ôµ¥¸öÎÄ¼þ½øÐÐÌáÎÊ¡£
+
+## actions - ¡¾action-¶¯×÷¡¿
+
 ## Ô´Âë-ÅäÖÃ½â¶Á
 ### ÅäÖÃ¼ÓÔØ
 config/config.yaml (Ô´Âë×÷Õß½¨Òé²»ÒªÖ±½ÓÐÞ¸ÄÕâ·ÝÅäÖÃÐÅÏ¢£¬¿ÉÒÔÁíÍâ´´½¨key.yaml½øÐÐÐÞ¸Ä)
@@ -223,4 +259,39 @@ Semantic Kernel (SK) ÊÇÒ»¸öÇáÁ¿¼¶µÄ SDK£¬ËüÔÊÐíÄãÇáËÉµØ½«´«Í³±à³ÌÓïÑÔÓë×îÐÂµÄ´óÐ
 @File example/
 
 # https://github.com/AUTOMATIC1111/stable-diffusion-webui
+```
+
+
+```python
+BaseChatbot
+->
+BaseGPTAPI
+-> (HumanProvider¡¢OpenAIGPTAPI¡¢SparkAPI ¡¢ZhiPuAIGPTAPI)
+
+µ¥¶ÀÐ´µÄ£º
+Claude2 as Claude
+
+'''
+llm.py
+def LLM()£º
+    llm = (HumanProvider¡¢OpenAIGPTAPI¡¢SparkAPI ¡¢ZhiPuAIGPTAPI¡¢Claude)  # ¸ù¾ÝÅäÖÃconfigÑ¡ÔñÆäÖÐÒ»¸ö×÷ÎªÄ£ÐÍ
+    return llm 
+'''
+
+'''
+moderation.py
+
+def moderation(content):
+    moderation_results = self.llm.moderation(content=content)
+'''
+
+'''
+openai_api.py
+
+def _moderation(self, content: Union[str, list[str]]):
+    rsp = self.llm.Moderation.create(input=content)
+    return rsp
+'''
+
+
 ```
