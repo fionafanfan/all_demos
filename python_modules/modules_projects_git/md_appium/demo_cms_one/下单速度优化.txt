@@ -1,0 +1,2 @@
+1、appium server 服务器配置不同，会影响appium的响应速度。
+2、
