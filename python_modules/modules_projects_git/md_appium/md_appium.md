@@ -25,9 +25,20 @@ appium git项目仓库： https://github.com/appium/appium
    1)查看appium git仓库的readme.md 可以知道3中安装driver的方法
         1） npm安装： appium driver install --source=npm appium-xcuitest-driver[@<version>]  实际命令：npm install -g appium-xcuitest-driver@2.3.0   安装成功
         2) 本地安装
-        3） github安装
+        3） github安装: appium driver install uiautomator2
+2.1 C:\Users>appium driver list
+√ Listing available drivers
+- uiautomator2@2.35.0 [installed (npm)]
+- xcuitest [not installed]
+- mac2 [not installed]
+- espresso [not installed]
+- safari [not installed]
+- gecko [not installed]
+- chromium [not installed]
+- 
 3. 安装 安卓sdk
    ) ANDROID_HOME
+4. appium的启动命令：appium server --address 192.168.56.1:4723   --allow-cors
 
 4. 写自己的测试脚本, 可选的脚本语言有
    1） js

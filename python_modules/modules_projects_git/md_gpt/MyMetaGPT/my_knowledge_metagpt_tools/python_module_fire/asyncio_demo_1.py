@@ -4,6 +4,8 @@
 # @Date     : 2024/3/1 14:38
 # @File     : fire_demo_2.py
 # @Desc     :
+import time
+
 import fire
 import asyncio
 """"
@@ -40,12 +42,17 @@ async def role_run(message=None):
 
 
 async def env_run(k=1):
+    await asyncio.sleep(3)
+    print('end env_run')
+    return
     for _ in range(k):
         futures = []
         for role in roles_values:
             future = role_run(message=role)
             futures.append(future)
         await asyncio.gather(*futures)
+        print('--1--')
+    time.sleep(10)
 
 
 async def team_run(n_round):
@@ -53,6 +60,7 @@ async def team_run(n_round):
         print(f'\nn_round={n_round}')
         n_round -= 1
         await env_run()
+        print('next caozuo')
 
 
 async def startup(idea: str, n_round: int=5):
