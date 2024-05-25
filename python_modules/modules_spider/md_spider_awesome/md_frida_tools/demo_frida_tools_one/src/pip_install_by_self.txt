@@ -1,0 +1,2 @@
+douban源不能安装，换成了清华源可以： pip install frida-tools -i https://pypi.tuna.tsinghua.edu.cn/simple
+Successfully installed frida-16.2.5 frida-tools-12.4.2 prompt-toolkit-3.0.43 pygments-2.18.0 wcwidth-0.2.13
