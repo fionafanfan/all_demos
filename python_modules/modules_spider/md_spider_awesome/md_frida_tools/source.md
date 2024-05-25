@@ -1,44 +1,44 @@
 https://github.com/ctfs/write-ups-2015/tree/master/seccon-quals-ctf-2015/binary/reverse-engineering-android-apk-1
-frida°²×°ÔÚ°²×¿ÊÖ»úÉÏµÄfrida·şÎñÆ÷apkÏÂÔØµØÖ·£º https://github.com/frida/frida/releases
-²©¿Í½Ì³Ì-frida°²×°ÒÔ¼°¼òµ¥Ê¹ÓÃ£º https://blog.csdn.net/XBXX_java/article/details/128862595
+fridaå®‰è£…åœ¨å®‰å“æ‰‹æœºä¸Šçš„fridaæœåŠ¡å™¨apkä¸‹è½½åœ°å€ï¼š https://github.com/frida/frida/releases
+åšå®¢æ•™ç¨‹-fridaå®‰è£…ä»¥åŠç®€å•ä½¿ç”¨ï¼š https://blog.csdn.net/XBXX_java/article/details/128862595
 
-frida-serverµÄÏÂÔØ£º ×îĞÂ°æ±¾Ã»ÓĞ¿´µ½frida-server, ÍùÖ®Ç°µÄ°æ±¾·­£¬ 16.0.16°æ±¾¿´µ½ÁË
-ºóÃæ·¢ÏÖÊÇ×Ô¼ºÃ»ÓĞ´ò¿ª£¬16.2.5°æ±¾¾ÍÓĞfrida-server¡£ 
+frida-serverçš„ä¸‹è½½ï¼š æœ€æ–°ç‰ˆæœ¬æ²¡æœ‰çœ‹åˆ°frida-server, å¾€ä¹‹å‰çš„ç‰ˆæœ¬ç¿»ï¼Œ 16.0.16ç‰ˆæœ¬çœ‹åˆ°äº†
+åé¢å‘ç°æ˜¯è‡ªå·±æ²¡æœ‰æ‰“å¼€ï¼Œ16.2.5ç‰ˆæœ¬å°±æœ‰frida-serverã€‚ 
 
-½« frida-server ÎÄ¼ş¸´ÖÆµ½°²×¿Éè±¸ÉÏ¡£Äã¿ÉÒÔÊ¹ÓÃ adb ÃüÁî½«ÎÄ¼ş¸´ÖÆµ½Éè±¸µÄ /data/local/tmp/ Ä¿Â¼ÖĞ
+å°† frida-server æ–‡ä»¶å¤åˆ¶åˆ°å®‰å“è®¾å¤‡ä¸Šã€‚ä½ å¯ä»¥ä½¿ç”¨ adb å‘½ä»¤å°†æ–‡ä»¶å¤åˆ¶åˆ°è®¾å¤‡çš„ /data/local/tmp/ ç›®å½•ä¸­
 adb push frida-server-16.0.16-android-arm64 /data/local/tmp/
 
-½¨ÒéÖØÃüÃûÎª: frida-server
+å»ºè®®é‡å‘½åä¸º: frida-server
 C:\Users\fxxji>adb push frida-server /data/local/tmp
 frida-server: 1 file pushed, 0 skipped. 79.4 MB/s (52432024 bytes in 0.630s)
 
-Õâ¸öµÃÒªrootÊÖ»ú£¬ Õæ»ú²»·½±ãroot¡£ 
-Ê¹ÓÃ Frida Gadget£¬ ËäÈ»¿ÉÒÔ²»ÓÃrootÊÖ»ú£¬ µ«ÊÇĞèÒª´ò°üµ½Ä¿±êapkÖĞ£¬ Õâ¸ö²»ÊÊÓÃ³¡¾°¡£ 
-ĞèÒª¸ÄÎªÄ£ÄâÊ¹ÓÃ¡£ 
+è¿™ä¸ªå¾—è¦rootæ‰‹æœºï¼Œ çœŸæœºä¸æ–¹ä¾¿rootã€‚ 
+ä½¿ç”¨ Frida Gadgetï¼Œ è™½ç„¶å¯ä»¥ä¸ç”¨rootæ‰‹æœºï¼Œ ä½†æ˜¯éœ€è¦æ‰“åŒ…åˆ°ç›®æ ‡apkä¸­ï¼Œ è¿™ä¸ªä¸é€‚ç”¨åœºæ™¯ã€‚ 
+éœ€è¦æ”¹ä¸ºæ¨¡æ‹Ÿä½¿ç”¨ã€‚ 
 
 
 Unable to save SELinux policy to the kernel: Permission denied
 Unable to start: Error binding to address 127.0.0.1:27042: Address already in use
 
 
-²é¿´frida-server½ø³Ì£º
+æŸ¥çœ‹frida-serverè¿›ç¨‹ï¼š
 top:
 3894 shell        20   0 187M  16M 2.7M S  0.0   0.4   0:00.33 frida-server
 
-Í£Ö¹½ø³Ì: kill 3894 
+åœæ­¢è¿›ç¨‹: kill 3894 
 
 
 https://www.cnblogs.com/wutou/p/17892368.html
 
-¶Ë¿Ú×ª·¢£º 
+ç«¯å£è½¬å‘ï¼š 
 
 adb forward tcp:27042 tcp:27042
 adb forward tcp:27043 tcp:27043
 
-ÒÆ³ı¶Ë¿Ú×ª·¢¹æÔò£º adb forward --remove-all
+ç§»é™¤ç«¯å£è½¬å‘è§„åˆ™ï¼š adb forward --remove-all
 
 
-´íÎóĞÅÏ¢:
+é”™è¯¯ä¿¡æ¯:
 session = device.attach('com.firstsechk.tc.trade')
 session = device.attach(3644)
 frida.PermissionDeniedError: unable to access process with pid 3644

@@ -1,3 +1,3 @@
-°²×¿ÊÖ»ú²é¿´cpu¼Ü¹¹£º adb shell getprop ro.product.cpu.abi
-½á¹û£º arm64-v8a
-¸üÏêÏ¸µÄĞÅÏ¢£º adb shell cat /proc/cpuinfo
+å®‰å“æ‰‹æœºæŸ¥çœ‹cpuæ¶æ„ï¼š adb shell getprop ro.product.cpu.abi
+ç»“æœï¼š arm64-v8a
+æ›´è¯¦ç»†çš„ä¿¡æ¯ï¼š adb shell cat /proc/cpuinfo

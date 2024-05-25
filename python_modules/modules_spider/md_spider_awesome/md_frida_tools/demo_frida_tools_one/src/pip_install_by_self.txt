@@ -1,2 +1,2 @@
-doubanÔ´²»ÄÜ°²×°£¬»»³ÉÁËÇå»ªÔ´¿ÉÒÔ£º pip install frida-tools -i https://pypi.tuna.tsinghua.edu.cn/simple
+doubanæºä¸èƒ½å®‰è£…ï¼Œæ¢æˆäº†æ¸…åæºå¯ä»¥ï¼š pip install frida-tools -i https://pypi.tuna.tsinghua.edu.cn/simple
 Successfully installed frida-16.2.5 frida-tools-12.4.2 prompt-toolkit-3.0.43 pygments-2.18.0 wcwidth-0.2.13

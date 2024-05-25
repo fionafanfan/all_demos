@@ -1,5 +1,5 @@
-# »ñÈ¡Êı¾İ
+# è·å–æ•°æ®
 
-°²×°£º https://play.google.com/store/games
+å®‰è£…ï¼š https://play.google.com/store/games
 
 
