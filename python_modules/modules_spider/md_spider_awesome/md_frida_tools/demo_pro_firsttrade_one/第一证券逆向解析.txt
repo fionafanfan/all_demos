@@ -1,0 +1,184 @@
+https://worktile.com/kb/p/1768293
+
+
+这个视频看下：https://www.bilibili.com/video/BV1yD421P7jj/?spm_id_from=333.337.search-card.all.click&vd_source=9ab8a945335cbaf24c13e51eba88b195
+
+app逆向：
+本质是分析app， 人在app上做的操作， 用代码实现。
+apk-》 安卓开发-》 java代码写-》 看得懂会分析java代码。 
+
+初步了解app逆向到底是怎么回事？
+臧航准备网.apk
+邮联合伙人.apk 
+
+安卓设备：
+真机
+模拟器： 
+win: 逍遥、夜神、雷电、网易mumu， 蓝叠 
+
+安卓app：
+开启权限，root， 休息时不休眠。 
+
+抓包软件：
+1、fielder
+2、charles
+
+
+反编译工具：
+apk文件， 本质时压缩包（代码）
+反编译工具： 反编译成功java代码， 分析java代码， 例如： jadx（使用了）， jeb， jda。
+反编译工具都依赖jre（java开发环境）， 直接安装jdk（包含jre）
+
+java:
+>java -version
+
+
+我使用过的：
+jadx： https://github.com/skylot/jadx/releases/tag/v1.4.7
+jadx使用教程: https://blog.csdn.net/xw1680/article/details/133472418
+
+
+都没有成功下载： 
+http://www.360doc.com/content/24/0126/03/17132703_1112276225.shtml
+https://zhuanlan.zhihu.com/p/676328917
+apk下载:  https://apkcombo.com/downloader
+
+
+用jadx反编译：
+第一证券.apk为例子:
+AndroidManifest.xml 文件
+资源文件
+原始的java文件
+
+
+jadx 的反混淆开关。 还要知道怎么恢复。 
+
+
+用Gradle在Visual studio上构建Android应用程序：
+https://learn.microsoft.com/en-us/archive/blogs/c/%E7%94%A8gradle%E5%9C%A8visual-studio%E4%B8%8A%E6%9E%84%E5%BB%BAandroid%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F
+
+gradle文档： https://docs.gradle.org/current/userguide/userguide.html#getting-started
+
+https://devblogs.microsoft.com/java-ch/visual-studio-code-gradle-build-server/
+
+
+
+安装visualstudio插件: https://blog.csdn.net/u014388408/article/details/131265539
+https://marketplace.visualstudio.com/vscode
+
+
+分析解密字段：
+https://www.cnblogs.com/theseventhson/p/14742562.html
+
+https://www.jianshu.com/p/69667e821bec
+https://blog.csdn.net/gyhgx/article/details/52279959
+dalvikk:https://blog.csdn.net/qq_53058639/article/details/129099127
+https://cloud.tencent.com/developer/article/1548596
+https://blog.csdn.net/hebbely/article/details/79248077
+
+搜索关键字：
+url
+m409f
+this.f135p.m4369d
+NetworkMgr
+Login G2FF
+NewOrder
+
+ C0075f.m429l("NetworkMgr", String.format(Locale.US, "sendWebMsg [senderID: %d] [ReqType=%s] url=%s", Integer.valueOf(m200l), C0073d.m409f(c2099n.f10717f), c2099n.f10713b), new Object[0]);
+
+C2099n  一个类
+
+
+
+z8:
+public enum EnumC2437c {
+    HK,
+    VN,
+    ID,
+    TH
+}
+
+
+public enum EnumC2445k {
+    None,
+    End,
+    /* JADX INFO: Fake field, exist only in values array */
+    Full,
+    Send,
+    Connected,
+    Connecting,
+    Disconnected,
+    WaitOTP,
+    ForceChgPW
+}
+
+
+
+模块： p073i1.ApplicationC1152y
+
+
+                            str14 = "mtrade.afe.com.hk";
+                            str15 = "mstream.afe.com.hk";
+                            str16 = "m.afe.com.hk";
+
+                            str14 = "192.168.240.97";
+                            str18 = "192.168.220.188";
+                            str17 = "192.168.220.223";
+
+
+
+str14 = "alpha.mtrade.afe.com.hk";
+                        str15 = "stream.alpha.afe.com.hk";
+                        str16 = "www.alpha.afe.com.hk";
+
+
+str19 = "ws.bisnews.com";
+
+              c2571m2.f14582m = str14;
+
+
+
+arrayList.add(String.format(locale, "param=login", new Object[0]));
+            arrayList.add(String.format(locale, "channel=%s", m1367k(this.f1585n)));
+            arrayList.add(String.format(locale, "lid=%s", this.f1588q));
+            if (i9 > 0) {
+                arrayList.add(String.format("rebuildSeq=%d", Integer.valueOf(i9)));
+            }
+            arrayList.add(String.format(locale, "msg=%s", m1366j(this.f1587p)));
+            String m3256e = C0980b.m3256e("&", arrayList);
+            C0075f.m429l("c", "LoginG2Stream - %s [%s] from seq: %d", this.f1570K, m3256e, Integer.valueOf(i9));
+
+
+
+
+Smali是Android系统中的一种低级语言，用于表示Dalvik字节码。它是Dalvik虚拟机内部执行的核心代码，是Android逆向分析的关键点。
+Smali文件可以通过反编译.dex文件获得，
+这些文件是Dalvik的寄存器语言，语法上与汇编语言相似，拥有特定的格式与语法。Smali语言是对Dalvik虚拟机字节码的一种解释，可以直接通过文本编辑器打开查看和编辑。12
+在Smali文件中，类的声明以.class指令开始，紧接着是访问权限、修饰关键字、类名、父类名以及源文件名信息。
+字段的声明使用.field指令，包括静态字段和实例字段。
+方法的声明使用.method指令，区分直接方法和虚方法，并包含访问权限、修饰关键字、方法原型、局部变量数、参数、代码体等信息。
+
+Smali文件的结构包括：
+类的声明，包括类名、父类名和源文件名
+字段的声明，分为静态字段和实例字段
+方法的声明，包括直接方法和虚方法的定义
+Smali文件的头3行描述了当前类的一些信息，如访问权限、修饰关键字、类名、父类名和源文件名。
+在smali文件中，字段的声明使用“.field”指令，而方法的声明使用“.method”指令。Smali语言的语法和结构使得它成为Android应用逆向工程和修改的常用工具。
+
+Smali前期知识：https://blog.csdn.net/aketoshknight/article/details/118333660
+
+B站frida教程视频:  https://www.bilibili.com/video/BV1m84y1D7gh?p=5&vd_source=9ab8a945335cbaf24c13e51eba88b195
+
+
+
+
+
+
+
+
+
+
+
+
+
+

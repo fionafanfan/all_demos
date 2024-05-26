@@ -1,0 +1,39 @@
+POST http://trade.firstsechk.com/i-trade/streaming/streamSyncRequest HTTP/1.1
+Cookies: JSESSIONID=E00C88ACFD56FC34B991409594D59382
+Accept-Encoding: identity
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 344
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 12; SM-A7160 Build/SP1A.210812.016)
+Host: trade.firstsechk.com
+Connection: Keep-Alive
+Cookie: JSESSIONID=E00C88ACFD56FC34B991409594D59382
+
+encrypt=1&channel=IH&lang=cn&param=4gdf7M3Ug0w%3D%0A6ENUUfO1T1OuiJb7SWCzTO83uiKqK6LNrtONBcvsfrz53JRIYK81CVtYPK7Vg7zAkIt20u9er2n1%0A6%2Br6zwcUbhhg7xeO9wlxFFVzZSm%2FahMPVVSuMaQgxAyloJJHwdMt8NQXcb4EngvXwKf3TpI%2F8Ury%0A3ZZOi4uJp5tpioi3ygblk4GhzeAYH8%2B4hSU4%2BEY0xbFIWMQTwy4BRq3zgcT67xFiiADE9F5NL8UG%0AzFs6Ykaru9CvB5VSbMRdQp6NAPDAozu8Xb1zQFs%3D%0A
+
+
+
+
+
+POST http://trade.firstsechk.com/i-trade/streaming/streamHandler HTTP/1.1
+Accept-Encoding: identity
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 87
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 12; SM-A7160 Build/SP1A.210812.016)
+Host: trade.firstsechk.com
+Connection: Keep-Alive
+Cookie: JSESSIONID=E00C88ACFD56FC34B991409594D59382
+
+param=login&channel=IH&lid=771589S&msg=DGqytnpE8p4%3D%0ACfw2y9oeW2iZZkAPkJ16Zg%3D%3D%0A
+
+
+
+POST http://trade.firstsechk.com/i-trade/streaming/streamHandler HTTP/1.1
+Accept-Encoding: identity
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 89
+User-Agent: Dalvik/2.1.0 (Linux; U; Android 12; SM-A7160 Build/SP1A.210812.016)
+Host: trade.firstsechk.com
+Connection: Keep-Alive
+Cookie: JSESSIONID=E00C88ACFD56FC34B991409594D59382
+
+param=login&channel=IH&lid=771589S&msg=z79Ho8W%2F2Yk%3D%0AnyXdy9AjKyiUMfqYoK2niw%3D%3D%0A
