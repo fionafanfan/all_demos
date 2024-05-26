@@ -301,10 +301,25 @@ def main(process_matches):
                 console.log("result begin");
                 console.log(result);
                 console.log("result end");
+                showStacks();
                 return result;
             };
         };
         hook6();
+
+        function hook7() {
+            var a = Java.use("o5.e");
+            a["d"].implementation = function (a, b, c, d) {
+                console.log(`[o5.e.d] param>> a:${a}, b:${b}, c:${c}, d: ${d}`);
+                var result = this["d"](a, b, c, d);
+                console.log("result begin");
+                console.log(result);
+                console.log("result end");
+                showStacks();
+                return result;
+            };
+        };
+        hook7();
 
         });
 
