@@ -17,6 +17,8 @@ apk文件， 本质是压缩包（代码）
 
 # 第一证券app， 目前找到比较有点效果的一个逆向方法
    1、frida hook逆向
+   2、使用 Frida Gadget（虽然可以不用root手机， 但是需要打包到目标apk中， 这个不适用当前场景。） 
+
 
 # 准备工具环境：
 1. 模拟器： 雷电， 官网： https://www.ldmnq.com/?n=6000
@@ -39,78 +41,57 @@ pip install frida-tools -i https://pypi.tuna.tsinghua.edu.cn/simple
 会一快安装两个库： 
 frida-tools:  12.4.2
 frida:  16.2.5版本。 (后面下载frida-server得要下载这个版本， 否则会不匹配。)
+可能会报下面的错误： 
+Unable to save SELinux policy to the kernel: Permission denied
+Unable to start: Error binding to address 127.0.0.1:27042: Address already in use
+
+python 客户端运行，可能会报下面的错误:
+session = device.attach('com.firstsechk.tc.trade')
+session = device.attach(3644)
+frida.PermissionDeniedError: unable to access process with pid 3644
+Failed to attach to target app1: unable to perform ptrace getregs: Device or resource busy
+
 
 ### 模拟器端-安卓机端： 安装frida-server服务器，启动frida-server。
 安卓手机查看cpu架构： adb shell getprop ro.product.cpu.abi
 三星Galaxy A 71结果： arm64-v8a  (后面因为要root手机，所以没有改用模拟了)
 更详细的信息： adb shell cat /proc/cpuinfo
 
-查看雷电模拟器中的android的cpu：
+#### 查看雷电模拟器中的android的cpu：
 adb shell getprop ro.product.cpu.abi
 结果： x86_64
-下载相对应版本的： frida-server 
+下载相对应版本的frida-server ： frida-server-16.2.5-android-x86_64 并解压。 
 frida安装在安卓设备上的frida-server下载地址： https://github.com/frida/frida/releases
 
-
-# 参考链接：
-1. 博客教程-frida安装以及简单使用： https://blog.csdn.net/XBXX_java/article/details/128862595
-
-
-
-frida-server的下载： 最新版本没有看到frida-server, 往之前的版本翻， 16.0.16版本看到了
-后面发现是自己没有打开，16.2.5版本就有frida-server。 
-
+#### 准备安卓中得frida-server环境;
 将 frida-server 文件复制到安卓设备上。你可以使用 adb 命令将文件复制到设备的 /data/local/tmp/ 目录中
-adb push frida-server-16.0.16-android-arm64 /data/local/tmp/
-adb -s 192.168.5.3:5555 push E:\my_codes\all_demos\python_modules\modules_spider\md_spider_awesome\md_frida_tools\packages\frida-server-16.2.5-android-arm64 /data/local/tmp/
-adb -s 192.168.5.3:5555 push E:\my_codes\all_demos\python_modules\modules_spider\md_spider_awesome\md_frida_tools\packages\frida-server-16.2.5-android-x86_64 /data/local/tmp/
+adb push frida-server-16.2.5-android-x86_64 /data/local/tmp
+adb -s emulator-5554 push adb push D:\WorkData\bot_first_trade_app_api\package\frida-server-16.2.5-android-x86_64 /data/local/tmp /data/local/tmp/
 
-
-建议重命名为: frida-server
-C:\Users\fxxji>adb push frida-server /data/local/tmp
-frida-server: 1 file pushed, 0 skipped. 79.4 MB/s (52432024 bytes in 0.630s)
-
-这个得要root手机， 真机不方便root。 
-使用 Frida Gadget， 虽然可以不用root手机， 但是需要打包到目标apk中， 这个不适用场景。 
-需要改为模拟使用。 
-
-
-Unable to save SELinux policy to the kernel: Permission denied
-Unable to start: Error binding to address 127.0.0.1:27042: Address already in use
+adb -s emulator-5554 shell
+su root
+cd /data/local/tmp
+cp frida-server-16.2.5-android-x86_64  frida-server
+chmod 777 frida-server
+./frida-server
 
 
 查看frida-server进程：
 top:
 3894 shell        20   0 187M  16M 2.7M S  0.0   0.4   0:00.33 frida-server
-
 停止进程: kill 3894 
 
-
-https://www.cnblogs.com/wutou/p/17892368.html
-
-端口转发： 
-
+端口转发：
 adb forward tcp:27042 tcp:27042
-adb forward tcp:27043 tcp:27043
-
 移除端口转发规则： adb forward --remove-all
 
 
-错误信息:
-session = device.attach('com.firstsechk.tc.trade')
-session = device.attach(3644)
-frida.PermissionDeniedError: unable to access process with pid 3644
-
- 
-Failed to attach to target app1: unable to perform ptrace getregs: Device or resource busy
+# 参考链接：
+1. 博客教程-frida安装以及简单使用： https://blog.csdn.net/XBXX_java/article/details/128862595
+2. frida hook的教程：  https://blog.csdn.net/weixin_42840266/article/details/132279975 （起到作用）
 
 
-
-
-frida hook:
-hook的教程：  https://blog.csdn.net/weixin_42840266/article/details/132279975 （起到关键作用，研究有突破）
-
-
+下面的一些hook的日志: 
 hook内容:
 java.net.URL
 结果： 
