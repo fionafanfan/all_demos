@@ -7,6 +7,8 @@
 import frida
 import sys
 
+DEVICE_UID = 'emulator-5554'
+
 
 def on_message(message, data):
     if message['type'] == 'send':
@@ -18,7 +20,7 @@ def on_message(message, data):
 def main(process_matches):
     # 连接到本地 Frida 服务器
     try:
-        device = frida.get_device('192.168.5.3:5555')
+        device = frida.get_device(DEVICE_UID)
     except Exception as e:
         print("Failed to connect to USB device:", e)
         sys.exit(1)
@@ -53,7 +55,6 @@ def main(process_matches):
         sys.exit(1)
 
     print("[*] Attached to target app:", target_name)
-
 
     # 在目标进程中注入脚本
     js = """
@@ -263,7 +264,7 @@ def main(process_matches):
         function hook1() {
             var URL = Java.use('java.net.URL');
             URL.$init.overload('java.lang.String').implementation = function (a) {
-                console.log('加密前：' + a)
+                console.log('加密前URL：' + a)
                 showStacks()
                 this.$init(a)
             }
@@ -286,8 +287,8 @@ def main(process_matches):
         function hookMap() {
             var Build = Java.use("java.util.HashMap");
             Build["put"].implementation = function (key, val) {
-                console.log("key : " + key)
-                console.log("val : " + val)
+                console.log("[map] key : " + key)
+                console.log("[map] val : " + val)
                 return this.put(key, val)
             }
         };
@@ -296,11 +297,11 @@ def main(process_matches):
         function hook6() {
             var a = Java.use("b1.c");
             a["e"].implementation = function (a, b, c, d, e, f) {
-                console.log(`param>> a:${a}, b:${b}, c:${c}, d: ${d}, e: ${e}, f：${f}`);
+                console.log(`[b1.c.e] param>> a:${a}, b:${b}, c:${c}, d: ${d}, e: ${e}, f：${f}`);
                 var result = this["e"](a, b, c, d, e, f);
-                console.log("result begin");
+                console.log("[b1.c.e] result begin");
                 console.log(result);
-                console.log("result end");
+                console.log("[b1.c.e] result end");
                 showStacks();
                 return result;
             };
@@ -312,9 +313,9 @@ def main(process_matches):
             a["d"].implementation = function (a, b, c, d) {
                 console.log(`[o5.e.d] param>> a:${a}, b:${b}, c:${c}, d: ${d}`);
                 var result = this["d"](a, b, c, d);
-                console.log("result begin");
+                console.log("[o5.e.d] result begin");
                 console.log(result);
-                console.log("result end");
+                console.log("[o5.e.d] result end");
                 showStacks();
                 return result;
             };
