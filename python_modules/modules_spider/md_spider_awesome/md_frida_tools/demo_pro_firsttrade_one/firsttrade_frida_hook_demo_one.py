@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Author   : xianxiafan
 # @Date     : 2024/5/24 14:24
-# @File     : ctf_demo_raw.py
+# @File     : firsttrade_frida_hook_demo_one.py
 # @Desc     :
 import frida
 import sys
