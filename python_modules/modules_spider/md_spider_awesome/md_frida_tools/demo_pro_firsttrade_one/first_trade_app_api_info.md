@@ -16,7 +16,7 @@ apk文件， 本质是压缩包（代码）
 
 
 # 第一证券app， 目前找到比较有点效果的一个逆向方法
-   1、frida hook逆向,通过一边编写hook代码，一遍分析堆栈信息
+   1、frida hook逆向
    2、使用 Frida Gadget（虽然可以不用root手机， 但是需要打包到目标apk中， 这个不适用当前场景。） 
 
 
@@ -86,7 +86,7 @@ adb -s emulator-5554 forward tcp:27042 tcp:27042
 移除端口转发规则： adb forward --remove-all
 
 # frida hook 
-
+   使用frida 进行hook, 通过一边编写hook，一边分析堆栈信息
 
 # 参考链接：
 1. frida安装以及简单使用： https://blog.csdn.net/XBXX_java/article/details/128862595
