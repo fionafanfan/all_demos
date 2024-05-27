@@ -2,7 +2,7 @@
 
 
 #  fiddler抓包
-由于第一证券，试过抓包， 但是没有抓到有效的包， 这个方式在第一证券app 中，没有起到大作用.
+由于第一证券，试过抓包， 但是没有抓到有效的包， 这个方式在第一证券app中，没有起到大作用.
 
 
 # app逆向
@@ -10,9 +10,10 @@
 apk-》 安卓开发-》 java代码写-》 看得懂会分析java代码。 
 
 # 反编译工具：
+静态分析，学习jadx反编译
 apk文件， 本质是压缩包（代码）
 反编译工具： 反编译成功java代码， 分析java代码， 例如： jadx（目前是使用这个， 其它的试过了apktool用起来效果和jadx，后面就直接用jadx了）, apktool, jeb， jda
-反编译工具都依赖jre（java开发环境）， 直接安装jdk（包含jre）
+反编译工具都依赖jre（java开发环境）， jadx可以直接下载带jre环境的版本。 
 
 
 # 第一证券app， 目前找到比较有点效果的一个逆向方法
@@ -90,5 +91,6 @@ adb -s emulator-5554 forward tcp:27042 tcp:27042
 
 # 参考链接：
 1. frida安装以及简单使用： https://blog.csdn.net/XBXX_java/article/details/128862595
-2. frida hook的教程：  https://blog.csdn.net/weixin_42840266/article/details/132279975 （起到作用）
-3. frida快速入门教程: https://www.bilibili.com/video/BV1m84y1D7gh/?spm_id_from=333.337.search-card.all.click&vd_source=9ab8a945335cbaf24c13e51eba88b195
+2. 安卓逆向 - 基础入门教程https://blog.csdn.net/weixin_42840266/article/details/132080000
+3. frida hook的教程：  https://blog.csdn.net/weixin_42840266/article/details/132279975 （起到作用）
+4. frida快速入门教程: https://www.bilibili.com/video/BV1m84y1D7gh/?spm_id_from=333.337.search-card.all.click&vd_source=9ab8a945335cbaf24c13e51eba88b195
