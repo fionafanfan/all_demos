@@ -55,7 +55,7 @@ Failed to attach to target app1: unable to perform ptrace getregs: Device or res
 
 ### 模拟器端-安卓机端： 安装frida-server服务器，启动frida-server。
 安卓手机查看cpu架构： adb shell getprop ro.product.cpu.abi
-三星Galaxy A 71结果： arm64-v8a  (后面因为要root手机，所以没有改用模拟了)
+三星Galaxy A 71结果： arm64-v8a  (后面因为要root手机，所以还是得用模拟器)
 更详细的信息： adb shell cat /proc/cpuinfo
 
 #### 查看雷电模拟器中的android的cpu：
