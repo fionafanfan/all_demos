@@ -6,6 +6,7 @@
 # @Desc     :
 import frida
 import sys
+import os
 
 
 def on_message(message, data):
@@ -31,12 +32,14 @@ def main(process_matches):
         processes = device.enumerate_processes()
         found = False
         for i, process in enumerate(processes):
-            print(f'设备上运行的进程{i+1}:{process}')
+            # print(f'设备上运行的进程{i+1}:{process}')
             if not found:
                 for match in process_matches:
                     if process.name.find(match) != -1:
                         target_name = process.name
                         found = True 
+            else:
+                break
     except Exception as e:
         print("Failed to enumerate_processes:", e)
         sys.exit(1)
@@ -324,6 +327,10 @@ def main(process_matches):
         });
 
     """
+
+    js_file = os.path.join(os.path.dirname(__file__), 'debug.js')
+    with open(js_file, 'r', encoding='utf-8') as f:
+        js = 'Java.perform(() => {%s});' % f.read()
 
     script = session.create_script(js)
 

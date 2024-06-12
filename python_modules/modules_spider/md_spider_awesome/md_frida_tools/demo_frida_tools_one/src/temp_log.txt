@@ -1,0 +1,114 @@
+[f.c] onClick called in:  with view: android.widget.Button{acb7469 VFED..C.. ...P.... 193,599-887,686 #7f0900a8 app:id/btn_Login}
+[f.c] 堆栈信息: java.lang.Exception
+        at f.c.onClick(Native Method)
+        at android.view.View.performClick(View.java:6599)
+        at android.view.View.performClickInternal(View.java:6576)
+        at android.view.View.access$3100(View.java:780)
+        at android.view.View$PerformClick.run(View.java:25899)
+        at android.os.Handler.handleCallback(Handler.java:873)
+        at android.os.Handler.dispatchMessage(Handler.java:99)
+        at android.os.Looper.loop(Looper.java:193)
+        at android.app.ActivityThread.main(ActivityThread.java:6840)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:860)
+
+
+[k1.c] onClick called in:  with view: android.widget.Button{cecf799 VFED..C.. ...P.... 0,0-617,77 #7f0900c3 app:id/btn_Positive}
+[k1.c] 堆栈信息: java.lang.Exception
+        at k1.c.onClick(Native Method)
+        at android.view.View.performClick(View.java:6599)
+        at android.view.View.performClickInternal(View.java:6576)
+        at android.view.View.access$3100(View.java:780)
+        at android.view.View$PerformClick.run(View.java:25899)
+        at android.os.Handler.handleCallback(Handler.java:873)
+        at android.os.Handler.dispatchMessage(Handler.java:99)
+        at android.os.Looper.loop(Looper.java:193)
+        at android.app.ActivityThread.main(ActivityThread.java:6840)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:860)
+
+
+[k1.c.onCreate] param>> a:null
+[k1.c.onCreate] result begin
+[k1.c.onCreate] result: undefined
+[k1.c.onCreate] result end
+java.lang.Exception
+        at k1.c.onCreate(Native Method)
+        at android.app.Dialog.dispatchOnCreate(Dialog.java:407)
+        at android.app.Dialog.show(Dialog.java:302)
+        at w1.b.run(SourceFile:141)
+        at android.os.Handler.handleCallback(Handler.java:873)
+        at android.os.Handler.dispatchMessage(Handler.java:99)
+        at android.os.Looper.loop(Looper.java:193)
+        at android.app.ActivityThread.main(ActivityThread.java:6840)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:860)
+
+
+
+[+] function setText(java.lang.CharSequence): void - setText called: param: 使用者 / 密碼錯誤 (SEE502)
+Arguments: {"0":"<instance: java.lang.CharSequence, $className: java.lang.String>"}
+[+] function setText(java.lang.CharSequence, android.widget.TextView$BufferType): void - setText called: param: 使用者 / 密碼錯誤 (SEE502)
+Arguments: {"0":"<instance: java.lang.CharSequence, $className: java.lang.String>","1":"<instance: android.widget.TextView$BufferType>"}
+[+] function setText(java.lang.CharSequence, android.widget.TextView$BufferType, boolean, int): void - setText called: param: 使用者 / 密碼錯誤 (SEE502)
+Arguments: {"0":"<instance: java.lang.CharSequence, $className: java.lang.String>","1":"<instance: android.widget.TextView$BufferType>","2":true,"3":0}
+[undefined] 堆栈信息: java.lang.Exception
+        at android.widget.TextView.setText(Native Method)
+        at android.widget.TextView.setText(TextView.java:5571)
+        at android.widget.TextView.setText(Native Method)
+        at android.widget.TextView.setText(TextView.java:5528)
+        at android.widget.TextView.setText(Native Method)
+        at k1.c.onCreate(Unknown Source:97)
+        at android.app.Dialog.dispatchOnCreate(Dialog.java:407)
+        at android.app.Dialog.show(Dialog.java:302)
+        at w1.b.run(SourceFile:141)
+        at android.os.Handler.handleCallback(Handler.java:873)
+        at android.os.Handler.dispatchMessage(Handler.java:99)
+        at android.os.Looper.loop(Looper.java:193)
+        at android.app.ActivityThread.main(ActivityThread.java:6840)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:860)
+
+[undefined] 堆栈信息: java.lang.Exception
+        at android.widget.TextView.setText(Native Method)
+        at android.widget.TextView.setText(TextView.java:5528)
+        at android.widget.TextView.setText(Native Method)
+        at k1.c.onCreate(Unknown Source:97)
+        at android.app.Dialog.dispatchOnCreate(Dialog.java:407)
+        at android.app.Dialog.show(Dialog.java:302)
+        at w1.b.run(SourceFile:141)
+        at android.os.Handler.handleCallback(Handler.java:873)
+        at android.os.Handler.dispatchMessage(Handler.java:99)
+        at android.os.Looper.loop(Looper.java:193)
+        at android.app.ActivityThread.main(ActivityThread.java:6840)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:860)
+        
+[+] function setText(java.lang.CharSequence): void - setText called: param: 確定
+Arguments: {"0":"<instance: java.lang.CharSequence, $className: java.lang.String>"}
+[+] function setText(java.lang.CharSequence, android.widget.TextView$BufferType): void - setText called: param: 確定
+Arguments: {"0":"<instance: java.lang.CharSequence, $className: java.lang.String>","1":"<instance: android.widget.TextView$BufferType>"}
+[+] function setText(java.lang.CharSequence, android.widget.TextView$BufferType, boolean, int): void - setText called: param: 確定
+Arguments: {"0":"<instance: java.lang.CharSequence, $className: java.lang.String>","1":"<instance: android.widget.TextView$BufferType>","2":true,"3":0}
+[undefined] 堆栈信息: java.lang.Exception
+        at android.widget.TextView.setText(Native Method)
+        at android.widget.TextView.setText(TextView.java:5571)
+        at android.widget.TextView.setText(Native Method)
+        at android.widget.TextView.setText(TextView.java:5528)
+        at android.widget.TextView.setText(Native Method)
+        at k1.c.onCreate(Unknown Source:104)
+        at android.app.Dialog.dispatchOnCreate(Dialog.java:407)
+        at android.app.Dialog.show(Dialog.java:302)
+        at w1.b.run(SourceFile:141)
+        at android.os.Handler.handleCallback(Handler.java:873)
+        at android.os.Handler.dispatchMessage(Handler.java:99)
+        at android.os.Looper.loop(Looper.java:193)
+        at android.app.ActivityThread.main(ActivityThread.java:6840)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:860)
