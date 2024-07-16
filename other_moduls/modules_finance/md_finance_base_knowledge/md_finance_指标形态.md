@@ -1,7 +1,7 @@
 # 形态指标 （起指导意义：购买信号 or 售出信号； 说到底是一种趋势追踪的工具）
 参考资料
-talib（51cto博客，均线指标实现教程）： https://blog.51cto.com/u_16213338/7272531
-半小时股票漫画： https://read.douban.com/reader/ebook/139832326/?from=book
+* talib（51cto博客，均线指标实现教程）： https://blog.51cto.com/u_16213338/7272531
+* 半小时股票漫画： https://read.douban.com/reader/ebook/139832326/?from=book
 
 1. ma： ma多头排列、ma空头排列
 2. ema
