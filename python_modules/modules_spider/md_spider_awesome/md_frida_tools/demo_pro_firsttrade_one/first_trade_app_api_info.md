@@ -89,8 +89,30 @@ adb -s emulator-5554 forward tcp:27042 tcp:27042
 # frida hook 
    使用frida 进行hook, 通过一边编写hook，一边分析堆栈信息
 
+# 由于jadx反编译的代码，有些内容是看不到源码的， 后面研究apktook反编译为smail，再看下
+```text
+C:\Users\fxxji>apktool d D:\WorkData\bot_first_trade_app_api\第一证券.apk -o D:\WorkData\bot_first_trade_app_api\firsttrade_apktool_code
+I: Using Apktool 2.9.3 on 第一证券.apk
+I: Loading resource table...
+I: Decoding file-resources...
+I: Loading resource table from file: C:\Users\fxxji\AppData\Local\apktool\framework\1.apk
+I: Decoding values */* XMLs...
+I: Decoding AndroidManifest.xml with resources...
+I: Regular manifest package...
+I: Baksmaling classes.dex...
+I: Copying assets and libs...
+I: Copying unknown files...
+I: Copying original files..
+```
+smail中的文件，还原出了jadx看不出来的代码。 
+通过查资料， 需要将smail语言还原为java代码。
+
 # 参考链接：
 1. frida安装以及简单使用： https://blog.csdn.net/XBXX_java/article/details/128862595
 2. 安卓逆向 - 基础入门教程https://blog.csdn.net/weixin_42840266/article/details/132080000
 3. frida hook的教程：  https://blog.csdn.net/weixin_42840266/article/details/132279975 （起到作用）
 4. frida快速入门教程: https://www.bilibili.com/video/BV1m84y1D7gh/?spm_id_from=333.337.search-card.all.click&vd_source=9ab8a945335cbaf24c13e51eba88b195
+5. apktool安装使用教程: https://blog.csdn.net/qq_24118527/article/details/88365872
+6. https://blog.csdn.net/qq_52380836/article/details/127352191?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-127352191-blog-88365872.235%5Ev43%5Epc_blog_bottom_relevance_base8&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-127352191-blog-88365872.235%5Ev43%5Epc_blog_bottom_relevance_base8&utm_relevant_index=1
+7. 小肩膀fridahook教程： https://www.bilibili.com/read/cv26309265/
+8. frida主动调用方法: https://blog.csdn.net/beidideshu/article/details/136563843

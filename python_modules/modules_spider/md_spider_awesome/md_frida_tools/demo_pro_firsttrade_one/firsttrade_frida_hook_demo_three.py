@@ -88,7 +88,7 @@ def main(process_matches):
             console.log(`[o5.e.d] param>> a:${a}, b:${b}, c:${c}, d: ${d}`);
             var result = this["d"](a, b, c, d);
             console.log("[o5.e.d] result begin");
-            console.log(result);
+            console.log(`[o5.e.d]result: ${result}`);
             console.log("[o5.e.d] result end");
             return result;
         };
@@ -210,7 +210,34 @@ def main(process_matches):
         };
         hook601();
     """
-
+    js = """
+            Java.perform(function(){
+            let b1_c = Java.use("b1.c");
+            b1_c["j"].implementation = function (str) {
+                console.log(`[b1.c.j] param=${str}`);                
+                send(str);
+                let result = this["j"](str);
+                console.log(`[b1.c.j] result=${result}`);
+                return result;
+            };
+            let obj = Java.use("android.support.v4.media.f");
+            obj["q"].implementation = function (bArr) {
+                console.log(`[android.support.v4.media.f.q] param=${bArr}`);                    
+                send(bArr);
+                let result = this["q"](bArr);
+                console.log(`[android.support.v4.media.f.q] result=${result}`);
+                return result;
+            };
+            
+            let obj2 = Java.use("android.support.v4.media.g");
+            obj2["r0"].implementation = function (a, b, c, d) {
+                console.log(`[android.support.v4.media.g.r0] a=${a} b=${b} c=${c} d=${d}`);
+                let result = this["q"](a, b, c, d);
+                console.log(`[android.support.v4.media.g.r0] result=${result}`);
+                return result;
+            };
+        })
+    """
 
     script = session.create_script(js)
 
