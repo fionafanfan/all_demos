@@ -1,0 +1,71 @@
+url: http://m.afe.com.hk/dbasp/get_cas_stocklist.asp?DBUid=771589S@first&DBSid=CpoVMXCppeC8fl9O0VyXFzWo
+
+url: http://m.afe.com.hk/dbasp/stock_list.asp?DBUid=771589S@first&DBSid=wIi=m0KxCVEmCzMhcalARVQt&grp=11
+回复： 没有用到
+11^LocalProfileID
+0^/0005.HK
+1^/0700.HK
+2^/0388.HK
+3^/1398.HK
+4^/0007.HK
+5^/ATER.O
+6^/NYMT.O
+7^/CATO.N
+8^/2203.HK
+9^/8277.HK
+10^/0846.HK
+11^/2211.HK
+12^/8262.HK
+13^/1810.HK
+14^/AAPL.O
+
+
+url： http://mtrade.afe.com.hk/mobile/secureNewsHeadline.aspx?seckey=6134&max=50&categoryid=61
+返回： Access Denied
+
+分析中:
+url: http://trade.firstsechk.com/i-trade/streaming/streamSyncRequest
+openConnection called: http://trade.firstsechk.com/i-trade/streaming/streamSyncRequest
+加密前URL：http://trade.firstsechk.com/i-trade/streaming/streamSyncRequest
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at com.android.okhttp.HttpUrl.url(HttpUrl.java:327)
+	at com.android.okhttp.Request.url(Request.java:53)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:463)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:132)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:263)
+	at o5.c.run(SourceFile:23)
+
+分析中:
+openConnection called: http://mtrade.afe.com.hk/mobile/secureNewsHeadline.aspx?seckey=5742&max=50&categoryid=61
+加密前URL：http://mtrade.afe.com.hk/mobile/secureNewsHeadline.aspx?seckey=5742&max=50&categoryid=61
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at com.android.okhttp.HttpUrl.url(HttpUrl.java:327)
+	at com.android.okhttp.Request.url(Request.java:53)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:463)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:412)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:543)
+	at o5.c.run(SourceFile:42)
+
+com.android.okhttp.HttpUrl.url
+可以说明是okhttp框架。
+
+
+
+[o5.e.e] param>> a:http://trade.firstsechk.com/i-trade/streaming/streamHandler, b:param=login&channel=IH&lid=771589S&msg=PJ7xGxbqL6Q%3D%0AioZDpaSH9aKUkH6DLNr1vQ%3D%3D%0A
+[o5.e.d] param>> a:1, b:0, c:http://trade.firstsechk.com/i-trade/streaming/streamHandler, d: param=login&channel=IH&lid=771589S&msg=PJ7xGxbqL6Q%3D%0AioZDpaSH9aKUkH6DLNr1vQ%3D%3D%0A
+---hook1-begin---
+加密前URL：http://trade.firstsechk.com/i-trade/streaming/streamHandler
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at o5.e.d(SourceFile:30)
+	at o5.e.d(Native Method)
+	at o5.e.e(Unknown Source:2)
+	at o5.e.e(Native Method)
+	at b1.c.f(SourceFile:200)
+	at i1.h.run(SourceFile:61)
+	at java.lang.Thread.run(Thread.java:764)
+
+
+

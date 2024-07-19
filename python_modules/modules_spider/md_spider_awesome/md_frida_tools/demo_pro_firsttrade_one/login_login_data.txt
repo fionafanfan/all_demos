@@ -1,0 +1,49 @@
+[*] Attached to target app: 第一证券(香港)
+[b1.c.e] param>> a:123456, b:Gr89LM, c:null, d: null, e: 21, f：F
+[o5.e.d] param>> a:1, b:0, c:http://trade.firstsechk.com/i-trade/streaming/streamLogin, d: re=1&clm=GGp4qJV8vUTwCrXE50jPKTbkQEvJNmyNUMFcR5FBk1S9FFYNAW6xr7stFA7BCGt6LIVLzmBW5bm6%0AII4P098htdn8f0RziAFqpAmaElqw6YuWkQ5AJt9fh5anh9hs4oBQbzaMUoGXfENUXoXF1ikUauzy%0AgG7e2oNUFOEhc7eWw637K2iOQRGoCW2ETT75HRDc2IpF%2B%2B0Zb28CY48ngkMmOqObA%2FHtzlJ7X2UI%0AwRkDrZVfwigGWKHmdHjgbO5UOVUkY45cMfurxU6AIIDRSU37Qqjq7czg4pZFpt9wFht7rOPv0Dy3%0ATREVJ5Kna9AXUr1pKeGf19i6bzVBiFAfSA84p27kUTdeQIZ6DwT8iZJOAab5QEWzmrIyQtoA60PZ%0ACe%2BnNNqtTRiS0xOyJanSetBRo5Y76aPuKyVAsrjs6C9Ru%2B7P3Su%2FjFt8rzEAStTjY1%2BJFirg8CUW%0A%2BW2WrbEImwxBJdzhh2YTqgdmeWpGNvkt7QJtM7fiQ10fy4Jx9ADEXQXJyMBrtS7fRkCSU8Kz4CB5%0AglTSsfC5cyz8y7Sb%2Bf1uQ4o8uDJuuEf5KkYouz9NmJ2fOAqAg%2FkOURVP2tVJL8t1%2Bk8A9NlcYKo%2B%0AC83OVHUCOrC9JtCK8%2BKXdMQltmDq01ansvQ9Gg93BS1TdsOWu0yTrs%2FqxoLiBxTJw2xasguHJUA%3D%0A
+加密前URL：http://trade.firstsechk.com/i-trade/streaming/streamLogin
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at o5.e.d(SourceFile:30)
+	at o5.e.d(Native Method)
+	at b1.c.e(SourceFile:11)
+	at b1.c.e(Native Method)
+	at com.afe.mobilecore.AppCoreDelegate.p(SourceFile:532)
+	at com.afe.mobilecore.AppCoreDelegate.J(SourceFile:2239)
+	at k1.v.c(Unknown Source:50)
+	at j1.b.j1(Unknown Source:8)
+	at f.x.run(SourceFile:948)
+	at java.lang.Thread.run(Thread.java:764)
+[o5.e.d] result begin
+9358
+[o5.e.d] result end
+java.lang.Exception
+	at o5.e.d(Native Method)
+	at b1.c.e(SourceFile:11)
+	at b1.c.e(Native Method)
+	at com.afe.mobilecore.AppCoreDelegate.p(SourceFile:532)
+	at com.afe.mobilecore.AppCoreDelegate.J(SourceFile:2239)
+	at k1.v.c(Unknown Source:50)
+	at j1.b.j1(Unknown Source:8)
+	at f.x.run(SourceFile:948)
+	at java.lang.Thread.run(Thread.java:764)
+加密前URL：http://trade.firstsechk.com/i-trade/streaming/streamLogin
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at com.android.okhttp.HttpUrl.url(HttpUrl.java:327)
+	at com.android.okhttp.Request.url(Request.java:53)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:463)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:132)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:263)
+	at o5.c.run(SourceFile:23)
+[b1.c.e] result begin
+true
+[b1.c.e] result end
+java.lang.Exception
+	at b1.c.e(Native Method)
+	at com.afe.mobilecore.AppCoreDelegate.p(SourceFile:532)
+	at com.afe.mobilecore.AppCoreDelegate.J(SourceFile:2239)
+	at k1.v.c(Unknown Source:50)
+	at j1.b.j1(Unknown Source:8)
+	at f.x.run(SourceFile:948)
+	at java.lang.Thread.run(Thread.java:764)
