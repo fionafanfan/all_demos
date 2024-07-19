@@ -2,6 +2,7 @@
 
 # 读MetaGPT项目过程记录
 git地址： https://github.com/geekan/MetaGPT
+metagpt官网： https://docs.deepwisdom.ai/main/zh/
 
 执行命令: python startup.py "写一个命令行贪吃蛇"
 
