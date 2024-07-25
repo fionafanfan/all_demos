@@ -1,0 +1,51 @@
+目标：
+
+【url】: http://trade.firstsechk.com/i-trade/streaming/streamLogin
+
+
+【method】:post
+
+
+【request headers】:
+
+
+【request body】:
+有加密参数， 需要解密
+
+解密过程：
+【b1.c.e】 代码解析：pass
+
+paramString2 = g5.b.e("&", localArrayList);  得知需要hook [g5.b.e] 函数
+long l1 = this.k.d(1, 0, this.J, paramString2);  可以和堆栈信息[o5.e.d] 函数推测， this.k.d就是o5.e.d函数。
+
+参数1：
+[g5.b.e] param>> a:&, b:[channel=IH, country=HK, lang=tw, lid=771589S, pwd=GrLM89, fsec=NmZmMzk2NjktM2VlYy00NjZi, key=a8a42abc0e3e5e371f49fee0d3265db531da3d6876867994, ip=192.168.1.49, remark=T_2.1(10)|A9|1080x1920_4.6in|samsung SM-N9760]
+[g5.b.e] result: channel=IH&country=HK&lang=tw&lid=771589S&pwd=GrLM89&fsec=NmZmMzk2NjktM2VlYy00NjZi&key=a8a42abc0e3e5e371f49fee0d3265db531da3d6876867994&ip=192.168.1.49&remark=T_2.1(10)|A9|1080x1920_4.6in|samsung SM-N9760
+[o5.e.d] [o5.e.d] param>> a:1, b:0, c:http://trade.firstsechk.com/i-trade/streaming/streamLogin, d: re=1&clm=NULnK0orswJGERdzxl5cpKn7eW0g4mk5lVWdlGIc7%2BRYNx%2FiJ8D7EnqPtiUL8gFkzaQn2GM4ot4x%0AJKE9%2Bi85pDLlEP1GvS2JjYFMlM6VeqzLhyufZYTvmE220V2Y8Mcz8T2llFBoPBkTe5h1tJXYcOCW%0AkgSgGbgfO8fbF2t51GgUKARz0vCNCGNDT3NCfo%2FenvFP5V%2BOlTJ3FTOw6TT%2B%2FfY8QGmJXgzajk77%0AAVOHqDGf7gVI2Tr6fJgG3E2QdP2RZseiJF5v3dEAr1yyR7bzbg8GlgKTQ1uJTorALnwtlRBy8UFC%0A1E%2FoWCqVd%2F33IFSjWFk1n4fsV7PEJdhLZfgkHylRTnI%2B6x0lRyz9%2BXmAz%2BarywGEjgTpWUjpiIea%0Ak4kScn7hPGlAv1fg7Agb4l88npx6SdoQiQ7vaUAwxsylIaEDMd9LHPorbY%2BNtTcCLoWlDIlMfJ1X%0AKhqgh5a8ZOgXKbv%2B7VLl3mSA579O2eDqtGaJRl%2BN%2BGxF3yMitF%2F2Q501x8yQ42oIg313xkT1R5uC%0AukFBhFVLUrx%2FXJ0lexTP3cVMDPiDCzqe3RC3y6fm4Xi47sipzb%2FN30zP9iXnQoPSK6bIMP3FKj9B%0A6w341Pm%2BN%2BL3eHWCIqkm1vIwKXA9wG6TO7VCEnuXjiOOV%2Fp%2FpKEEh9N2XoZcCB%2F%2BaPhfcR%2BdAF0%3D%0A
+[o5.e.d]result: 234
+
+参数2：
+[g5.b.e] param>> a:&, b:[channel=IH, country=HK, lang=tw, lid=771589S, pwd=GrLM8, fsec=NmZmMzk2NjktM2VlYy00NjZi, key=293b794f8f793e0d2029cb7501adad9294738aad979b6785, ip=192.168.1.49, remark=T_2.1(10)|A9|1080x1920_4.6in|samsung SM-N9760]
+[g5.b.e] result: channel=IH&country=HK&lang=tw&lid=771589S&pwd=GrLM8&fsec=NmZmMzk2NjktM2VlYy00NjZi&key=293b794f8f793e0d2029cb7501adad9294738aad979b6785&ip=192.168.1.49&remark=T_2.1(10)|A9|1080x1920_4.6in|samsung SM-N9760
+[o5.e.d] param>> a:1, b:0, c:http://trade.firstsechk.com/i-trade/streaming/streamLogin, d: re=1&clm=HsPR0tiGQVOeexYIuubTvwzbezGsmMPeDzF7OO3aZpbgudfzEpOLoPPdBvPwOakog1X39wXJWjTF%0Aivs37oz2Y2srasjaFi9mJVvN6V5Uf0awvtMIVP907Q1L%2BER6KyL8OQyAAKtwU6J77Cm3h58gMFSm%0AYd4i6rD%2B8s%2BRQcbQYdlkNjBtAGio5ahNfrDnWxiTvfO503GwE4sBRePCtRQDDlKA8loOPvixPeBu%0A4RvSrOaBSqo9du20uO0lk1Hrs54Vb0ZFOdG02okjsyh9w469zeOWpYsZFrsjZxoZTkPwJBGNdSjq%0A3xkWvgCtXMTSD1C%2BnWdtYPxLGiD5QoR5hO1jXvaURHEhuRbufPpYgnG9T%2Fu9q83a3XEBD79iwzEy%0AaDvW8ZA2RLW74tO1FBnn9NCuz60Jnxf6rJzbVw2tB7po0AcQi07y5WnMLdkrfLudH8x15pTBHgUP%0AyY%2FrMBG%2F4HcNYoybK1ypYl%2BtCCadukSooRhQwbeICzFzmNm0RYBE3HyI8%2BHj3BhTjoO%2B9XvnklLU%0Ak0GRGCgSVhdaQUM5fT%2FBSohqTWQC5WMjXmTlxa37sispZxooLGmFQDVY6qcg4lVcwSr3FOWt72LA%0Ag%2F8tnjV39NN0RNT21%2FKJaKlaKQy0lvnKD7sgGheK81KDz3jMUOiLpYy4V1eKAARNGZaKMTxtRMg%3D%0A
+[o5.e.d]result: 398
+
+【o5.e.d】 代码解析：
+paramInt1=a = 1 所以该请求为post方法
+
+if (paramInt1 == 1) {
+localObject1 = "POST";
+} else {
+localObject1 = "GET";
+}
+
+
+【response body】:
+
+
+【response headers】:
+
+
+【结果】：
+构造请求， 得到响应。 如果能够得到响应， 则表示有效成功。
+

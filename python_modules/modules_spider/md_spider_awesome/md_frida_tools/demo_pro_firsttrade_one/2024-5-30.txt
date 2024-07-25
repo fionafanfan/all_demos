@@ -1,0 +1,104 @@
+1、将 第一证券.apk添加后缀.zip变成压缩文件后， 再用解压工具解压，找到classes.dex文件
+2、用dex2jar工具， 将classex.dex转换成classes-dex2jar.jar文件
+3、用jd-gui工具打开classes-dex2jar.jar， 看到之前jadx工具里面看不到的没有暴漏的b1.c.e代码。
+4、分析b1.c.e反编译的代码
+5、目前分析的结果如下；
+**********************************
+URL: http://trade.firstsechk.com/i-trade/streaming/streamLogin
+param:
+re=1&clm=P678%2FfO7GPWmD%2FwpeYdAePFQNoMhC031pTbUsuXSEGpbPZSYvNhvYEdVY2VfDP0quPOH%2BbXZr2Kp%0AuMXd6s38xyrasInrP2EQaoOyp7LRoJRNbpBNg4AoMzQQ70Hfv1YAMkrqOqx4KOOQp0tcienXQf7s%0AcgB26zKfry5wqOWVW5tjGtstaNlIMfejJUGfpo%2FBlqXzLDIYMFT%2BhWCdZZ7L%2FsQA7QySw%2BOzAtgm%0AwfsQE5nRS8QDkiZPYc4eWDz1Rp2909Rtrcg%2B243ZPrj9mIQS%2FKCayyF6E4Oko%2FlBNfmQSai7sQva%0A4FJMFbj3OnYyEYrYyEJhffgQPbSWs2GsMMfsi0lrTB%2FqyM%2F97o8DznRKRp4W1664wAoeuotkqKvE%0Alj3FWv%2F2mdnLrliLBk343rsrn%2F%2BNkU2Sett0gAWV8r0Fpu9E88l8RU7PX7AR3Dg5%2B5%2BBBvDOmB%2FA%0ARTKxbinjVuLGMwYa5v1%2BJNBj91pPjoYStxwGs%2B3E%2BcIhm4fWYMdRQC8xo62DT0F1wkXjm2zgasZy%0AlMWrIb3iUCOhfq0H81dqQQLWP%2FkAbQpOVY%2FGhfhGIfrBImY76JET6TwbkKr9Dw18sVdWCz8KKNJe%0AmcXj%2F%2BXfdSGAJDmvq%2BZKRe8p6S4XQw4kBvXUOG3zu6%2FRgnfPektpVxfpFRsPzO2AH3dUIQv9jVs%3D%0A
+
+re固定为1
+clm: remark=为下面的明参经过DESede和RSA等加密 最后转成Base64。
+
+
+clm参数分析如下：
+remarks参数为下面的key-value键值
+
+remarks必填参数:
+channel: 暂未分析
+country: 暂未分析
+lang:  暂未分析
+lid： 账号
+pwd: 密码
+
+key: 暂未分析
+ip: ip地址
+remark: remark 为一些设备信息拼接而成， 拼接的逻辑为：
+"{}_A{}|{}|{}".format(app_info, app_version_info, size_info, brand_info)
+
+remarks选填参数：
+fsec: 目前观察：如果之前有输入otp， 后面再登录，请求多次，这个参数好像是固定的。
+otp： 验证码
+keep_otp_flg: 目前观察固定是: F
+**********************************
+
+**************b1.c.e******************
+# [b1.c.e] param>> a:771589S, b:Gr89LM, c:null, d: NmZmMzk2NjktM2VlYy00NjZi, e: 33, f：F
+paramString1 = '771589S'  # 代表账号: lid字段
+paramString2 = 'Gr89LM'  # 代表密码: pwd字段
+paramString3 = None  # 代表验证码: otp字段  , 非初次登录的时候，不用输入otp， 不用输入otp的时候为None
+paramString4 = 'NmZmMzk2NjktM2VlYy00NjZi'  # 代表：fsec   目前观察：如果之前有输入otp， 后面再登录，请求多次，这个参数好像是固定的。
+paramInt = 33   # 这个参数一直在随机增加
+paramString5 = 'F'  # 代表:keep_otp_flg  # 目前观察固定是: F
+rt = e(paramString1, paramString2, paramString3, paramString4, paramInt, paramString5)
+***************b1.c.e*****************
+
+
+
+b1.c.e关于加密的部分原码如下：
+import javax.crypto.KeyGenerator;
+
+try
+    {
+        paramString1 = KeyGenerator.getInstance("DESede").generateKey();
+    }
+catch (NoSuchAlgorithmException paramString1)
+    {
+        paramString1.printStackTrace();
+        paramString1 = null;
+    }
+
+
+
+if (paramString3 != null)
+{
+    try
+    {
+          paramString1 = new java/security/spec/X509EncodedKeySpec;
+          paramString1.<init>(paramString3);
+          paramString1 = KeyFactory.getInstance("RSA").generatePublic(paramString1);
+    }
+    catch (InvalidKeySpecException paramString1) {}
+    catch (NoSuchAlgorithmException paramString1) {}
+    paramString1.printStackTrace();
+}
+else
+    {
+    paramString1 = null;
+    }
+
+
+
+paramString2 = g5.b.e("&", localArrayList);
+if ((paramString2 != null) && (paramString2.length() > 0) && (paramString1 != null))
+{
+    paramString2 = g5.b.u(paramString2);
+    if (paramString2 != null) {
+      try
+          {
+                paramString3 = Cipher.getInstance("RSA/ECB/PKCS1Padding");
+                paramString3.init(1, paramString1);
+                paramString1 = paramString3.doFinal(paramString2);
+          }
+      catch (Exception paramString1)
+          {
+                paramString1.printStackTrace();
+          }
+    }
+}
+
+
+paramString1 = g5.b.I(android.support.v4.media.f.q(paramString1));
+paramString2 = String.format(Locale.US, "re=1&clm=%s", new Object[] { paramString1 });
+

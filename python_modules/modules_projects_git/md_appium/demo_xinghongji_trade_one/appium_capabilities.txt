@@ -1,0 +1,25 @@
+{
+  "platformName": "Android",
+  "appium:udid": "R5CNA0C587T",
+  "automationName": "uiautomator2",
+  "appium.options": {
+    "automationName": "uiautomator2",
+    "deviceName": "R5CNA0C587T",
+    "noRes": true,
+    "disableWindowAnimation": true,
+    "skipDeviceInitialization": true,
+    "autoGrantPermissions": true,
+    "suppressKillServer": true,
+    "hideKeyboard": true,
+    "noSign": true,
+    "skipUnlock": true,
+    "unlockStrategy": "uiautomator2"
+  },
+  "appPackage": "com.gt.shk",
+  "appActivity": "com.gt.shk.MainActivity ",
+  "appium.settings": {
+    "ignoreUnimportantViews": true,
+    "allowInvisibleElements": true
+  },
+  "noReset": true
+}

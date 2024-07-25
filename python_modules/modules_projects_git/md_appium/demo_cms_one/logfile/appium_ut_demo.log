@@ -1,0 +1,215 @@
+2024-01-25 10:53:10.976904 [INFO] [timeit] [buy_or_sell] [input_stock_code][start] 
+2024-01-25 10:53:10.976904 [INFO] --- [e_stock_code][find_element][start] ---
+2024-01-25 10:53:11.017887 [INFO] --- [e_stock_code][find_element][end] --- 0.040983
+2024-01-25 10:53:11.017887 [INFO] --- [e_stock_code][click][start] ---
+2024-01-25 10:53:12.089470 [INFO] --- [e_stock_code][click][end] --- 1.071583
+2024-01-25 10:53:12.089470 [INFO] --- [e_stock_code][clear][start] ---
+2024-01-25 10:53:12.174975 [INFO] --- [e_stock_code][clear][end] --- 0.085505
+2024-01-25 10:53:12.174975 [INFO] --- [e_stock_code][send_keys][start] ---
+2024-01-25 10:53:12.334723 [INFO] --- [e_stock_code][send_keys][end] --- 0.159748
+2024-01-25 10:53:12.334723 [INFO] [timeit][buy_or_sell] [input_stock_code][end]  0.0
+2024-01-25 10:53:12.334723 [INFO] [timeit][buy_or_sell] [input_price] [start] 
+2024-01-25 10:53:12.334723 [INFO] --- [price][find_element][start] ---
+2024-01-25 10:53:12.395816 [INFO] --- [price][find_element][end] --- 0.061093
+2024-01-25 10:53:12.395816 [INFO] --- [price][click][start] ---
+2024-01-25 10:53:12.457496 [INFO] --- [price][click][end] --- 0.06168
+2024-01-25 10:53:12.457496 [INFO] --- [price][time_sleep][start] ---
+2024-01-25 10:53:12.457496 [INFO] 判断是否回填
+2024-01-25 10:53:15.704286 [INFO] price_text:285.200, 请输入价格
+2024-01-25 10:53:15.704286 [INFO] 结束回填成功
+2024-01-25 10:53:15.704286 [INFO] --- [price][time_sleep][end] --- 0.0
+2024-01-25 10:53:15.704286 [INFO] --- [price][clear][start] ---
+2024-01-25 10:53:15.742974 [INFO] --- [price][clear][end] --- 0.038688
+2024-01-25 10:53:15.742974 [INFO] --- [price][send_keys][start] ---
+2024-01-25 10:53:15.797315 [INFO] --- [price][send_keys][end] --- 0.054341
+2024-01-25 10:53:15.797315 [INFO] [timeit][buy_or_sell] [input_price] [end]  0.0
+2024-01-25 10:53:15.797315 [INFO] [timeit][buy_or_sell] [input_quantity] [start] 
+2024-01-25 10:53:15.797315 [INFO] --- [quantity][find_element][start] ---
+2024-01-25 10:53:15.836945 [INFO] --- [quantity][find_element][end] --- 0.03963
+2024-01-25 10:53:15.836945 [INFO] --- [quantity][click][start] ---
+2024-01-25 10:53:15.902033 [INFO] --- [quantity][click][end] --- 0.065088
+2024-01-25 10:53:15.902033 [INFO] --- [quantity][clear][start] ---
+2024-01-25 10:53:18.204319 [INFO] --- [quantity][clear][end] --- 2.302286
+2024-01-25 10:53:18.204319 [INFO] --- [quantity][send_keys][start] ---
+2024-01-25 10:53:18.271974 [INFO] --- [quantity][send_keys][end] --- 0.067655
+2024-01-25 10:53:18.271974 [INFO] [timeit][buy_or_sell] [input_quantity] [end]  0.0
+2024-01-25 10:53:18.271974 [INFO] 耗时统计:
+('[timeit][buy_or_sell] [input_stock_code][end] ', 0.0)
+('--- [price][time_sleep][end] ---', 0.0)
+('[timeit][buy_or_sell] [input_price] [end] ', 0.0)
+('[timeit][buy_or_sell] [input_quantity] [end] ', 0.0)
+('--- [price][clear][end] ---', 0.038688)
+('--- [quantity][find_element][end] ---', 0.03963)
+('--- [e_stock_code][find_element][end] ---', 0.040983)
+('--- [price][send_keys][end] ---', 0.054341)
+('--- [price][find_element][end] ---', 0.061093)
+('--- [price][click][end] ---', 0.06168)
+('--- [quantity][click][end] ---', 0.065088)
+('--- [quantity][send_keys][end] ---', 0.067655)
+('--- [e_stock_code][clear][end] ---', 0.085505)
+('--- [e_stock_code][send_keys][end] ---', 0.159748)
+('--- [e_stock_code][click][end] ---', 1.071583)
+('--- [quantity][clear][end] ---', 2.302286)
+2024-01-25 10:53:18.271974 [INFO] 总耗时: 4.04828
+2024-01-25 10:57:15.273738 [INFO] [timeit] [buy_or_sell] [input_stock_code][start] 
+2024-01-25 10:57:15.273738 [INFO] --- [e_stock_code][find_element][start] ---
+2024-01-25 10:57:15.307725 [INFO] --- [e_stock_code][find_element][end] --- 0.033987
+2024-01-25 10:57:15.307725 [INFO] --- [e_stock_code][click][start] ---
+2024-01-25 10:57:15.392527 [INFO] --- [e_stock_code][click][end] --- 0.084802
+2024-01-25 10:57:15.392527 [INFO] --- [e_stock_code][clear][start] ---
+2024-01-25 10:57:15.466626 [INFO] --- [e_stock_code][clear][end] --- 0.074099
+2024-01-25 10:57:15.466626 [INFO] --- [e_stock_code][send_keys][start] ---
+2024-01-25 10:57:16.707381 [INFO] --- [e_stock_code][send_keys][end] --- 1.240755
+2024-01-25 10:57:16.707381 [INFO] [timeit][buy_or_sell] [input_stock_code][end]  0.0
+2024-01-25 10:57:16.707381 [INFO] [timeit][buy_or_sell] [input_price] [start] 
+2024-01-25 10:57:16.707381 [INFO] --- [price][find_element][start] ---
+2024-01-25 10:57:16.768671 [INFO] --- [price][find_element][end] --- 0.06129
+2024-01-25 10:57:16.768671 [INFO] --- [price][click][start] ---
+2024-01-25 10:57:19.188754 [INFO] --- [price][click][end] --- 2.420083
+2024-01-25 10:57:19.188754 [INFO] --- [price][time_sleep][start] ---
+2024-01-25 10:57:19.188754 [INFO] 判断是否回填
+2024-01-25 10:57:19.209263 [INFO] price_text:285.000, 请输入价格
+2024-01-25 10:57:19.209263 [INFO] 结束回填成功
+2024-01-25 10:57:19.209263 [INFO] --- [price][time_sleep][end] --- 0.0
+2024-01-25 10:57:19.209263 [INFO] --- [price][clear][start] ---
+2024-01-25 10:57:19.233795 [INFO] --- [price][clear][end] --- 0.024532
+2024-01-25 10:57:19.233795 [INFO] --- [price][send_keys][start] ---
+2024-01-25 10:57:19.272765 [INFO] --- [price][send_keys][end] --- 0.03897
+2024-01-25 10:57:19.272765 [INFO] [timeit][buy_or_sell] [input_price] [end]  0.0
+2024-01-25 10:57:19.272765 [INFO] [timeit][buy_or_sell] [input_quantity] [start] 
+2024-01-25 10:57:19.272765 [INFO] --- [quantity][find_element][start] ---
+2024-01-25 10:57:20.024778 [INFO] --- [quantity][find_element][end] --- 0.752013
+2024-01-25 10:57:20.024778 [INFO] --- [quantity][click][start] ---
+2024-01-25 10:57:20.084974 [INFO] --- [quantity][click][end] --- 0.060196
+2024-01-25 10:57:20.086481 [INFO] --- [quantity][clear][start] ---
+2024-01-25 10:57:20.115672 [INFO] --- [quantity][clear][end] --- 0.029191
+2024-01-25 10:57:20.115672 [INFO] --- [quantity][send_keys][start] ---
+2024-01-25 10:57:20.151674 [INFO] --- [quantity][send_keys][end] --- 0.036002
+2024-01-25 10:57:20.151674 [INFO] [timeit][buy_or_sell] [input_quantity] [end]  0.0
+2024-01-25 10:57:20.151674 [INFO] 耗时统计:
+('[timeit][buy_or_sell] [input_stock_code][end] ', 0.0)
+('--- [price][time_sleep][end] ---', 0.0)
+('[timeit][buy_or_sell] [input_price] [end] ', 0.0)
+('[timeit][buy_or_sell] [input_quantity] [end] ', 0.0)
+('--- [price][clear][end] ---', 0.024532)
+('--- [quantity][clear][end] ---', 0.029191)
+('--- [e_stock_code][find_element][end] ---', 0.033987)
+('--- [quantity][send_keys][end] ---', 0.036002)
+('--- [price][send_keys][end] ---', 0.03897)
+('--- [quantity][click][end] ---', 0.060196)
+('--- [price][find_element][end] ---', 0.06129)
+('--- [e_stock_code][clear][end] ---', 0.074099)
+('--- [e_stock_code][click][end] ---', 0.084802)
+('--- [quantity][find_element][end] ---', 0.752013)
+('--- [e_stock_code][send_keys][end] ---', 1.240755)
+('--- [price][click][end] ---', 2.420083)
+2024-01-25 10:57:20.151674 [INFO] 总耗时: 4.85592
+
+
+2024-01-25 11:01:48.657548 [INFO] [timeit] [buy_or_sell] [input_stock_code][start] 
+2024-01-25 11:01:48.657548 [INFO] --- [e_stock_code][find_element][start] ---
+2024-01-25 11:01:48.716155 [INFO] --- [e_stock_code][find_element][end] --- 0.058607
+2024-01-25 11:01:48.716155 [INFO] --- [e_stock_code][click][start] ---
+2024-01-25 11:01:48.841333 [INFO] --- [e_stock_code][click][end] --- 0.125178
+2024-01-25 11:01:48.841333 [INFO] --- [e_stock_code][clear][start] ---
+2024-01-25 11:01:49.901646 [INFO] --- [e_stock_code][clear][end] --- 1.060313
+2024-01-25 11:01:49.901646 [INFO] --- [e_stock_code][send_keys][start] ---
+2024-01-25 11:01:50.016053 [INFO] --- [e_stock_code][send_keys][end] --- 0.114407
+2024-01-25 11:01:50.016053 [INFO] [timeit][buy_or_sell] [input_stock_code][end]  0.0
+2024-01-25 11:01:50.016053 [INFO] [timeit][buy_or_sell] [input_price] [start] 
+2024-01-25 11:01:50.016053 [INFO] --- [price][find_element][start] ---
+2024-01-25 11:01:50.094534 [INFO] --- [price][find_element][end] --- 0.078481
+2024-01-25 11:01:50.094534 [INFO] --- [price][click][start] ---
+2024-01-25 11:01:51.003930 [INFO] --- [price][click][end] --- 0.909396
+2024-01-25 11:01:51.003930 [INFO] --- [price][time_sleep][start] ---
+2024-01-25 11:01:52.591400 [INFO] --- [price][time_sleep][end] --- 1.58747
+2024-01-25 11:01:52.591400 [INFO] --- [price][clear][start] ---
+2024-01-25 11:01:52.664094 [INFO] --- [price][clear][end] --- 0.072694
+2024-01-25 11:01:52.664094 [INFO] --- [price][send_keys][start] ---
+2024-01-25 11:01:52.732443 [INFO] --- [price][send_keys][end] --- 0.068349
+2024-01-25 11:01:52.732443 [INFO] [timeit][buy_or_sell] [input_price] [end]  0.0
+2024-01-25 11:01:52.733431 [INFO] [timeit][buy_or_sell] [input_quantity] [start] 
+2024-01-25 11:01:52.733431 [INFO] --- [quantity][find_element][start] ---
+2024-01-25 11:01:53.473508 [INFO] --- [quantity][find_element][end] --- 0.740077
+2024-01-25 11:01:53.473508 [INFO] --- [quantity][click][start] ---
+2024-01-25 11:01:53.542551 [INFO] --- [quantity][click][end] --- 0.069043
+2024-01-25 11:01:53.542551 [INFO] --- [quantity][clear][start] ---
+2024-01-25 11:01:53.568529 [INFO] --- [quantity][clear][end] --- 0.025978
+2024-01-25 11:01:53.568529 [INFO] --- [quantity][send_keys][start] ---
+2024-01-25 11:01:53.639520 [INFO] --- [quantity][send_keys][end] --- 0.070991
+2024-01-25 11:01:53.639520 [INFO] [timeit][buy_or_sell] [input_quantity] [end]  0.0
+2024-01-25 11:01:53.639520 [INFO] 耗时统计:
+('[timeit][buy_or_sell] [input_stock_code][end] ', 0.0)
+('[timeit][buy_or_sell] [input_price] [end] ', 0.0)
+('[timeit][buy_or_sell] [input_quantity] [end] ', 0.0)
+('--- [quantity][clear][end] ---', 0.025978)
+('--- [e_stock_code][find_element][end] ---', 0.058607)
+('--- [price][send_keys][end] ---', 0.068349)
+('--- [quantity][click][end] ---', 0.069043)
+('--- [quantity][send_keys][end] ---', 0.070991)
+('--- [price][clear][end] ---', 0.072694)
+('--- [price][find_element][end] ---', 0.078481)
+('--- [e_stock_code][send_keys][end] ---', 0.114407)
+('--- [e_stock_code][click][end] ---', 0.125178)
+('--- [quantity][find_element][end] ---', 0.740077)
+('--- [price][click][end] ---', 0.909396)
+('--- [e_stock_code][clear][end] ---', 1.060313)
+('--- [price][time_sleep][end] ---', 1.58747)
+2024-01-25 11:01:53.639520 [INFO] 总耗时: 4.980984
+
+
+2024-01-25 12:00:03.165142 [INFO] [timeit] [buy_or_sell] [input_stock_code][start] 
+2024-01-25 12:00:03.166138 [INFO] --- [e_stock_code][find_element][start] ---
+2024-01-25 12:00:03.218826 [INFO] --- [e_stock_code][find_element][end] --- 0.052688
+2024-01-25 12:00:03.218826 [INFO] --- [e_stock_code][click][start] ---
+2024-01-25 12:00:04.170913 [INFO] --- [e_stock_code][click][end] --- 0.952087
+2024-01-25 12:00:04.170913 [INFO] --- [e_stock_code][clear][start] ---
+2024-01-25 12:00:04.196322 [INFO] --- [e_stock_code][clear][end] --- 0.025409
+2024-01-25 12:00:04.196322 [INFO] --- [e_stock_code][send_keys][start] ---
+2024-01-25 12:00:04.247624 [INFO] --- [e_stock_code][send_keys][end] --- 0.051302
+2024-01-25 12:00:04.247624 [INFO] [timeit][buy_or_sell] [input_stock_code][end]  0.0
+2024-01-25 12:00:04.247624 [INFO] [timeit][buy_or_sell] [dir] [start] 
+2024-01-25 12:00:05.871030 [INFO] [timeit][buy_or_sell] [dir] [end]  1.623406
+2024-01-25 12:00:05.871030 [INFO] [timeit][buy_or_sell] [input_price] [start] 
+2024-01-25 12:00:05.871030 [INFO] --- [price][find_element][start] ---
+2024-01-25 12:00:05.922860 [INFO] --- [price][find_element][end] --- 0.05183
+2024-01-25 12:00:05.922860 [INFO] --- [price][click][start] ---
+2024-01-25 12:00:06.088954 [INFO] --- [price][click][end] --- 0.166094
+2024-01-25 12:00:06.088954 [INFO] --- [price][time_sleep][start] ---
+2024-01-25 12:00:07.527265 [INFO] --- [price][time_sleep][end] --- 1.438311
+2024-01-25 12:00:07.528271 [INFO] --- [price][clear][start] ---
+2024-01-25 12:00:07.558196 [INFO] --- [price][clear][end] --- 0.029925
+2024-01-25 12:00:07.558196 [INFO] --- [price][send_keys][start] ---
+2024-01-25 12:00:08.294003 [INFO] --- [price][send_keys][end] --- 0.735807
+2024-01-25 12:00:08.294003 [INFO] [timeit][buy_or_sell] [input_price] [end]  0.0
+2024-01-25 12:00:08.294003 [INFO] [timeit][buy_or_sell] [input_quantity] [start] 
+2024-01-25 12:00:08.294003 [INFO] --- [quantity][find_element][start] ---
+2024-01-25 12:00:08.995945 [INFO] --- [quantity][find_element][end] --- 0.701942
+2024-01-25 12:00:08.995945 [INFO] --- [quantity][click][start] ---
+2024-01-25 12:00:09.052715 [INFO] --- [quantity][click][end] --- 0.05677
+2024-01-25 12:00:09.052715 [INFO] --- [quantity][clear][start] ---
+2024-01-25 12:00:09.075934 [INFO] --- [quantity][clear][end] --- 0.023219
+2024-01-25 12:00:09.075934 [INFO] --- [quantity][send_keys][start] ---
+2024-01-25 12:00:09.103214 [INFO] --- [quantity][send_keys][end] --- 0.02728
+2024-01-25 12:00:09.103214 [INFO] [timeit][buy_or_sell] [input_quantity] [end]  0.0
+2024-01-25 12:00:09.103214 [INFO] 耗时统计:
+('[timeit][buy_or_sell] [input_stock_code][end] ', 0.0)
+('[timeit][buy_or_sell] [input_price] [end] ', 0.0)
+('[timeit][buy_or_sell] [input_quantity] [end] ', 0.0)
+('--- [quantity][clear][end] ---', 0.023219)
+('--- [e_stock_code][clear][end] ---', 0.025409)
+('--- [quantity][send_keys][end] ---', 0.02728)
+('--- [price][clear][end] ---', 0.029925)
+('--- [e_stock_code][send_keys][end] ---', 0.051302)
+('--- [price][find_element][end] ---', 0.05183)
+('--- [e_stock_code][find_element][end] ---', 0.052688)
+('--- [quantity][click][end] ---', 0.05677)
+('--- [price][click][end] ---', 0.166094)
+('--- [quantity][find_element][end] ---', 0.701942)
+('--- [price][send_keys][end] ---', 0.735807)
+('--- [e_stock_code][click][end] ---', 0.952087)
+('--- [price][time_sleep][end] ---', 1.438311)
+('[timeit][buy_or_sell] [dir] [end] ', 1.623406)
+2024-01-25 12:00:09.103214 [INFO] 总耗时: 5.936070000000001
+
+

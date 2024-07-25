@@ -1,0 +1,83 @@
+    搜索： at o5.e.d(SourceFile:30)
+
+    public final long d(int r9, int r10, java.lang.String r11, java.lang.String r12) {
+        /*
+            Method dump skipped, instructions count: 374
+            To view this dump change 'Code comments level' option to 'DEBUG'
+        */
+        throw new UnsupportedOperationException("Method not decompiled: o5.e.d(int, int, java.lang.String, java.lang.String):long");
+    }
+
+   具体的实现方法， 代码没有出现。
+   查过资料， 需要反编译成功smail语言， 然后再通过smail2java转换成java， 才可以看到看不到的代码。
+
+   反编译为smail。
+
+
+# 由于jadx反编译的代码，有些内容是看不到源码的， 后面研究apktook反编译为smail，再看下
+smail中的文件，还原出了jadx看不出来的代码。
+通过查资料， 需要将smail语言还原为java代码。
+
+2024-5-30:
+
+Android 中 .Java 文件,在 JVM 编译之后变成 .class 文件,然后再经过Android 的虚拟机 Dalvik,代码编译为 .smali 文件
+smali 是另外一种语言,和汇编是有点像的,涉及寄存器操作
+Android中的assets文件和res文件是不会被编译成二进制文件的，因此反编译后可以很好地复原
+apk tool 的主要用法就是可以查看res目录下的资源文
+如果没有学过.smali的语法等相关内容，那么那些smali文件是暂时没有办法使用的
+
+
+反编译三件套:
+https://blog.csdn.net/weixin_41477306/article/details/118692183?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-17-118692183-blog-127589900.235^v43^pc_blog_bottom_relevance_base8&spm=1001.2101.3001.4242.10&utm_relevant_index=18
+2.dex-tools-2.0（dex 转 jar）
+https://github.com/pxb1988/dex2jar/releases
+使用方式：
+首先，将你的apk文件改为zip等可解压文件。然后对其解压
+classes.dex的文件，然后拷贝dex-tools-2.1-SNAPSHOT里面。
+
+dex2jar: https://github.com/pxb1988/dex2jar/releases
+
+3.jd-gui（查看jar 文件）
+http://java-decompiler.github.io/
+http://java-decompiler.github.io/
+使用方式：
+直接将jar 文件拖到 jd-gui里面就可以打开了
+
+https://blog.csdn.net/u011426115/article/details/112070906?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-1-112070906-blog-118692183.235^v43^pc_blog_bottom_relevance_base8&spm=1001.2101.3001.4242.2&utm_relevant_index=2
+
+java -cp lib/dex-tools-xxx.jar com.googlecode.dex2jar.tools.Dex2jarCmd classes.dex
+java -cp lib/dex-tools-v2.4.jar com.googlecode.dex2jar.tools.Dex2jarCmd classes.dex
+d2j-dex2jar.bat D:\WorkData\bot_first_trade_app_api\classess_dex
+
+https://blog.csdn.net/qq_41818873/article/details/135636409
+C:\Users\fxxji>d2j-dex2jar.bat D:\WorkData\bot_first_trade_app_api\classess_dex\classes.dex
+dex2jar D:\WorkData\bot_first_trade_app_api\classess_dex\classes.dex -> .\classes-dex2jar.jar
+dex2jar D:\WorkData\bot_first_trade_app_api\classess_dex\classes.dex -> .\classes-dex2jar.jar
+C:\Users\fxxji>
+执行成功了， 原来是dex2jar这个工具也要配置环境变量.
+成功得到了classes-dex2jar.jar文件，也拖进jd-gui工具里面看了。
+
+
+登录：
+param>> a:771589S, b:Gr89LM, c:null, d: null, e: 19, f：F
+
+登录1：
+[b1.c.e] param>> a:771589S, b:Gr89LM, c:null, d: NmZmMzk2NjktM2VlYy00NjZi, e: 33, f：F
+[o5.e.d] param>> a:1, b:0, c:http://trade.firstsechk.com/i-trade/streaming/streamLogin, d: re=1&clm=P678%2FfO7GPWmD%2FwpeYdAePFQNoMhC031pTbUsuXSEGpbPZSYvNhvYEdVY2VfDP0quPOH%2BbXZr2Kp%0AuMXd6s38xyrasInrP2EQaoOyp7LRoJRNbpBNg4AoMzQQ70Hfv1YAMkrqOqx4KOOQp0tcienXQf7s%0AcgB26zKfry5wqOWVW5tjGtstaNlIMfejJUGfpo%2FBlqXzLDIYMFT%2BhWCdZZ7L%2FsQA7QySw%2BOzAtgm%0AwfsQE5nRS8QDkiZPYc4eWDz1Rp2909Rtrcg%2B243ZPrj9mIQS%2FKCayyF6E4Oko%2FlBNfmQSai7sQva%0A4FJMFbj3OnYyEYrYyEJhffgQPbSWs2GsMMfsi0lrTB%2FqyM%2F97o8DznRKRp4W1664wAoeuotkqKvE%0Alj3FWv%2F2mdnLrliLBk343rsrn%2F%2BNkU2Sett0gAWV8r0Fpu9E88l8RU7PX7AR3Dg5%2B5%2BBBvDOmB%2FA%0ARTKxbinjVuLGMwYa5v1%2BJNBj91pPjoYStxwGs%2B3E%2BcIhm4fWYMdRQC8xo62DT0F1wkXjm2zgasZy%0AlMWrIb3iUCOhfq0H81dqQQLWP%2FkAbQpOVY%2FGhfhGIfrBImY76JET6TwbkKr9Dw18sVdWCz8KKNJe%0AmcXj%2F%2BXfdSGAJDmvq%2BZKRe8p6S4XQw4kBvXUOG3zu6%2FRgnfPektpVxfpFRsPzO2AH3dUIQv9jVs%3D%0A
+加密前URL：http://trade.firstsechk.com/i-trade/streaming/streamLogin
+
+[o5.e.e] param>> a:http://trade.firstsechk.com/i-trade/streaming/streamHandler, b:param=login&channel=IH&lid=771589S&msg=aSRdFbRfP2o%3D%0A5VK%2BsmIgvzTha8G7S3Rmmg%3D%3D%0A
+[o5.e.d] param>> a:1, b:0, c:http://trade.firstsechk.com/i-trade/streaming/streamHandler, d: param=login&channel=IH&lid=771589S&msg=aSRdFbRfP2o%3D%0A5VK%2BsmIgvzTha8G7S3Rmmg%3D%3D%0A
+
+
+
+登录2：
+[b1.c.e] param>> a:771589S, b:Gr89LM, c:null, d: NmZmMzk2NjktM2VlYy00NjZi, e: 55, f：F
+[b1.c类属性]: a.B: undefined a.d: undefined a.f: undefined a.g: undefined a.h: undefined  a.i: undefined
+[o5.e.d] param>> a:1, b:0, c:http://trade.firstsechk.com/i-trade/streaming/streamLogin, d: re=1&clm=jqEHH%2B6LSQSnh4JQp6Q70Q3vKNzPzDB%2F1n9Oywbjyql35%2FryrtsFwZDh9eE%2BEAY%2F43bwmcE24XkT%0A3thTmeP11CMDtarfEV53cAf3vAnPPfOq5FZQIPCw9wvjSf9cWPkANcVpgIpFNhK1zZKEfjYNqv4o%0AHDFbG4uklWJKAWrenivJEBoEXGLaCzR2H9lmT9ULZyYzsWOx8bhEKX4gUah29thIjzGrb4dRCVnq%0AshHAcscAPJPrA6MhKEVBsoPkwGhuS4%2B284FXNpw5CgKcrZlDYmNxrPS5qafSB4%2B1Ia%2BtCcLn32ca%0AAZIflkZPbTLExzxgoVfT1XMj7MV8xHA2iMFKPSmo6ocHgzEfCfbec2QrpdSIXfQJw0gmCsQHLjnW%0A%2F46UjNC26Cp7KaaLbZ84r3YtLC4DHtvA0ril5WMDMRtiFHHI1TdmUio%2BXiD7ovADBZns7fW1tPfc%0A3Oh4dfVJ6aNjXdz6zWCmLyZRM3mVmDAphOH%2BenmIxQNV6T6IFZez8y9PlL1O%2FsZ7UZwH6DnMbsP7%0A7HXQqbMEUylECvToUtkTVE02w6B95YTa40Qk9D8dGPCR4xvgIn9wwb1UgAfbL2T5YtM6d7ECHDP5%0AbxHqVgeY%2BqSIJDiYSjEkXmLtTjl2BivfFI60%2Bo1BdHJvzE5vvdujC14UI7BEhCr3Q6RlSjh5tfA%3D%0A
+加密前URL：http://trade.firstsechk.com/i-trade/streaming/streamLogin
+
+DESede加密算法
+java 实现DESde： https://blog.csdn.net/nanli1234566/article/details/131148365
+3DES加密算法及Python实现：
+https://blog.csdn.net/wangjiaweiwei/article/details/129711289
