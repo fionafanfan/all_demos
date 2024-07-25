@@ -1,0 +1,174 @@
+[*] Connected to USB device: Device(id="emulator-5554", name="Android Emulator 5554", type='usb')
+设备上运行的进程1:Process(pid=1, name="init", parameters={})
+设备上运行的进程2:Process(pid=1032, name="init", parameters={})
+设备上运行的进程3:Process(pid=1033, name="init", parameters={})
+设备上运行的进程4:Process(pid=1034, name="ueventd", parameters={})
+设备上运行的进程5:Process(pid=1345, name="logd", parameters={})
+设备上运行的进程6:Process(pid=1346, name="servicemanager", parameters={})
+设备上运行的进程7:Process(pid=1347, name="hwservicemanager", parameters={})
+设备上运行的进程8:Process(pid=1348, name="vndservicemanager", parameters={})
+设备上运行的进程9:Process(pid=1349, name="android.hardware.keymaster@3.0-service", parameters={})
+设备上运行的进程10:Process(pid=1350, name="vold", parameters={})
+设备上运行的进程11:Process(pid=1422, name="android.hidl.allocator@1.0-service", parameters={})
+设备上运行的进程12:Process(pid=1423, name="healthd", parameters={})
+设备上运行的进程13:Process(pid=1424, name="vr_hwc", parameters={})
+设备上运行的进程14:Process(pid=1426, name="android.hardware.bluetooth@1.0-service-qti", parameters={})
+设备上运行的进程15:Process(pid=1427, name="android.hardware.broadcastradio@1.1-service", parameters={})
+设备上运行的进程16:Process(pid=1428, name="android.hardware.camera.provider@2.4-service", parameters={})
+设备上运行的进程17:Process(pid=1429, name="android.hardware.cas@1.0-service", parameters={})
+设备上运行的进程18:Process(pid=1430, name="android.hardware.configstore@1.1-service", parameters={})
+设备上运行的进程19:Process(pid=1431, name="android.hardware.drm@1.0-service", parameters={})
+设备上运行的进程20:Process(pid=1432, name="android.hardware.drm@1.1-service.clearkey", parameters={})
+设备上运行的进程21:Process(pid=1433, name="android.hardware.gatekeeper@1.0-service", parameters={})
+设备上运行的进程22:Process(pid=1434, name="android.hardware.gnss@1.0-service", parameters={})
+设备上运行的进程23:Process(pid=1435, name="android.hardware.graphics.allocator@2.0-service", parameters={})
+设备上运行的进程24:Process(pid=1436, name="android.hardware.graphics.composer@2.1-service", parameters={})
+设备上运行的进程25:Process(pid=1437, name="android.hardware.health@2.0-service.default", parameters={})
+设备上运行的进程26:Process(pid=1438, name="android.hardware.light@2.0-service", parameters={})
+设备上运行的进程27:Process(pid=1439, name="android.hardware.oemlock@1.0-service.default", parameters={})
+设备上运行的进程28:Process(pid=1440, name="android.hardware.power@1.1-service.default", parameters={})
+设备上运行的进程29:Process(pid=1441, name="android.hardware.sensors@1.0-service", parameters={})
+设备上运行的进程30:Process(pid=1442, name="android.hardware.usb@1.0-service", parameters={})
+设备上运行的进程31:Process(pid=1443, name="android.hardware.vibrator@1.0-service.default", parameters={})
+设备上运行的进程32:Process(pid=1444, name="android.hardware.wifi@1.0-service", parameters={})
+设备上运行的进程33:Process(pid=1445, name="ldinit", parameters={})
+设备上运行的进程34:Process(pid=1447, name="lmkd", parameters={})
+设备上运行的进程35:Process(pid=1448, name="surfaceflinger", parameters={})
+设备上运行的进程36:Process(pid=1450, name="thermalserviced", parameters={})
+设备上运行的进程37:Process(pid=1459, name="su", parameters={})
+设备上运行的进程38:Process(pid=1461, name="sh", parameters={})
+设备上运行的进程39:Process(pid=1463, name="traced", parameters={})
+设备上运行的进程40:Process(pid=1464, name="traced_probes", parameters={})
+设备上运行的进程41:Process(pid=1477, name="drmserver", parameters={})
+设备上运行的进程42:Process(pid=1479, name="incidentd", parameters={})
+设备上运行的进程43:Process(pid=1481, name="installd", parameters={})
+设备上运行的进程44:Process(pid=1482, name="keystore", parameters={})
+设备上运行的进程45:Process(pid=1483, name="mediadrmserver", parameters={})
+设备上运行的进程46:Process(pid=1484, name="media.extractor", parameters={})
+设备上运行的进程47:Process(pid=1485, name="media.metrics", parameters={})
+设备上运行的进程48:Process(pid=1489, name="statsd", parameters={})
+设备上运行的进程49:Process(pid=1490, name="storaged", parameters={})
+设备上运行的进程50:Process(pid=1492, name="media.codec", parameters={})
+设备上运行的进程51:Process(pid=1493, name="rild", parameters={})
+设备上运行的进程52:Process(pid=1494, name="gatekeeperd", parameters={})
+设备上运行的进程53:Process(pid=1495, name="perfprofd", parameters={})
+设备上运行的进程54:Process(pid=1496, name="tombstoned", parameters={})
+设备上运行的进程55:Process(pid=2558, name="adbd", parameters={})
+设备上运行的进程56:Process(pid=2564, name="mdnsd", parameters={})
+设备上运行的进程57:Process(pid=5196, name="memfd:frida-helper-32 (deleted)", parameters={})
+设备上运行的进程58:Process(pid=6216, name="zygote64", parameters={})
+设备上运行的进程59:Process(pid=6217, name="zygote", parameters={})
+设备上运行的进程60:Process(pid=6218, name="audioserver", parameters={})
+设备上运行的进程61:Process(pid=6219, name="cameraserver", parameters={})
+设备上运行的进程62:Process(pid=6220, name="mediaserver", parameters={})
+设备上运行的进程63:Process(pid=6221, name="netd", parameters={})
+设备上运行的进程64:Process(pid=6222, name="wificond", parameters={})
+设备上运行的进程65:Process(pid=6223, name="android.hardware.audio@2.0-service", parameters={})
+设备上运行的进程66:Process(pid=6231, name="iptables-restore", parameters={})
+设备上运行的进程67:Process(pid=6232, name="ip6tables-restore", parameters={})
+设备上运行的进程68:Process(pid=6287, name="system_server", parameters={})
+设备上运行的进程69:Process(pid=6422, name="com.android.bluetooth", parameters={})
+设备上运行的进程70:Process(pid=6432, name="com.android.systemui", parameters={})
+设备上运行的进程71:Process(pid=6462, name="webview_zygote", parameters={})
+设备上运行的进程72:Process(pid=6608, name="com.android.phone", parameters={})
+设备上运行的进程73:Process(pid=6618, name="设置", parameters={})
+设备上运行的进程74:Process(pid=6684, name="android.ext.services", parameters={})
+设备上运行的进程75:Process(pid=6840, name="com.android.se", parameters={})
+设备上运行的进程76:Process(pid=6846, name="com.android.coreservice", parameters={})
+设备上运行的进程77:Process(pid=6892, name="com.android.launcher3", parameters={})
+设备上运行的进程78:Process(pid=6910, name="com.google.android.gms", parameters={})
+设备上运行的进程79:Process(pid=6928, name="com.android.keychain", parameters={})
+设备上运行的进程80:Process(pid=6972, name="com.google.process.gapps", parameters={})
+设备上运行的进程81:Process(pid=6995, name="com.android.smspush", parameters={})
+设备上运行的进程82:Process(pid=7012, name="android.process.acore", parameters={})
+设备上运行的进程83:Process(pid=7051, name="com.android.inputmethod.pinyin", parameters={})
+设备上运行的进程84:Process(pid=7127, name="com.firstsechk.tc.trade", parameters={})
+设备上运行的进程85:Process(pid=7260, name="android.process.media", parameters={})
+设备上运行的进程86:Process(pid=7284, name="雷电游戏中心", parameters={})
+设备上运行的进程87:Process(pid=7390, name="com.android.flysilkworm:filedownloader", parameters={})
+设备上运行的进程88:Process(pid=7443, name="com.android.managedprovisioning", parameters={})
+设备上运行的进程89:Process(pid=7482, name="短信", parameters={})
+设备上运行的进程90:Process(pid=7510, name="com.android.packageinstaller", parameters={})
+设备上运行的进程91:Process(pid=7530, name="com.android.providers.calendar", parameters={})
+设备上运行的进程92:Process(pid=7552, name="com.android.traceur", parameters={})
+设备上运行的进程93:Process(pid=7569, name="Google Play 商店", parameters={})
+设备上运行的进程94:Process(pid=7693, name="com.android.vending:download_service", parameters={})
+设备上运行的进程95:Process(pid=7710, name="com.google.process.gapps", parameters={})
+设备上运行的进程96:Process(pid=7816, name="com.google.android.gms.ui", parameters={})
+设备上运行的进程97:Process(pid=7876, name="第一证券(香港)", parameters={})
+设备上运行的进程98:Process(pid=7945, name="com.google.android.gms.unstable", parameters={})
+设备上运行的进程99:Process(pid=8872, name="com.google.android.gms.persistent", parameters={})
+设备上运行的进程100:Process(pid=9408, name="sh", parameters={})
+设备上运行的进程101:Process(pid=9432, name="su", parameters={})
+设备上运行的进程102:Process(pid=9433, name="su", parameters={})
+设备上运行的进程103:Process(pid=9438, name="su", parameters={})
+设备上运行的进程104:Process(pid=9445, name="su", parameters={})
+设备上运行的进程105:Process(pid=9451, name="sh", parameters={})
+设备上运行的进程106:Process(pid=9505, name="frida-server", parameters={})
+设备上运行的进程107:Process(pid=9507, name="logcat", parameters={})
+设备上运行的进程108:Process(pid=9524, name="memfd:frida-helper-32 (deleted)", parameters={})
+[*] Attached to target app: com.firstsechk.tc.trade
+[g5.b.e] param>> a:,, b:[證券交易]
+[g5.b.e] result begin
+[g5.b.e] result: 證券交易
+[g5.b.e] result end
+[g5.b.e] param>> a:,, b:[證券交易]
+[g5.b.e] result begin
+[g5.b.e] result: 證券交易
+[g5.b.e] result end
+[g5.b.e] param>> a:,, b:[證券交易]
+[g5.b.e] result begin
+[g5.b.e] result: 證券交易
+[g5.b.e] result end
+[b1.c.t] param>> a:2, b:4, c:2
+[b1.t类属性]: a.B: undefined a.d: undefined a.f: undefined a.g: undefined a.h: undefined  a.i: undefined
+[b1.c.t] result begin
+undefined
+[b1.c.t] result end
+{'type': 'error', 'description': "ReferenceError: 'w' is not defined", 'stack': "ReferenceError: 'w' is not defined\n    at <anonymous> (/script1.js:148)\n    at apply (native)\n    at ne (frida/node_modules/frida-java-bridge/lib/class-factory.js:677)\n    at <anonymous> (frida/node_modules/frida-java-bridge/lib/class-factory.js:655)", 'fileName': '/script1.js', 'lineNumber': 148, 'columnNumber': 1}
+[b1.c.t] param>> a:2, b:4, c:3
+[b1.t类属性]: a.B: undefined a.d: undefined a.f: undefined a.g: undefined a.h: undefined  a.i: undefined
+[b1.c.t] result begin
+undefined
+[b1.c.t] result end
+{'type': 'error', 'description': "ReferenceError: 'w' is not defined", 'stack': "ReferenceError: 'w' is not defined\n    at <anonymous> (/script1.js:148)\n    at apply (native)\n    at ne (frida/node_modules/frida-java-bridge/lib/class-factory.js:677)\n    at <anonymous> (frida/node_modules/frida-java-bridge/lib/class-factory.js:655)", 'fileName': '/script1.js', 'lineNumber': 148, 'columnNumber': 1}
+Hooked LoginClass.e()
+paramString1: 771589S
+paramString2: Gr89LM
+paramString3: null
+paramString4: NmZmMzk2NjktM2VlYy00NjZi
+paramInt: 24
+paramString5: F
+KeyGenerator.getInstance called with algorithm: DESede
+[g5.b.e] param>> a:&, b:[channel=IH, country=HK, lang=tw, lid=771589S, pwd=Gr89LM, fsec=NmZmMzk2NjktM2VlYy00NjZi, key=083bef40251a70761398df432a612f6d6101527aa8a480f1, ip=192.168.1.49, remark=T_2.1(10)|A9|1080x1920_4.6in|samsung SM-N9760]
+[g5.b.e] result begin
+[g5.b.e] result: channel=IH&country=HK&lang=tw&lid=771589S&pwd=Gr89LM&fsec=NmZmMzk2NjktM2VlYy00NjZi&key=083bef40251a70761398df432a612f6d6101527aa8a480f1&ip=192.168.1.49&remark=T_2.1(10)|A9|1080x1920_4.6in|samsung SM-N9760
+[g5.b.e] result end
+KeyFactory.getInstance called with algorithm: RSA
+Cipher.getInstance called with transformation: RSA/ECB/PKCS1Padding
+Cipher.init called with opmode: 1
+Key Algorithm: RSA
+Key Format: X.509
+Key Encoded: 48,-126,2,34,48,13,6,9,42,-122,72,-122,-9,13,1,1,1,5,0,3,-126,2,15,0,48,-126,2,10,2,-126,2,1,0,-78,110,-7,-49,-69,60,-25,105,122,-103,58,24,-13,59,-4,7,-48,-23,58,-72,99,15,-63,83,-42,6,-89,35,122,105,15,86,76,-23,17,117,37,-63,-21,-26,-111,109,15,98,-7,5,-110,-13,-76,-20,-75,105,76,-67,111,1,-58,4,57,57,41,-107,-69,102,-11,-98,-66,50,-86,93,87,78,-110,-107,63,-15,17,-58,-47,12,65,77,107,-14,87,-1,51,17,91,0,13,95,94,42,81,22,116,115,56,-72,114,-95,-15,17,-1,27,-48,83,61,78,67,-21,-77,-1,111,-4,-43,81,-122,-43,-59,-9,38,92,5,107,82,-34,-32,-112,21,-110,23,20,78,-87,72,-120,-85,71,-21,-35,120,-66,41,-115,-127,43,120,-128,70,85,-88,17,-14,-39,-109,-19,35,-91,-101,37,-48,-21,25,-79,-108,72,-15,-112,104,4,-11,49,-11,-35,-24,-83,35,67,-122,-93,-25,53,-108,-53,-33,47,109,24,-97,99,-47,-111,-28,107,34,22,-46,-4,83,77,-70,-68,119,12,66,61,-41,-2,84,-25,-128,-16,46,108,-46,-90,-35,-99,-126,-10,13,24,-77,127,-126,-92,39,-99,9,-115,28,100,-26,-15,42,-53,-98,15,-55,61,-107,-61,125,-67,-23,76,-109,88,80,-91,-68,-120,109,64,-41,-53,-120,-80,-122,71,42,-92,-42,-16,107,28,-88,-128,102,7,41,-101,64,-97,-54,42,90,-18,22,-52,-30,-42,-125,66,-15,33,-64,24,-124,119,-56,71,119,-6,23,-1,-55,7,-66,-81,-128,103,38,60,5,-123,-5,104,-30,59,27,-109,-3,-41,9,91,-45,88,-24,-18,-2,34,22,104,-71,-42,49,11,16,64,-90,-70,-4,0,53,74,59,102,22,-97,-15,-57,123,-55,83,102,-35,-22,-117,31,54,-124,-40,127,-6,85,-21,15,114,95,119,-100,16,122,111,-128,32,36,-100,125,66,4,96,39,-70,-98,-32,9,-43,120,14,20,-107,-96,102,-6,-44,84,-123,109,80,84,18,5,-125,-24,37,28,-85,-101,105,78,-101,-17,19,-32,29,-102,-104,116,-49,-10,-91,-85,124,30,-110,8,-79,-62,-69,45,-21,30,-127,42,34,-41,115,82,-79,-9,81,-46,-123,-90,-25,30,-67,-74,31,71,101,97,-47,-6,87,31,6,-94,-109,82,-87,-38,-6,113,98,65,-107,-34,-32,27,45,-123,69,5,-64,23,-76,-52,111,118,24,64,8,-62,93,70,50,-7,64,18,-75,-59,-126,-17,100,-111,-60,-90,-14,98,-102,-80,47,9,-15,90,76,7,68,10,-98,38,55,53,75,65,124,-115,2,3,1,0,1
+Key Encoded（16进制编码）: 30820222300d06092a864886f70d01010105000382020f003082020a0282020100b26ef9cfbb3ce7697a993a18f33bfc07d0e93ab8630fc153d606a7237a690f564ce9117525c1ebe6916d0f62f90592f3b4ecb5694cbd6f01c60439392995bb66f59ebe32aa5d574e92953ff111c6d10c414d6bf257ff33115b000d5f5e2a5116747338b872a1f111ff1bd0533d4e43ebb3ff6ffcd55186d5c5f7265c056b52dee090159217144ea94888ab47ebdd78be298d812b78804655a811f2d993ed23a59b25d0eb19b19448f1906804f531f5dde8ad234386a3e73594cbdf2f6d189f63d191e46b2216d2fc534dbabc770c423dd7fe54e780f02e6cd2a6dd9d82f60d18b37f82a4279d098d1c64e6f12acb9e0fc93d95c37dbde94c935850a5bc886d40d7cb88b086472aa4d6f06b1ca8806607299b409fca2a5aee16cce2d68342f121c0188477c84777fa17ffc907beaf8067263c0585fb68e23b1b93fdd7095bd358e8eefe221668b9d6310b1040a6bafc00354a3b66169ff1c77bc95366ddea8b1f3684d87ffa55eb0f725f779c107a6f8020249c7d42046027ba9ee009d5780e1495a066fad454856d5054120583e8251cab9b694e9bef13e01d9a9874cff6a5ab7c1e9208b1c2bb2deb1e812a22d77352b1f751d285a6e71ebdb61f476561d1fa571f06a29352a9dafa71624195dee01b2d854505c017b4cc6f76184008c25d4632f94012b5c582ef6491c4a6f2629ab02f09f15a4c07440a9e2637354b417c8d0203010001
+Cipher.doFinal called with data: 99,104,97,110,110,101,108,61,73,72,38,99,111,117,110,116,114,121,61,72,75,38,108,97,110,103,61,116,119,38,108,105,100,61,55,55,49,53,56,57,83,38,112,119,100,61,71,114,56,57,76,77,38,102,115,101,99,61,78,109,90,109,77,122,107,50,78,106,107,116,77,50,86,108,89,121,48,48,78,106,90,105,38,107,101,121,61,48,56,51,98,101,102,52,48,50,53,49,97,55,48,55,54,49,51,57,56,100,102,52,51,50,97,54,49,50,102,54,100,54,49,48,49,53,50,55,97,97,56,97,52,56,48,102,49,38,105,112,61,49,57,50,46,49,54,56,46,49,46,52,57,38,114,101,109,97,114,107,61,84,95,50,46,49,40,49,48,41,124,65,57,124,49,48,56,48,120,49,57,50,48,95,52,46,54,105,110,124,115,97,109,115,117,110,103,32,83,77,45,78,57,55,54,48
+Cipher.doFinal result: 16,-73,103,25,-38,2,-13,-98,-17,10,116,-42,76,31,-84,-113,38,-21,33,-30,-72,-44,-18,69,-15,79,-80,10,95,36,126,33,-90,84,-54,-15,-127,90,57,46,-48,-116,-50,-98,-77,-57,-118,27,-41,-71,31,-94,76,124,-98,36,-80,-90,-24,22,61,123,-48,12,53,-19,53,53,-4,95,84,12,-88,-99,-10,-91,24,70,-78,-75,-6,6,101,104,98,-67,60,-45,54,107,81,9,127,103,91,62,-115,84,116,43,83,111,-2,-80,40,17,-98,-76,-23,112,-38,-56,-9,124,110,42,-103,-93,71,-115,100,30,-52,-16,98,-106,-118,36,118,-63,-44,119,54,103,33,82,-122,-109,-39,-34,0,-80,-87,-68,40,107,20,-21,80,-4,47,-99,-89,-97,86,28,-28,62,114,51,50,17,120,-102,-93,-95,55,114,-69,125,82,59,-4,77,26,-37,62,-38,70,32,-59,7,-24,16,-123,87,-32,-6,0,0,-119,-41,42,-114,9,-1,6,89,-54,2,-115,4,74,-82,-48,96,35,14,62,-32,106,23,51,85,38,-80,74,65,-66,-35,-54,-28,-65,-96,117,-102,43,47,-52,113,-125,-84,-59,7,99,-98,-102,-75,-99,71,43,96,122,-111,31,94,-27,31,2,-120,-38,-52,101,4,2,29,-57,-5,-23,67,-125,-78,44,112,-21,109,121,-21,61,3,-82,-23,8,49,74,17,7,28,106,7,-17,-122,-9,13,-78,-114,-37,-126,-52,-127,82,-74,125,-124,-113,-111,-87,-20,27,-112,62,16,-87,62,75,10,55,62,62,-37,46,-50,-83,-79,-72,90,-94,41,-16,92,-46,-101,-6,105,1,55,-73,-2,-46,-67,-36,-10,78,17,11,-8,78,41,107,31,8,-6,81,-34,-22,-59,-112,-34,-107,-47,-101,-59,-109,-115,79,-21,107,25,119,52,115,-101,58,-79,-55,3,-36,23,-33,-41,93,37,24,-6,-123,-36,-98,-38,-9,94,37,28,-59,16,73,124,120,47,-40,53,15,-17,41,89,-55,29,5,-106,-19,-65,-54,-10,-108,81,101,101,-25,-56,-112,9,95,-120,-33,-43,25,-47,110,81,-11,91,-26,51,-92,-99,-88,23,-1,30,113,-66,32,-43,-5,42,36,-116,53,126,55,-20,-23,89,12,38,43,87,-57,-91,-125,41,-58,56,81,41,32,-33,-120,-33,16,121,-43,-115,-120,-93,22,18,-115,75,26,9,79,14,-22,103,70,-40,-42,102,29,5,59,23,38,-31,-67,-13,42,-107,-109,-85,124,-30,59,89,-115,22,-15,-77,8,-20,112,121,-127,-112,121,-25,95,-82,41,95,-126,8
+[o5.e.d] param>> a:1, b:0, c:http://trade.firstsechk.com/i-trade/streaming/streamLogin, d: re=1&clm=ELdnGdoC857vCnTWTB%2BsjybrIeK41O5F8U%2BwCl8kfiGmVMrxgVo5LtCMzp6zx4ob17kfokx8niSw%0ApugWPXvQDDXtNTX8X1QMqJ32pRhGsrX6BmVoYr080zZrUQl%2FZ1s%2BjVR0K1Nv%2FrAoEZ606XDayPd8%0AbiqZo0eNZB7M8GKWiiR2wdR3NmchUoaT2d4AsKm8KGsU61D8L52nn1Yc5D5yMzIReJqjoTdyu31S%0AO%2FxNGts%2B2kYgxQfoEIVX4PoAAInXKo4J%2FwZZygKNBEqu0GAjDj7gahczVSawSkG%2B3crkv6B1misv%0AzHGDrMUHY56atZ1HK2B6kR9e5R8CiNrMZQQCHcf76UODsixw62156z0DrukIMUoRBxxqB%2B%2BG9w2y%0AjtuCzIFStn2Ej5Gp7BuQPhCpPksKNz4%2B2y7OrbG4WqIp8FzSm%2FppATe3%2FtK93PZOEQv4TilrHwj6%0AUd7qxZDeldGbxZONT%2BtrGXc0c5s6sckD3Bff110lGPqF3J7a914lHMUQSXx4L9g1D%2B8pWckdBZbt%0Av8r2lFFlZefIkAlfiN%2FVGdFuUfVb5jOknagX%2Fx5xviDV%2ByokjDV%2BN%2BzpWQwmK1fHpYMpxjhRKSDf%0AiN8QedWNiKMWEo1LGglPDupnRtjWZh0FOxcm4b3zKpWTq3ziO1mNFvGzCOxweYGQeedfrilfggg%3D%0A
+---hook1-begin---
+URL：http://trade.firstsechk.com/i-trade/streaming/streamLogin
+---hook1-end---
+[o5.e.d] result begin
+1871
+[o5.e.d] result end
+Result: true
+---hook1-begin---
+URL：http://trade.firstsechk.com/i-trade/streaming/streamLogin
+---hook1-end---
+Cipher.getInstance called with transformation: DESede/ECB/PKCS5Padding
+Cipher.init called with opmode: 2
+Key Algorithm: DESEDE
+Key Format: RAW
+Key Encoded: 8,59,-17,64,37,26,112,118,19,-104,-33,67,42,97,47,109,97,1,82,122,-88,-92,-128,-15
+Key Encoded（16进制编码）: 083bef40251a70761398df432a612f6d6101527aa8a480f1
+Cipher.doFinal called with data: -17,122,-15,-59,54,9,5,63,86,87,103,-101,-109,-33,-65,62,-8,-37,-17,-123,98,-15,32,-1,13,105,-13,-119,75,-51,120,31,-9,-70,-40,97,75,85,-101,-29,-65,-6,-110,-39,110,-85,70,18,-101,31,115,99,-16,-15,-81,100
+Cipher.doFinal result: 53,48,48,48,94,48,124,53,49,49,48,94,69,53,65,70,56,54,69,55,65,50,66,67,69,57,56,67,65,70,69,56,65,65,65,52,124,53,48,49,48,94,83,69,87,48,48,50,124

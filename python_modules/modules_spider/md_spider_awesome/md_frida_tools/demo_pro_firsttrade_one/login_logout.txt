@@ -1,0 +1,91 @@
+[*] Attached to target app: 第一证券(香港)
+[o5.e.d] param>> a:1, b:0, c:http://trade.firstsechk.com/i-trade/streaming/streamSyncRequest, d: encrypt=1&channel=IH&lang=tw&param=V7V003N7ozY%3D%0ASFHI0f2wQD3glN5SFK4ghxDu2fLLqaUbfh7R6nG2XhuasfKUZfjrtI%2BKcvsDBsyZNyKeFFQFO2Zn%0As0n4lmNjTBjL7QJYgRwKUZrqD4J9AUqiXXHctvGHrxgO%2BlwQhmoNOr5LpqQ8MUOcsSNvZf6vLUsE%0ALgadbhwHlByqTJtEirTXMMgeT7a7%2B34JPqjQqlDv3NdcE89NKmKluwPx6bgXkQ%3D%3D%0A
+加密前URL：http://trade.firstsechk.com/i-trade/streaming/streamSyncRequest
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at o5.e.d(SourceFile:30)
+	at o5.e.d(Native Method)
+	at b1.c.s(SourceFile:899)
+	at b1.c.h(SourceFile:14)
+	at a2.l.D(SourceFile:20)
+	at i1.m.run(SourceFile:198)
+	at java.lang.Thread.run(Thread.java:764)
+[o5.e.d] result begin
+158
+[o5.e.d] result end
+java.lang.Exception
+	at o5.e.d(Native Method)
+	at b1.c.s(SourceFile:899)
+	at b1.c.h(SourceFile:14)
+	at a2.l.D(SourceFile:20)
+	at i1.m.run(SourceFile:198)
+	at java.lang.Thread.run(Thread.java:764)
+加密前URL：http://trade.firstsechk.com/i-trade/streaming/streamSyncRequest
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at com.android.okhttp.HttpUrl.url(HttpUrl.java:327)
+	at com.android.okhttp.Request.url(Request.java:53)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:463)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:132)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:263)
+	at o5.c.run(SourceFile:23)
+[o5.e.d] param>> a:0, b:0, c:http://mtrade.afe.com.hk/mobile/secureNewsHeadline.aspx?seckey=8528&max=50&categoryid=61, d: null
+加密前URL：http://mtrade.afe.com.hk/mobile/secureNewsHeadline.aspx?seckey=8528&max=50&categoryid=61
+[o5.e.d] param>> a:0, b:0, c:http://m.afe.com.hk/iphone/disclaimer.asp?package=-2147483648, d: null
+加密前URL：http://m.afe.com.hk/iphone/disclaimer.asp?package=-2147483648
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at o5.e.d(SourceFile:30)
+	at o5.e.d(Native Method)
+	at n5.a.d(Unknown Source:14)
+	at a2.l.W(Unknown Source:63)
+	at a2.l.K(SourceFile:81)
+	at a2.l.q(SourceFile:83)
+	at a2.l.r(SourceFile:57)
+	at j5.c.run(SourceFile:1388)
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at o5.e.d(SourceFile:30)
+	at o5.e.d(Native Method)
+	at n5.a.d(Unknown Source:14)
+	at a2.l.W(Unknown Source:63)
+	at b2.o.run(SourceFile:195)
+	at java.lang.Thread.run(Thread.java:764)
+[o5.e.d] result begin
+175
+[o5.e.d] result end
+java.lang.Exception
+	at o5.e.d(Native Method)
+	at n5.a.d(Unknown Source:14)
+	at a2.l.W(Unknown Source:63)
+	at a2.l.K(SourceFile:81)
+	at a2.l.q(SourceFile:83)
+	at a2.l.r(SourceFile:57)
+	at j5.c.run(SourceFile:1388)
+[o5.e.d] result begin
+176
+[o5.e.d] result end
+java.lang.Exception
+	at o5.e.d(Native Method)
+	at n5.a.d(Unknown Source:14)
+	at a2.l.W(Unknown Source:63)
+	at b2.o.run(SourceFile:195)
+	at java.lang.Thread.run(Thread.java:764)
+加密前URL：http://mtrade.afe.com.hk/mobile/secureNewsHeadline.aspx?seckey=8528&max=50&categoryid=61
+加密前URL：http://m.afe.com.hk/iphone/disclaimer.asp?package=-2147483648
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at com.android.okhttp.HttpUrl.url(HttpUrl.java:327)
+	at com.android.okhttp.Request.url(Request.java:53)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:463)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:412)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:543)
+	at o5.c.run(SourceFile:42)
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at com.android.okhttp.HttpUrl.url(HttpUrl.java:327)
+	at com.android.okhttp.Request.url(Request.java:53)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:463)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:412)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:543)
+	at o5.c.run(SourceFile:42)

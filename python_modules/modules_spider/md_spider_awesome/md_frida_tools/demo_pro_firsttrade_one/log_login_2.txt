@@ -1,0 +1,4151 @@
+[*] Connected to USB device: Device(id="emulator-5554", name="Android Emulator 5554", type='usb')
+设备上运行的进程1:Process(pid=1, name="init", parameters={})
+设备上运行的进程2:Process(pid=1033, name="init", parameters={})
+设备上运行的进程3:Process(pid=1034, name="init", parameters={})
+设备上运行的进程4:Process(pid=1035, name="ueventd", parameters={})
+设备上运行的进程5:Process(pid=1347, name="logd", parameters={})
+设备上运行的进程6:Process(pid=1348, name="servicemanager", parameters={})
+设备上运行的进程7:Process(pid=1349, name="hwservicemanager", parameters={})
+设备上运行的进程8:Process(pid=1350, name="vndservicemanager", parameters={})
+设备上运行的进程9:Process(pid=1351, name="android.hardware.keymaster@3.0-service", parameters={})
+设备上运行的进程10:Process(pid=1352, name="vold", parameters={})
+设备上运行的进程11:Process(pid=1402, name="netd", parameters={})
+设备上运行的进程12:Process(pid=1403, name="zygote64", parameters={})
+设备上运行的进程13:Process(pid=1404, name="zygote", parameters={})
+设备上运行的进程14:Process(pid=1406, name="android.hidl.allocator@1.0-service", parameters={})
+设备上运行的进程15:Process(pid=1407, name="healthd", parameters={})
+设备上运行的进程16:Process(pid=1408, name="vr_hwc", parameters={})
+设备上运行的进程17:Process(pid=1409, name="android.hardware.audio@2.0-service", parameters={})
+设备上运行的进程18:Process(pid=1410, name="android.hardware.bluetooth@1.0-service-qti", parameters={})
+设备上运行的进程19:Process(pid=1411, name="android.hardware.broadcastradio@1.1-service", parameters={})
+设备上运行的进程20:Process(pid=1412, name="android.hardware.camera.provider@2.4-service", parameters={})
+设备上运行的进程21:Process(pid=1413, name="android.hardware.cas@1.0-service", parameters={})
+设备上运行的进程22:Process(pid=1414, name="android.hardware.configstore@1.1-service", parameters={})
+设备上运行的进程23:Process(pid=1415, name="android.hardware.drm@1.0-service", parameters={})
+设备上运行的进程24:Process(pid=1416, name="android.hardware.drm@1.1-service.clearkey", parameters={})
+设备上运行的进程25:Process(pid=1417, name="android.hardware.gatekeeper@1.0-service", parameters={})
+设备上运行的进程26:Process(pid=1418, name="android.hardware.gnss@1.0-service", parameters={})
+设备上运行的进程27:Process(pid=1419, name="android.hardware.graphics.allocator@2.0-service", parameters={})
+设备上运行的进程28:Process(pid=1420, name="android.hardware.graphics.composer@2.1-service", parameters={})
+设备上运行的进程29:Process(pid=1421, name="android.hardware.health@2.0-service.default", parameters={})
+设备上运行的进程30:Process(pid=1422, name="android.hardware.light@2.0-service", parameters={})
+设备上运行的进程31:Process(pid=1423, name="android.hardware.oemlock@1.0-service.default", parameters={})
+设备上运行的进程32:Process(pid=1424, name="android.hardware.power@1.1-service.default", parameters={})
+设备上运行的进程33:Process(pid=1425, name="android.hardware.sensors@1.0-service", parameters={})
+设备上运行的进程34:Process(pid=1426, name="android.hardware.usb@1.0-service", parameters={})
+设备上运行的进程35:Process(pid=1427, name="android.hardware.vibrator@1.0-service.default", parameters={})
+设备上运行的进程36:Process(pid=1428, name="android.hardware.wifi@1.0-service", parameters={})
+设备上运行的进程37:Process(pid=1429, name="ldinit", parameters={})
+设备上运行的进程38:Process(pid=1430, name="audioserver", parameters={})
+设备上运行的进程39:Process(pid=1431, name="lmkd", parameters={})
+设备上运行的进程40:Process(pid=1432, name="surfaceflinger", parameters={})
+设备上运行的进程41:Process(pid=1433, name="thermalserviced", parameters={})
+设备上运行的进程42:Process(pid=1436, name="iptables-restore", parameters={})
+设备上运行的进程43:Process(pid=1437, name="ip6tables-restore", parameters={})
+设备上运行的进程44:Process(pid=1444, name="sh", parameters={})
+设备上运行的进程45:Process(pid=1446, name="traced", parameters={})
+设备上运行的进程46:Process(pid=1447, name="traced_probes", parameters={})
+设备上运行的进程47:Process(pid=1449, name="cameraserver", parameters={})
+设备上运行的进程48:Process(pid=1450, name="drmserver", parameters={})
+设备上运行的进程49:Process(pid=1451, name="incidentd", parameters={})
+设备上运行的进程50:Process(pid=1452, name="installd", parameters={})
+设备上运行的进程51:Process(pid=1453, name="keystore", parameters={})
+设备上运行的进程52:Process(pid=1454, name="mediadrmserver", parameters={})
+设备上运行的进程53:Process(pid=1455, name="media.extractor", parameters={})
+设备上运行的进程54:Process(pid=1456, name="media.metrics", parameters={})
+设备上运行的进程55:Process(pid=1457, name="mediaserver", parameters={})
+设备上运行的进程56:Process(pid=1458, name="statsd", parameters={})
+设备上运行的进程57:Process(pid=1459, name="storaged", parameters={})
+设备上运行的进程58:Process(pid=1460, name="wificond", parameters={})
+设备上运行的进程59:Process(pid=1461, name="media.codec", parameters={})
+设备上运行的进程60:Process(pid=1463, name="rild", parameters={})
+设备上运行的进程61:Process(pid=1464, name="gatekeeperd", parameters={})
+设备上运行的进程62:Process(pid=1465, name="perfprofd", parameters={})
+设备上运行的进程63:Process(pid=1467, name="tombstoned", parameters={})
+设备上运行的进程64:Process(pid=1470, name="su", parameters={})
+设备上运行的进程65:Process(pid=1569, name="system_server", parameters={})
+设备上运行的进程66:Process(pid=1706, name="com.android.bluetooth", parameters={})
+设备上运行的进程67:Process(pid=1718, name="com.android.systemui", parameters={})
+设备上运行的进程68:Process(pid=1758, name="webview_zygote", parameters={})
+设备上运行的进程69:Process(pid=1891, name="com.android.phone", parameters={})
+设备上运行的进程70:Process(pid=1961, name="android.ext.services", parameters={})
+设备上运行的进程71:Process(pid=2142, name="com.android.se", parameters={})
+设备上运行的进程72:Process(pid=2147, name="com.android.coreservice", parameters={})
+设备上运行的进程73:Process(pid=2194, name="com.android.launcher3", parameters={})
+设备上运行的进程74:Process(pid=2220, name="com.google.android.gms", parameters={})
+设备上运行的进程75:Process(pid=2275, name="com.android.smspush", parameters={})
+设备上运行的进程76:Process(pid=2316, name="com.google.process.gapps", parameters={})
+设备上运行的进程77:Process(pid=2343, name="com.android.inputmethod.pinyin", parameters={})
+设备上运行的进程78:Process(pid=2513, name="adbd", parameters={})
+设备上运行的进程79:Process(pid=2519, name="mdnsd", parameters={})
+设备上运行的进程80:Process(pid=2568, name="雷电游戏中心", parameters={})
+设备上运行的进程81:Process(pid=2862, name="Google Play 商店", parameters={})
+设备上运行的进程82:Process(pid=3135, name="com.google.android.gms.unstable", parameters={})
+设备上运行的进程83:Process(pid=3509, name="com.google.android.gms.persistent", parameters={})
+设备上运行的进程84:Process(pid=3927, name="com.android.flysilkworm:filedownloader", parameters={})
+设备上运行的进程85:Process(pid=4061, name="设置", parameters={})
+设备上运行的进程86:Process(pid=4153, name="memfd:frida-helper-32 (deleted)", parameters={})
+设备上运行的进程87:Process(pid=4289, name="com.firstsechk.tc.trade", parameters={})
+设备上运行的进程88:Process(pid=4485, name="com.android.webview:webview_service", parameters={})
+设备上运行的进程89:Process(pid=4502, name="第一证券(香港)", parameters={})
+设备上运行的进程90:Process(pid=5662, name="com.android.vending:instant_app_installer", parameters={})
+设备上运行的进程91:Process(pid=8024, name="sh", parameters={})
+设备上运行的进程92:Process(pid=8028, name="su", parameters={})
+设备上运行的进程93:Process(pid=8029, name="su", parameters={})
+设备上运行的进程94:Process(pid=8034, name="su", parameters={})
+设备上运行的进程95:Process(pid=8042, name="su", parameters={})
+设备上运行的进程96:Process(pid=8047, name="sh", parameters={})
+设备上运行的进程97:Process(pid=8067, name="frida-server", parameters={})
+设备上运行的进程98:Process(pid=8069, name="logcat", parameters={})
+设备上运行的进程99:Process(pid=8084, name="memfd:frida-helper-32 (deleted)", parameters={})
+[*] Attached to target app: com.firstsechk.tc.trade
+加密前URL：http://trade.firstsechk.com/i-trade/streaming/streamSyncRequest
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at b1.b.run(SourceFile:169)
+	at java.util.TimerThread.mainLoop(Timer.java:562)
+	at java.util.TimerThread.run(Timer.java:512)
+
+[map] key : java.net.AddressCache$AddressCacheKey@431ade92
+[map] val : java.net.AddressCache$AddressCacheEntry@c186e67
+[map] key : androidx.fragment.app.l@da6a2af
+[map] val : java.lang.Object@e883ab1
+[map] key : y.b@8eb7fb9
+[map] val : java.lang.Object@e883ab1
+[map] key : y.b@f45effe
+[map] val : java.lang.Object@e883ab1
+[map] key : Operation {c5ac35f} {mFinalState = REMOVED} {mLifecycleImpact = REMOVING} {mFragment = h{14ccd09} (565940bb-ac94-42a8-a3d2-3e216d032c21 id=0x7f0901ee)}
+[map] val : false
+[map] key : android.widget.FrameLayout{6257461 V.E...... ......I. 0,0-0,0}
+[map] val : w{b6e4b86} (655748a5-cd39-4544-ab0b-f2242ccef75d)
+[map] key : androidx.fragment.app.l@2341009
+[map] val : java.lang.Object@e883ab1
+[map] key : 655748a5-cd39-4544-ab0b-f2242ccef75d
+[map] val : androidx.fragment.app.m1@d03c20e
+[map] key : 676d0e30-2af0-4533-ba77-4903968fb7fa
+[map] val : null
+[map] key : androidx.activity.OnBackPressedDispatcher$LifecycleOnBackPressedCancellable@e04a3c5
+[map] val : androidx.activity.OnBackPressedDispatcher$LifecycleOnBackPressedCancellable@e04a3c5=androidx.lifecycle.s@13df11a
+[map] key : 655748a5-cd39-4544-ab0b-f2242ccef75d
+[map] val : FragmentManagerViewModel{af1c44b} Fragments () Child Non Config () ViewModelStores ()
+[map] key : 1523191916
+[map] val : FragmentManager:655748a5-cd39-4544-ab0b-f2242ccef75d:StartActivityForResult
+[map] key : FragmentManager:655748a5-cd39-4544-ab0b-f2242ccef75d:StartActivityForResult
+[map] val : 1523191916
+[map] key : FragmentManager:655748a5-cd39-4544-ab0b-f2242ccef75d:StartActivityForResult
+[map] val : androidx.activity.result.f@fc19e28
+[map] key : 957945393
+[map] val : FragmentManager:655748a5-cd39-4544-ab0b-f2242ccef75d:StartIntentSenderForResult
+[map] key : FragmentManager:655748a5-cd39-4544-ab0b-f2242ccef75d:StartIntentSenderForResult
+[map] val : 957945393
+[map] key : FragmentManager:655748a5-cd39-4544-ab0b-f2242ccef75d:StartIntentSenderForResult
+[map] val : androidx.activity.result.f@e90b741
+[map] key : 435845784
+[map] val : FragmentManager:655748a5-cd39-4544-ab0b-f2242ccef75d:RequestPermissions
+[map] key : FragmentManager:655748a5-cd39-4544-ab0b-f2242ccef75d:RequestPermissions
+[map] val : 435845784
+[map] key : FragmentManager:655748a5-cd39-4544-ab0b-f2242ccef75d:RequestPermissions
+[map] val : androidx.activity.result.f@8ba04e6
+[map] key : androidx.fragment.app.Fragment$5@4965a27
+[map] val : androidx.fragment.app.Fragment$5@4965a27=androidx.lifecycle.s@4a674d4
+[map] key : androidx.savedstate.Recreator@270867d
+[map] val : androidx.savedstate.Recreator@270867d=androidx.lifecycle.s@4918972
+[map] key : androidx.savedstate.SavedStateRegistry$1@a0471c3
+[map] val : androidx.savedstate.SavedStateRegistry$1@a0471c3=androidx.lifecycle.s@e600a40
+[map] key : 655748a5-cd39-4544-ab0b-f2242ccef75d
+[map] val : androidx.lifecycle.q0@beacabe
+[map] key : androidx.fragment.app.l@2341009
+[map] val : java.lang.Object@e883ab1
+[map] key : androidx.savedstate.Recreator@bb41b17
+[map] val : androidx.savedstate.Recreator@bb41b17=androidx.lifecycle.s@6babb04
+[map] key : androidx.savedstate.SavedStateRegistry$1@b9508ed
+[map] val : androidx.savedstate.SavedStateRegistry$1@b9508ed=androidx.lifecycle.s@b7b3322
+[map] key : androidx.savedstate.Recreator@5aa8370
+[map] val : androidx.savedstate.Recreator@5aa8370=androidx.lifecycle.s@64646e9
+[map] key : androidx.savedstate.SavedStateRegistry$1@6bd5f6e
+[map] val : androidx.savedstate.SavedStateRegistry$1@6bd5f6e=androidx.lifecycle.s@ec9560f
+[map] key : androidx.fragment.app.l@2341009
+[map] val : java.lang.Object@e883ab1
+[map] key : androidx.fragment.app.l@2341009
+[map] val : java.lang.Object@e883ab1
+[map] key : androidx.fragment.app.l@da6a2af
+[map] val : java.lang.Object@e883ab1
+[map] key : y.b@8f00d01
+[map] val : java.lang.Object@e883ab1
+[map] key : y.b@1f207a6
+[map] val : java.lang.Object@e883ab1
+[map] key : Operation {2c605e7} {mFinalState = VISIBLE} {mLifecycleImpact = ADDING} {mFragment = b0{620a452} (a07514a5-07c4-44d5-a93b-b2c47ea27a4f id=0x7f0901ee)}
+[map] val : false
+[o5.e.d] param>> a:1, b:0, c:http://trade.firstsechk.com/i-trade/streaming/streamSyncRequest, d: encrypt=1&channel=IH&lang=tw&param=qL%2FFA%2FLUr1w%3D%0A1wIQ5dERTo9GGZxoGHaKy%2BCkaoNMX%2FCVx%2BO6gZiR%2BTBYtnnkd8OyLlkZ9FnYyZIeqvVwPdKa6QI1%0A9FBoW26UIsd25KbqxTF3DonqGLw%2Frkt5DFfbHjNTZge%2FPJ7poVj1r2a914StpvyGesQap9prAm79%0Aw0yChI9U4tn6SkjavSDIBmsqlMKtFV155FTtYonfBjfE%2F8EfeKbvvXL6q3XdF%2BNq%2FDVL0uPQRBtC%0Ae1nfCYG3ANME8nDS0r22YDQbYwZPE3Uqsolw3QpXKK3GL%2BQ3qv0vRbXQPjzMB7E0%2BfmwlqU%3D%0A
+加密前URL：http://trade.firstsechk.com/i-trade/streaming/streamSyncRequest
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at o5.e.d(SourceFile:30)
+	at o5.e.d(Native Method)
+	at b1.c.s(SourceFile:899)
+	at a2.l.T(Unknown Source:30)
+	at q3.z.n2(Unknown Source:24)
+	at g3.b0.i3(Unknown Source:97)
+	at g3.b0.p1(SourceFile:12)
+	at androidx.fragment.app.m1.n(SourceFile:167)
+	at androidx.fragment.app.m1.k(SourceFile:56)
+	at androidx.fragment.app.c2.b(Unknown Source:5)
+	at androidx.fragment.app.j.a(SourceFile:25)
+	at androidx.fragment.app.l.b(SourceFile:1707)
+	at androidx.fragment.app.f2.c(SourceFile:146)
+	at androidx.fragment.app.e1.z(SourceFile:647)
+	at androidx.fragment.app.e1.W(Unknown Source:84)
+	at androidx.fragment.app.e1.x(SourceFile:74)
+	at androidx.fragment.app.h0.run(SourceFile:12)
+	at android.os.Handler.handleCallback(Handler.java:873)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:6840)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:860)
+
+[o5.e.d] result begin
+2707
+[o5.e.d] result end
+java.lang.Exception
+	at o5.e.d(Native Method)
+	at b1.c.s(SourceFile:899)
+	at a2.l.T(Unknown Source:30)
+	at q3.z.n2(Unknown Source:24)
+	at g3.b0.i3(Unknown Source:97)
+	at g3.b0.p1(SourceFile:12)
+	at androidx.fragment.app.m1.n(SourceFile:167)
+	at androidx.fragment.app.m1.k(SourceFile:56)
+	at androidx.fragment.app.c2.b(Unknown Source:5)
+	at androidx.fragment.app.j.a(SourceFile:25)
+	at androidx.fragment.app.l.b(SourceFile:1707)
+	at androidx.fragment.app.f2.c(SourceFile:146)
+	at androidx.fragment.app.e1.z(SourceFile:647)
+	at androidx.fragment.app.e1.W(Unknown Source:84)
+	at androidx.fragment.app.e1.x(SourceFile:74)
+	at androidx.fragment.app.h0.run(SourceFile:12)
+	at android.os.Handler.handleCallback(Handler.java:873)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loop(Looper.java:193)
+	at android.app.ActivityThread.main(ActivityThread.java:6840)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:860)
+
+加密前URL：http://trade.firstsechk.com/i-trade/streaming/streamSyncRequest
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at com.android.okhttp.HttpUrl.url(HttpUrl.java:327)
+	at com.android.okhttp.Request.url(Request.java:53)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:463)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:132)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:263)
+	at o5.c.run(SourceFile:23)
+
+[map] key : androidx.fragment.app.l@2341009
+[map] val : java.lang.Object@e883ab1
+[map] key : java.net.CookieManager
+[map] val : java.lang.ref.WeakReference@a9eee9f
+[o5.e.d] param>> a:1, b:0, c:http://trade.firstsechk.com/i-trade/streaming/streamSyncRequest, d: encrypt=1&channel=IH&lang=tw&param=x4AmKFKTXdY%3D%0Aj4rDz1sqoAV%2BXn0ffDvHDrtBN1VsC%2BeD6H%2FsRhnwgQrM7LLrORhn6uTRDtF2QoSXoIrbhr1J0rQx%0AuJ3Dmap%2BFjPhhcsN3%2B%2BKfJZ7Ape0n8%2FyGw8K7zuug0rKFl0u%2BZefnnASckzd6nyk8Rtrb25f66fM%0AaHCcW1pz01EspMLy1zbof4hWFWvtIx9URsB4TK5RpB3tJW%2BHSoQh%2BC4DPIpAQg%3D%3D%0A
+加密前URL：http://trade.firstsechk.com/i-trade/streaming/streamSyncRequest
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at o5.e.d(SourceFile:30)
+	at o5.e.d(Native Method)
+	at b1.c.s(SourceFile:899)
+	at b1.c.h(SourceFile:14)
+	at a2.l.D(SourceFile:20)
+	at com.afe.mobilecore.AppCoreDelegate.p(SourceFile:1459)
+	at com.afe.mobilecore.AppCoreDelegate.J(SourceFile:2239)
+	at k1.v.c(Unknown Source:50)
+	at j1.b.j1(Unknown Source:8)
+	at a2.l.h(SourceFile:163)
+	at b1.c.p(SourceFile:108)
+	at b1.c.c(SourceFile:52)
+	at o5.e.a(Unknown Source:12)
+	at o5.c.run(SourceFile:267)
+
+[o5.e.d] result begin
+2710
+[o5.e.d] result end
+加密前URL：http://trade.firstsechk.com/i-trade/streaming/streamSyncRequest
+java.lang.Exception
+	at o5.e.d(Native Method)
+	at b1.c.s(SourceFile:899)
+	at b1.c.h(SourceFile:14)
+	at a2.l.D(SourceFile:20)
+	at com.afe.mobilecore.AppCoreDelegate.p(SourceFile:1459)
+	at com.afe.mobilecore.AppCoreDelegate.J(SourceFile:2239)
+	at k1.v.c(Unknown Source:50)
+	at j1.b.j1(Unknown Source:8)
+	at a2.l.h(SourceFile:163)
+	at b1.c.p(SourceFile:108)
+	at b1.c.c(SourceFile:52)
+	at o5.e.a(Unknown Source:12)
+	at o5.c.run(SourceFile:267)
+
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at com.android.okhttp.HttpUrl.url(HttpUrl.java:327)
+	at com.android.okhttp.Request.url(Request.java:53)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:463)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:132)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:263)
+	at o5.c.run(SourceFile:23)
+
+[map] key : zh_CN
+[map] val : java.lang.Object@e883ab1
+[map] key : zh_CN
+[map] val : java.lang.Object@e883ab1
+[map] key : zh_CN
+[map] val : java.lang.Object@e883ab1
+[map] key : androidx.fragment.app.l@2341009
+[map] val : java.lang.Object@e883ab1
+[map] key : androidx.fragment.app.l@2341009
+[map] val : java.lang.Object@e883ab1
+[map] key : androidx.fragment.app.l@da6a2af
+[map] val : java.lang.Object@e883ab1
+[map] key : y.b@b22f6f
+[map] val : java.lang.Object@e883ab1
+[map] key : y.b@52c347c
+[map] val : java.lang.Object@e883ab1
+[map] key : Operation {fb85105} {mFinalState = REMOVED} {mLifecycleImpact = REMOVING} {mFragment = b0{620a452} (a07514a5-07c4-44d5-a93b-b2c47ea27a4f id=0x7f0901ee)}
+[map] val : false
+[map] key : androidx.fragment.app.l@2341009
+[map] val : java.lang.Object@e883ab1
+[map] key : androidx.lifecycle.ViewModelProvider.DefaultKey:q0.b
+[map] val : q0.b@f461c68
+[map] key :
+[map] val : :  0.0  1.0
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.animation.AnimatorSet$Node@190eaa4
+[map] val : android.animation.AnimatorSet$Node@3104bd6
+[map] key : trimPathStart
+[map] val : trimPathStart:  0.0  0.75
+[map] key : android.animation.AnimatorSet$Node@93afbc2
+[map] val : android.animation.AnimatorSet$Node@c95ed44
+[map] key : trimPathEnd
+[map] val : trimPathEnd:  0.0  0.75
+[map] key : android.animation.AnimatorSet$Node@d440d10
+[map] val : android.animation.AnimatorSet$Node@b1d4f62
+[map] key : trimPathOffset
+[map] val : trimPathOffset:  0.0  0.25
+[map] key : android.animation.AnimatorSet$Node@8c1120e
+[map] val : android.animation.AnimatorSet$Node@4a699b0
+[map] key : rotation
+[map] val : rotation:  0.0  720.0
+[map] key : android.widget.FrameLayout{45899f8 V.E...... ......I. 0,0-0,0}
+[map] val : g{a5c228d} (fa496526-7470-47bc-8f43-2a4adf11706d id=0x3e9)
+[map] key : android.widget.FrameLayout{6734ed1 V.E...... ......I. 0,0-0,0}
+[map] val : i{2612190} (a20590cc-9a78-4d6e-b78b-421282f336fb id=0x3ea)
+[map] key :
+[map] val : :  0.0  1.0
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : androidx.fragment.app.l@290ac5
+[map] val : java.lang.Object@e883ab1
+[map] key : androidx.fragment.app.l@c1fcc1a
+[map] val : java.lang.Object@e883ab1
+[map] key : androidx.savedstate.Recreator@fd6034b
+[map] val : androidx.savedstate.Recreator@fd6034b=androidx.lifecycle.s@a227128
+[map] key : androidx.savedstate.SavedStateRegistry$1@c148e41
+[map] val : androidx.savedstate.SavedStateRegistry$1@c148e41=androidx.lifecycle.s@f5e8fe6
+[map] key : androidx.savedstate.Recreator@fc177d4
+[map] val : androidx.savedstate.Recreator@fc177d4=androidx.lifecycle.s@9dacd7d
+[map] key : androidx.savedstate.SavedStateRegistry$1@873c472
+[map] val : androidx.savedstate.SavedStateRegistry$1@873c472=androidx.lifecycle.s@15190c3
+[map] key : androidx.savedstate.Recreator@cbc479
+[map] val : androidx.savedstate.Recreator@cbc479=androidx.lifecycle.s@b35b5be
+[map] key : androidx.savedstate.SavedStateRegistry$1@232761f
+[map] val : androidx.savedstate.SavedStateRegistry$1@232761f=androidx.lifecycle.s@a73ed6c
+[map] key : androidx.fragment.app.l@290ac5
+[map] val : java.lang.Object@e883ab1
+[map] key : androidx.fragment.app.l@c1fcc1a
+[map] val : java.lang.Object@e883ab1
+[map] key : androidx.fragment.app.l@290ac5
+[map] val : java.lang.Object@e883ab1
+[map] key : androidx.fragment.app.l@c1fcc1a
+[map] val : java.lang.Object@e883ab1
+[map] key : androidx.fragment.app.l@da6a2af
+[map] val : java.lang.Object@e883ab1
+[map] key : y.b@69bde9
+[map] val : java.lang.Object@e883ab1
+[map] key : y.b@190a6e
+[map] val : java.lang.Object@e883ab1
+[map] key : Operation {aeb250f} {mFinalState = VISIBLE} {mLifecycleImpact = ADDING} {mFragment = k{66f0dd5} (0feca1b8-e52c-4db7-81fc-609ae8b6ea05 id=0x7f0901ee)}
+[map] val : false
+[map] key :
+[map] val : 0
+[map] key : 5.HK
+[map] val : 1
+[map] key : 700.HK
+[map] val : 2
+[map] key : 388.HK
+[map] val : 3
+[map] key : 1398.HK
+[map] val : 4
+[map] key : androidx.fragment.app.l@290ac5
+[map] val : java.lang.Object@e883ab1
+[map] key : androidx.fragment.app.l@c1fcc1a
+[map] val : java.lang.Object@e883ab1
+[map] key : zh_CN
+[map] val : java.lang.Object@e883ab1
+[map] key : zh_CN
+[map] val : java.lang.Object@e883ab1
+[map] key : zh_CN
+[map] val : java.lang.Object@e883ab1
+[map] key : 4261479169.HK
+[map] val : .HSI
+[map] key : 837811.HK
+[map] val : HSIc1
+[map] key : 4261479172.HK
+[map] val : .HSCE
+[map] key : 837815.HK
+[map] val : HCEIc1
+[map] key : 10030001.HK
+[map] val : MAIN.HKG
+[map] key : 10030003.HK
+[map] val : WRT.HKG
+[map] key : java.net.AddressCache$AddressCacheKey@6d8a4676
+[map] val : java.net.AddressCache$AddressCacheEntry@e5ea0a7
+[map] key :
+[map] val : 0
+[map] key : 5.HK
+[map] val : 1
+[map] key : 700.HK
+[map] val : 2
+[map] key : 388.HK
+[map] val : 3
+[map] key : 1398.HK
+[map] val : 4
+[o5.e.d] param>> a:0, b:0, c:http://mtrade.afe.com.hk/mobile/secureNewsHeadline.aspx?seckey=3265&max=50&categoryid=61, d: null
+加密前URL：http://mtrade.afe.com.hk/mobile/secureNewsHeadline.aspx?seckey=3265&max=50&categoryid=61
+[o5.e.d] param>> a:0, b:0, c:http://m.afe.com.hk/iphone/disclaimer.asp?package=-2147483648, d: null
+加密前URL：http://m.afe.com.hk/iphone/disclaimer.asp?package=-2147483648
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at o5.e.d(SourceFile:30)
+	at o5.e.d(Native Method)
+	at n5.a.d(Unknown Source:14)
+	at a2.l.W(Unknown Source:63)
+	at b2.o.run(SourceFile:195)
+	at java.lang.Thread.run(Thread.java:764)
+
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at o5.e.d(SourceFile:30)
+	at o5.e.d(Native Method)
+	at n5.a.d(Unknown Source:14)
+	at a2.l.W(Unknown Source:63)
+	at a2.l.K(SourceFile:81)
+	at a2.l.q(SourceFile:83)
+	at a2.l.r(SourceFile:57)
+	at j5.c.run(SourceFile:1388)
+
+[o5.e.d] result begin
+2728
+[o5.e.d] result end
+加密前URL：http://mtrade.afe.com.hk/mobile/secureNewsHeadline.aspx?seckey=3265&max=50&categoryid=61
+[o5.e.d] result begin
+2729
+[o5.e.d] result end
+java.lang.Exception
+	at o5.e.d(Native Method)
+	at n5.a.d(Unknown Source:14)
+	at a2.l.W(Unknown Source:63)
+	at a2.l.K(SourceFile:81)
+	at a2.l.q(SourceFile:83)
+	at a2.l.r(SourceFile:57)
+	at j5.c.run(SourceFile:1388)
+
+java.lang.Exception
+	at o5.e.d(Native Method)
+	at n5.a.d(Unknown Source:14)
+	at a2.l.W(Unknown Source:63)
+	at b2.o.run(SourceFile:195)
+	at java.lang.Thread.run(Thread.java:764)
+
+[map] key : LastLoginID
+[map] val :
+加密前URL：http://m.afe.com.hk/iphone/disclaimer.asp?package=-2147483648
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at com.android.okhttp.HttpUrl.url(HttpUrl.java:327)
+	at com.android.okhttp.Request.url(Request.java:53)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:463)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:412)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:543)
+	at o5.c.run(SourceFile:42)
+
+[map] key : LastLoginPassword
+[map] val :
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at com.android.okhttp.HttpUrl.url(HttpUrl.java:327)
+	at com.android.okhttp.Request.url(Request.java:53)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:463)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:412)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:543)
+	at o5.c.run(SourceFile:42)
+
+[map] key : LinkTradeLoginID
+[map] val : xX6hJYhNgs4%3D%0AhGMAogXSOs0%3D%0A
+[map] key : LinkTradeLoginID
+[map] val : xX6hJYhNgs4%3D%0AhGMAogXSOs0%3D%0A
+[map] key : java.net.AddressCache$AddressCacheKey@ec139a66
+[map] val : java.net.AddressCache$AddressCacheEntry@42fab3e
+[map] key : java.net.AddressCache$AddressCacheKey@d7477550
+[map] val : java.net.AddressCache$AddressCacheEntry@e6cfd9f
+[map] key : LinkTradePassword
+[map] val : f6bs0pDISSc%3D%0AYFAdyBvaL3c%3D%0A
+[map] key : LinkTradePassword
+[map] val : f6bs0pDISSc%3D%0AYFAdyBvaL3c%3D%0A
+[map] key : LinkFuturesLoginID
+[map] val :
+[map] key : LinkFuturesPassword
+[map] val :
+[map] key : LinkStockOptsLoginID
+[map] val :
+[map] key : LinkStockOptsPassword
+[map] val :
+[map] key : BioTradeLoginID
+[map] val :
+[map] key : BioFuturesLoginID
+[map] val :
+[map] key : BioStockOptsLoginID
+[map] val :
+[map] key : IsNeedBioMetric
+[map] val : false
+[map] key : SLModifyDate
+[map] val : 20280402-164156
+[map] key : Watchlist
+[map] val : 5.HK,700.HK,388.HK,1398.HK,7.HK,ATER.O,NYMT.O,CATO.N,2203.HK,8277.HK,846.HK,2211.HK,8262.HK,1810.HK,AAPL.O
+[map] key : WatchlistDer
+[map] val : null
+[map] key : WatchlistSO
+[map] val : null
+[map] key : UpDownColor
+[map] val : true
+[map] key : NeedConfirmOrder
+[map] val : true
+[map] key : IsRememberID
+[map] val : true
+[map] key : IsRememberPW
+[map] val : false
+[map] key : EnabledAutoLogon
+[map] val : false
+[map] key : IsClearTradePWOnLock
+[map] val : true
+[map] key : TradePwdExpiry
+[map] val : 0
+[map] key : IsScreenKeepON
+[map] val : true
+[map] key : CurrTheme
+[map] val : White
+[map] key : CurrLanguage
+[map] val : TraditionalChinese
+[map] key : id
+[map] val : en
+[map] key : id
+[map] val : tw
+[map] key : id
+[map] val : cn
+[map] key : companyid
+[map] val :
+[map] key : status
+[map] val : ok
+[map] key : categoryid
+[map] val : 61
+[map] key : pnac
+[map] val : ZT_1126355ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 06:01:56
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 06:01:56
+[map] key : attribtn
+[map] val : ZT
+[map] key : pnac
+[map] val : ONCC_20240527140034ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 06:00:34
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 06:00:34
+[map] key : attribtn
+[map] val : on.cc
+[map] key : pnac
+[map] val : GLH_1537789ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:56:52
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:56:52
+[map] key : attribtn
+[map] val : GLH
+[map] key : pnac
+[map] val : ZT_1126353ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:53:40
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:53:40
+[map] key : attribtn
+[map] val : ZT
+[map] key : pnac
+[map] val : ZT_1126352ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:52:02
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:52:02
+[map] key : attribtn
+[map] val : ZT
+[map] key : pnac
+[map] val : GLH_756195ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:49:02
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:49:02
+[map] key : attribtn
+[map] val : GLH
+[map] key : pnac
+[map] val : EJHK_3776869ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:48:00
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:48:00
+[map] key : attribtn
+[map] val : EJHK
+[map] key : pnac
+[map] val : GLH_4772551ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:47:47
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:47:47
+[map] key : attribtn
+[map] val : GLH
+[map] key : pnac
+[map] val : ZT_1126350ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:47:00
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:47:00
+[map] key : attribtn
+[map] val : ZT
+[map] key : pnac
+[map] val : ZT_1126348ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:46:27
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:46:27
+[map] key : attribtn
+[map] val : ZT
+[map] key : pnac
+[map] val : ZT_1126349ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:45:55
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:45:55
+[map] key : attribtn
+[map] val : ZT
+[map] key : pnac
+[map] val : GLH_1537782ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:45:33
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:45:33
+[map] key : attribtn
+[map] val : GLH
+[map] key : pnac
+[map] val : ZT_1126347ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:44:14
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:44:14
+[map] key : attribtn
+[map] val : ZT
+[map] key : pnac
+[map] val : ZT_1126351ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:43:51
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:43:51
+[map] key : attribtn
+[map] val : ZT
+[map] key : pnac
+[map] val : ZT_1126346ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:42:44
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:42:44
+[map] key : attribtn
+[map] val : ZT
+[map] key : pnac
+[map] val : ZT_1126344ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:38:51
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:38:51
+[map] key : attribtn
+[map] val : ZT
+[map] key : pnac
+[map] val : GLH_1537779ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:37:59
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:37:59
+[map] key : attribtn
+[map] val : GLH
+[map] key : pnac
+[map] val : GLH_1537778ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:37:34
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:37:34
+[map] key : attribtn
+[map] val : GLH
+[map] key : pnac
+[map] val : ZT_1126343ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:37:26
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:37:26
+[map] key : attribtn
+[map] val : ZT
+[map] key : pnac
+[map] val : ZT_1126345ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:37:10
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:37:10
+[map] key : attribtn
+[map] val : ZT
+[map] key : pnac
+[map] val : ZT_1126342ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:36:35
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:36:35
+[map] key : attribtn
+[map] val : ZT
+[map] key : pnac
+[map] val : GLH_4772549ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:34:17
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:34:17
+[map] key : attribtn
+[map] val : GLH
+[map] key : pnac
+[map] val : EJHK_3776864ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:34:00
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:34:00
+[map] key : attribtn
+[map] val : EJHK
+[map] key : pnac
+[map] val : ZT_1126150ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:33:57
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:33:57
+[map] key : attribtn
+[map] val : ZT
+[map] key : pnac
+[map] val : GLH_1537773ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:31:28
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:31:28
+[map] key : attribtn
+[map] val : GLH
+[map] key : pnac
+[map] val : GLH_1537772ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:30:51
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:30:51
+[map] key : attribtn
+[map] val : GLH
+[map] key : pnac
+[map] val : EJHK_3776865ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:30:00
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:30:00
+[map] key : attribtn
+[map] val : EJHK
+[map] key : pnac
+[map] val : GLH_4772547ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:28:43
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:28:43
+[map] key : attribtn
+[map] val : GLH
+[map] key : pnac
+[map] val : GLH_4772546ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:28:06
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:28:06
+[map] key : attribtn
+[map] val : GLH
+[map] key : pnac
+[map] val : GLH_1537768ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:27:49
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:27:49
+[map] key : attribtn
+[map] val : GLH
+[map] key : pnac
+[map] val : GLH_1537766ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:23:53
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:23:53
+[map] key : attribtn
+[map] val : GLH
+[map] key : pnac
+[map] val : EJHK_3776863ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:23:00
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:23:00
+[map] key : attribtn
+[map] val : EJHK
+[map] key : pnac
+[map] val : GLH_4772545ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:20:50
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:20:50
+[map] key : attribtn
+[map] val : GLH
+[map] key : pnac
+[map] val : ZT_1126341ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:19:07
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:19:07
+[map] key : attribtn
+[map] val : ZT
+[map] key : pnac
+[map] val : GLH_1537762ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:16:32
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:16:32
+[map] key : attribtn
+[map] val : GLH
+[map] key : pnac
+[map] val : ONCC_20240527131517ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:15:17
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:15:17
+[map] key : attribtn
+[map] val : on.cc
+[map] key : pnac
+[map] val : GLH_1537760ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:11:57
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:11:57
+[map] key : attribtn
+[map] val : GLH
+[map] key : pnac
+[map] val : GLH_4772544ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:11:08
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:11:08
+[map] key : attribtn
+[map] val : GLH
+[map] key : pnac
+[map] val : ZT_1126340ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:10:33
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:10:33
+[map] key : attribtn
+[map] val : ZT
+[map] key : pnac
+[map] val : GLH_1537757ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:08:33
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:08:33
+[map] key : attribtn
+[map] val : GLH
+[map] key : pnac
+[map] val : ZT_1126339ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:07:01
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:07:01
+[map] key : attribtn
+[map] val : ZT
+[map] key : pnac
+[map] val : GLH_1537756ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:06:41
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:06:41
+[map] key : attribtn
+[map] val : GLH
+[map] key : pnac
+[map] val : EJHK_3776855ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:06:00
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:06:00
+[map] key : attribtn
+[map] val : EJHK
+[map] key : pnac
+[map] val : GLH_1537753ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 05:02:46
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 05:02:46
+[map] key : attribtn
+[map] val : GLH
+[map] key : pnac
+[map] val : EJHK_3776852ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 04:58:00
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 04:58:00
+[map] key : attribtn
+[map] val : EJHK
+[map] key : pnac
+[map] val : ONCC_20240527125557ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 04:55:57
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 04:55:57
+[map] key : attribtn
+[map] val : on.cc
+[map] key : pnac
+[map] val : GLH_1537741ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 04:52:35
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 04:52:35
+[map] key : attribtn
+[map] val : GLH
+[map] key : pnac
+[map] val : ONCC_20240527125219ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 04:52:19
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 04:52:19
+[map] key : attribtn
+[map] val : on.cc
+[map] key : pnac
+[map] val : GLH_4772543ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 04:50:15
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 04:50:15
+[map] key : attribtn
+[map] val : GLH
+[map] key : pnac
+[map] val : ONCC_20240527124926ZH
+[map] key : storydatetime
+[map] val : 05/27/2024 04:49:26
+[map] key : lang
+[map] val : 1028
+[map] key : subtype
+[map] val : 2
+[map] key : takedatetime
+[map] val : 05/27/2024 04:49:26
+[map] key : attribtn
+[map] val : on.cc
+[map] key : 0
+[map] val :           888800          Phillip Sec Grey Market Page Menu
+[map] key : 1
+[map] val : 
+[map] key : 2
+[map] val :    AFE Page Code    Stock Code     Stock Name          Grey Market Trading Day
+[map] key : 3
+[map] val : --------------------------------------------------------------------------------
+[map] key : 4
+[map] val :       888817           917         QUNABOX GROUP            24/5/2024
+[map] key : 5
+[map] val :       888818           2505        EDA GROUP HLDGS          27/5/2024
+[map] key : 6
+[map] val :       888819           2443        AUTOSTREETS              30/5/2024
+[map] key : 7
+[map] val :       888820           8529        YUANXIN TECH             31/5/2024
+[map] key : 8
+[map] val : 
+[map] key : 9
+[map] val : 
+[map] key : 10
+[map] val : 
+[map] key : 11
+[map] val : 
+[map] key : 12
+[map] val : 
+[map] key : 13
+[map] val : 
+[map] key : 14
+[map] val : 
+[map] key : 15
+[map] val : 
+[map] key : 16
+[map] val : 
+[map] key : 17
+[map] val : 
+[map] key : 18
+[map] val : 
+[map] key : 19
+[map] val : 
+[map] key : 20
+[map] val : 
+[map] key : 21
+[map] val : 
+[map] key : 22
+[map] val : 
+[map] key : 23
+[map] val : 
+[map] key : 24
+[map] val : --------------------------------------------------------------------------------
+[map] key : 25
+[map] val :                 **Info by Phillip Sec(HK) for reference only**
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : 888817.HK
+[map] val : 917.PM
+[map] key : 917.PM
+[map] val : 888817.HK
+[map] key : 888818.HK
+[map] val : 2505.PM
+[map] key : android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] key : 2505.PM
+[map] val : 888818.HK
+[map] key : 888819.HK
+[map] val : 2443.PM
+[map] key : 2443.PM
+[map] val : 888819.HK
+[map] key : 888820.HK
+[map] val : 8529.PM
+[map] key : 8529.PM
+[map] val : 888820.HK
+[map] val : AnimatorSet@8a4347b{
+    ValueAnimator@c0d17ac
+    :  0.0  1.0
+    ObjectAnimator@9d1ac75, target android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@850440a, target android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : 0
+[map] val :              888800          輝立証券暗盤頁號目錄
+[map] key : 1
+[map] val : 
+[map] key : 2
+[map] val :        頁號          股票代號      股票名稱                  暗盤交易日
+[map] key : 3
+[map] val : --------------------------------------------------------------------------------
+[map] key : 4
+[map] val :       888817           917         趣致集團                 24/5/2024
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key : 5
+[map] val :       888818           2505        EDA集團控股              27/5/2024
+[map] key : 6
+[map] val :       888819           2443        汽車街                   30/5/2024
+[map] key : 7
+[map] val :       888820           8529        優博控股                 31/5/2024
+[map] key : 8
+[map] val : 
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : 9
+[map] val : 
+[map] key : 10
+[map] val : 
+[map] key : 11
+[map] val : 
+[map] key : android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] key : 12
+[map] val : 
+[map] key : 13
+[map] val : 
+[map] key : 14
+[map] val : 
+[map] key : 15
+[map] val : 
+[map] val : AnimatorSet@5e8b044{
+    ValueAnimator@29d9af1
+    :  0.0  1.0
+    ObjectAnimator@9b696d6, target android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@4379d57, target android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : 16
+[map] val : 
+[map] key : 17
+[map] val : 
+[map] key : textColor
+[map] key : 18
+[map] val : 
+[map] key : 19
+[map] val : 
+[map] key : 20
+[map] val : 
+[map] key : 21
+[map] val : 
+[map] val : textColor:  -617954  -617954
+[map] key : 22
+[map] val : 
+[map] key : 23
+[map] val : 
+[map] key : 24
+[map] val : --------------------------------------------------------------------------------
+[map] key : 25
+[map] val :                      **以上資訊由輝立証券提供， 僅供參考**
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@3e28cb0{
+    ValueAnimator@25ff52d
+    :  0.0  1.0
+    ObjectAnimator@d5d4a62, target android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@72eb7f3, target android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] key : 888817.HK
+[map] val : 917.PM
+[map] key : 917.PM
+[map] val : 888817.HK
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@e89c3ba{
+    ValueAnimator@772e04f
+    :  0.0  1.0
+    ObjectAnimator@85bc3dc, target android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@ce79ce5, target android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : 888818.HK
+[map] val : 2505.PM
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : 2505.PM
+[map] val : 888818.HK
+[map] key : android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] key : 888819.HK
+[map] val : 2443.PM
+[map] key : 2443.PM
+[map] val : 888819.HK
+[map] val : AnimatorSet@8006186{
+    ValueAnimator@627326b
+    :  0.0  1.0
+    ObjectAnimator@9cf41c8, target android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@bfa2261, target android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : 888820.HK
+[map] val : 8529.PM
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : 8529.PM
+[map] val : 888820.HK
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@bf11012{
+    ValueAnimator@9848a47
+    :  0.0  1.0
+    ObjectAnimator@97ab274, target android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@555839d, target android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@4cc1b5e{
+    ValueAnimator@87583e3
+    :  0.0  1.0
+    ObjectAnimator@cca81e0, target android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@90bbc99, target android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@1ba8f6a{
+    ValueAnimator@3f27b3f
+    :  0.0  1.0
+    ObjectAnimator@185dc0c, target android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@c528955, target android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@96a3836{
+    ValueAnimator@a1d8c5b
+    :  0.0  1.0
+    ObjectAnimator@8baacf8, target android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@7ff65d1, target android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@d99a1c2{
+    ValueAnimator@f1e9337
+    :  0.0  1.0
+    ObjectAnimator@469a0a4, target android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@2c38e0d, target android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@b64180e{
+    ValueAnimator@7bf2bd3
+    :  0.0  1.0
+    ObjectAnimator@3f22310, target android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@327fe09, target android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@44da71a{
+    ValueAnimator@1c6b22f
+    :  0.0  1.0
+    ObjectAnimator@b3e603c, target android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@54971c5, target android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -14446333  -14446333
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{eabcf71 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@c0f1ae6{
+    ValueAnimator@616424b
+    :  0.0  1.0
+    ObjectAnimator@af4428, target android.widget.TextView{eabcf71 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@546541, target android.widget.TextView{eabcf71 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -14446333  -14446333
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -14446333  -14446333
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{dd3b149 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@721ff72{
+    ValueAnimator@84b827
+    :  0.0  1.0
+    ObjectAnimator@dc87ad4, target android.widget.TextView{dd3b149 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@7c1147d, target android.widget.TextView{dd3b149 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -14446333  -14446333
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -14446333  -14446333
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{656c828 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@60ca0be{
+    ValueAnimator@97aafc3
+    :  0.0  1.0
+    ObjectAnimator@e9c7040, target android.widget.TextView{656c828 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@44f7b79, target android.widget.TextView{656c828 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -14446333  -14446333
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -14446333  -14446333
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{a684685 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@96e0aca{
+    ValueAnimator@d4e851f
+    :  0.0  1.0
+    ObjectAnimator@bf8506c, target android.widget.TextView{a684685 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@c35635, target android.widget.TextView{a684685 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -14446333  -14446333
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -14446333  -14446333
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{b56e60d V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@aca0996{
+    ValueAnimator@d60543b
+    :  0.0  1.0
+    ObjectAnimator@c500758, target android.widget.TextView{b56e60d V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@66020b1, target android.widget.TextView{b56e60d V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -14446333  -14446333
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -14446333  -14446333
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{92f4101 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@6152922{
+    ValueAnimator@6f5f917
+    :  0.0  1.0
+    ObjectAnimator@76a4104, target android.widget.TextView{92f4101 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@52516ed, target android.widget.TextView{92f4101 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -14446333  -14446333
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -14446333  -14446333
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{eabcf71 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@b56e{
+    ValueAnimator@bd70fb3
+    :  0.0  1.0
+    ObjectAnimator@8cc6970, target android.widget.TextView{eabcf71 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@3c934e9, target android.widget.TextView{eabcf71 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -14446333  -14446333
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -14446333  -14446333
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{dd3b149 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@506ba7a{
+    ValueAnimator@8a8f40f
+    :  0.0  1.0
+    ObjectAnimator@ce6ac9c, target android.widget.TextView{dd3b149 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@37736a5, target android.widget.TextView{dd3b149 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -14446333  -14446333
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -14446333  -14446333
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{656c828 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@d360446{
+    ValueAnimator@50ac22b
+    :  0.0  1.0
+    ObjectAnimator@4fff688, target android.widget.TextView{656c828 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@3499821, target android.widget.TextView{656c828 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -14446333  -14446333
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -14446333  -14446333
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{a684685 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@be1ed2{
+    ValueAnimator@9715607
+    :  0.0  1.0
+    ObjectAnimator@de1f334, target android.widget.TextView{a684685 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@f86955d, target android.widget.TextView{a684685 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -14446333  -14446333
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -14446333  -14446333
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{b56e60d V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@93b561e{
+    ValueAnimator@6c34ba3
+    :  0.0  1.0
+    ObjectAnimator@5450ea0, target android.widget.TextView{b56e60d V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@89c2a59, target android.widget.TextView{b56e60d V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -14446333  -14446333
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -14446333  -14446333
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{92f4101 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@bc2b62a{
+    ValueAnimator@bb4feff
+    :  0.0  1.0
+    ObjectAnimator@9fc74cc, target android.widget.TextView{92f4101 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@ddc1315, target android.widget.TextView{92f4101 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -14446333  -14446333
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -14446333  -14446333
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{53f8cf V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@7ae0af6{
+    ValueAnimator@3e48c1b
+    :  0.0  1.0
+    ObjectAnimator@2e211b8, target android.widget.TextView{53f8cf V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@7f7cb91, target android.widget.TextView{53f8cf V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -14446333  -14446333
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -14446333  -14446333
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{e190a83 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@627e082{
+    ValueAnimator@cb5cef7
+    :  0.0  1.0
+    ObjectAnimator@8829164, target android.widget.TextView{e190a83 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@f3c8fcd, target android.widget.TextView{e190a83 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -14446333  -14446333
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -14446333  -14446333
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{f2a44be V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@67782ce{
+    ValueAnimator@bee6393
+    :  0.0  1.0
+    ObjectAnimator@d895fd0, target android.widget.TextView{f2a44be V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@98f5bc9, target android.widget.TextView{f2a44be V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -14446333  -14446333
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -14446333  -14446333
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{d392567 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@30cfdda{
+    ValueAnimator@411a5ef
+    :  0.0  1.0
+    ObjectAnimator@1eca8fc, target android.widget.TextView{d392567 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@c28eb85, target android.widget.TextView{d392567 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -14446333  -14446333
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -14446333  -14446333
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{7405a4b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@b4d1da6{
+    ValueAnimator@27cb20b
+    :  0.0  1.0
+    ObjectAnimator@cd958e8, target android.widget.TextView{7405a4b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@d11bb01, target android.widget.TextView{7405a4b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -14446333  -14446333
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -14446333  -14446333
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{1e9edf V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@e1d6e32{
+    ValueAnimator@34263e7
+    :  0.0  1.0
+    ObjectAnimator@95f1b94, target android.widget.TextView{1e9edf V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@5e063d, target android.widget.TextView{1e9edf V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -14446333  -14446333
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -14446333  -14446333
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{53f8cf V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@1303b7e{
+    ValueAnimator@6c75783
+    :  0.0  1.0
+    ObjectAnimator@1dc5d00, target android.widget.TextView{53f8cf V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@d29c939, target android.widget.TextView{53f8cf V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -14446333  -14446333
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -14446333  -14446333
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{e190a83 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@110918a{
+    ValueAnimator@51de8df
+    :  0.0  1.0
+    ObjectAnimator@62a492c, target android.widget.TextView{e190a83 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@654bff5, target android.widget.TextView{e190a83 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -14446333  -14446333
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -14446333  -14446333
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{f2a44be V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@5ee3c56{
+    ValueAnimator@b2233fb
+    :  0.0  1.0
+    ObjectAnimator@888cc18, target android.widget.TextView{f2a44be V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@2fe6671, target android.widget.TextView{f2a44be V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -14446333  -14446333
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -14446333  -14446333
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{d392567 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@929c7e2{
+    ValueAnimator@d5614d7
+    :  0.0  1.0
+    ObjectAnimator@d4a91c4, target android.widget.TextView{d392567 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@2c1f8ad, target android.widget.TextView{d392567 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -14446333  -14446333
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -14446333  -14446333
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{7405a4b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@7a0802e{
+    ValueAnimator@c7d2773
+    :  0.0  1.0
+    ObjectAnimator@9410630, target android.widget.TextView{7405a4b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@9b272a9, target android.widget.TextView{7405a4b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -14446333  -14446333
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -14446333  -14446333
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{1e9edf V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@cb8713a{
+    ValueAnimator@7f8c7cf
+    :  0.0  1.0
+    ObjectAnimator@ae8555c, target android.widget.TextView{1e9edf V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@169065, target android.widget.TextView{1e9edf V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -14446333  -14446333
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@22c6706{
+    ValueAnimator@9e411eb
+    :  0.0  1.0
+    ObjectAnimator@a536b48, target android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@1e4cde1, target android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@97ed92{
+    ValueAnimator@8efe1c7
+    :  0.0  1.0
+    ObjectAnimator@bd7f3f4, target android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@9ff671d, target android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@cc350de{
+    ValueAnimator@bfed363
+    :  0.0  1.0
+    ObjectAnimator@17a5b60, target android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@5305819, target android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@daf9cea{
+    ValueAnimator@b8142bf
+    :  0.0  1.0
+    ObjectAnimator@719cd8c, target android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@8e55cd5, target android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@7629db6{
+    ValueAnimator@c914bdb
+    :  0.0  1.0
+    ObjectAnimator@55c3678, target android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@9abf151, target android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@672df42{
+    ValueAnimator@1cecab7
+    :  0.0  1.0
+    ObjectAnimator@75a4224, target android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@d6d518d, target android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@853ad8e{
+    ValueAnimator@dfb5b53
+    :  0.0  1.0
+    ObjectAnimator@f0b5c90, target android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@56a7989, target android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@c61149a{
+    ValueAnimator@45659af
+    :  0.0  1.0
+    ObjectAnimator@471b1bc, target android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@bf82545, target android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@9abe066{
+    ValueAnimator@2b8e1cb
+    :  0.0  1.0
+    ObjectAnimator@b862da8, target android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@1fad0c1, target android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@5859cf2{
+    ValueAnimator@171cfa7
+    :  0.0  1.0
+    ObjectAnimator@ce47c54, target android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@822b7fd, target android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@6cc963e{
+    ValueAnimator@4e1bf43
+    :  0.0  1.0
+    ObjectAnimator@d3709c0, target android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@fe7d6f9, target android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@1f7d84a{
+    ValueAnimator@cd70c9f
+    :  0.0  1.0
+    ObjectAnimator@f6301ec, target android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@45e9b5, target android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -14446333  -14446333
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{eabcf71 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@f17f097{
+    ValueAnimator@d7450d8
+    :  0.0  1.0
+    ObjectAnimator@a386c31, target android.widget.TextView{eabcf71 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@9e32f16, target android.widget.TextView{eabcf71 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -14446333  -14446333
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -14446333  -14446333
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{dd3b149 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@ce0ff33{
+    ValueAnimator@449a284
+    :  0.0  1.0
+    ObjectAnimator@8f69a6d, target android.widget.TextView{dd3b149 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@15b26a2, target android.widget.TextView{dd3b149 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -14446333  -14446333
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -14446333  -14446333
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{656c828 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@5225b8f{
+    ValueAnimator@e0062f0
+    :  0.0  1.0
+    ObjectAnimator@9ef7069, target android.widget.TextView{656c828 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@9690aee, target android.widget.TextView{656c828 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -14446333  -14446333
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -14446333  -14446333
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{a684685 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@7321ab{
+    ValueAnimator@720be1c
+    :  0.0  1.0
+    ObjectAnimator@885aa25, target android.widget.TextView{a684685 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@85ee7fa, target android.widget.TextView{a684685 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -14446333  -14446333
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -14446333  -14446333
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{b56e60d V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@fc02d87{
+    ValueAnimator@a89a008
+    :  0.0  1.0
+    ObjectAnimator@98bc3a1, target android.widget.TextView{b56e60d V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@5a389c6, target android.widget.TextView{b56e60d V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -14446333  -14446333
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -14446333  -14446333
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{92f4101 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@be81b23{
+    ValueAnimator@1cb4b4
+    :  0.0  1.0
+    ObjectAnimator@27ff8dd, target android.widget.TextView{92f4101 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@63e7c52, target android.widget.TextView{92f4101 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -14446333  -14446333
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -14446333  -14446333
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{eabcf71 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@317467f{
+    ValueAnimator@a2a6820
+    :  0.0  1.0
+    ObjectAnimator@88845d9, target android.widget.TextView{eabcf71 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@6240b9e, target android.widget.TextView{eabcf71 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -14446333  -14446333
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -14446333  -14446333
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{dd3b149 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@fe3cb9b{
+    ValueAnimator@d9de64c
+    :  0.0  1.0
+    ObjectAnimator@32e6695, target android.widget.TextView{dd3b149 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@a4143aa, target android.widget.TextView{dd3b149 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -14446333  -14446333
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -14446333  -14446333
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{656c828 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@6298677{
+    ValueAnimator@e91b38
+    :  0.0  1.0
+    ObjectAnimator@edbd711, target android.widget.TextView{656c828 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@747f076, target android.widget.TextView{656c828 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -14446333  -14446333
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -14446333  -14446333
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{a684685 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@1a61313{
+    ValueAnimator@db0b2e4
+    :  0.0  1.0
+    ObjectAnimator@b15d34d, target android.widget.TextView{a684685 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@93a9e02, target android.widget.TextView{a684685 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -14446333  -14446333
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -14446333  -14446333
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{b56e60d V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@254cd6f{
+    ValueAnimator@1381950
+    :  0.0  1.0
+    ObjectAnimator@795749, target android.widget.TextView{b56e60d V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@7b8984e, target android.widget.TextView{b56e60d V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -14446333  -14446333
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -14446333  -14446333
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{92f4101 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@28ad18b{
+    ValueAnimator@78d7a7c
+    :  0.0  1.0
+    ObjectAnimator@a771f05, target android.widget.TextView{92f4101 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@309eb5a, target android.widget.TextView{92f4101 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -14446333  -14446333
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@2d2fb67{
+    ValueAnimator@d75c268
+    :  0.0  1.0
+    ObjectAnimator@cfa681, target android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@5eb6326, target android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@789e703{
+    ValueAnimator@5189d14
+    :  0.0  1.0
+    ObjectAnimator@ccf29bd, target android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@81a8bb2, target android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@439f05f{
+    ValueAnimator@96c7680
+    :  0.0  1.0
+    ObjectAnimator@649a4b9, target android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@da1b0fe, target android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@b7337b{
+    ValueAnimator@c627aac
+    :  0.0  1.0
+    ObjectAnimator@456d375, target android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@ee3df0a, target android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@3fb8c57{
+    ValueAnimator@bd29598
+    :  0.0  1.0
+    ObjectAnimator@dce31f1, target android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@568e1d6, target android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@c296f3{
+    ValueAnimator@9277344
+    :  0.0  1.0
+    ObjectAnimator@582fc2d, target android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@9694562, target android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@fe5af4f{
+    ValueAnimator@fca7fb0
+    :  0.0  1.0
+    ObjectAnimator@e402e29, target android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@c1a55ae, target android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@477f16b{
+    ValueAnimator@64fe6dc
+    :  0.0  1.0
+    ObjectAnimator@28483e5, target android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@aba1eba, target android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@5a23947{
+    ValueAnimator@66294c8
+    :  0.0  1.0
+    ObjectAnimator@bfe7961, target android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@65b6c86, target android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@a3f22e3{
+    ValueAnimator@7703574
+    :  0.0  1.0
+    ObjectAnimator@6c84a9d, target android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@c71cb12, target android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@2370a3f{
+    ValueAnimator@81534e0
+    :  0.0  1.0
+    ObjectAnimator@c63f399, target android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@c1d865e, target android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@99c0b5b{
+    ValueAnimator@248bf0c
+    :  0.0  1.0
+    ObjectAnimator@2773055, target android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@437aa6a, target android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@1860237{
+    ValueAnimator@648bff8
+    :  0.0  1.0
+    ObjectAnimator@9477cd1, target android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@61e0336, target android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@aae8ad3{
+    ValueAnimator@845e3a4
+    :  0.0  1.0
+    ObjectAnimator@5f6150d, target android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@93f1cc2, target android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@dcd012f{
+    ValueAnimator@ccf9610
+    :  0.0  1.0
+    ObjectAnimator@47bf509, target android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@b66430e, target android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@db2814b{
+    ValueAnimator@33c
+    :  0.0  1.0
+    ObjectAnimator@d65d8c5, target android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@9c7821a, target android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@f25e727{
+    ValueAnimator@3681728
+    :  0.0  1.0
+    ObjectAnimator@b503c41, target android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@ecba5e6, target android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@27fcec3{
+    ValueAnimator@ebb7dd4
+    :  0.0  1.0
+    ObjectAnimator@c235b7d, target android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@9c3a72, target android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@b06941f{
+    ValueAnimator@f3ca340
+    :  0.0  1.0
+    ObjectAnimator@a0f3279, target android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@c6f8bbe, target android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@a533b{
+    ValueAnimator@1e8b36c
+    :  0.0  1.0
+    ObjectAnimator@8477d35, target android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@a94a5ca, target android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@3c0e817{
+    ValueAnimator@4639a58
+    :  0.0  1.0
+    ObjectAnimator@f7fb7b1, target android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@73f5496, target android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@be1eeb3{
+    ValueAnimator@8a40404
+    :  0.0  1.0
+    ObjectAnimator@6271ded, target android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@c142422, target android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@802c30f{
+    ValueAnimator@75f5c70
+    :  0.0  1.0
+    ObjectAnimator@64abe9, target android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@674606e, target android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@1b2812b{
+    ValueAnimator@d35cf9c
+    :  0.0  1.0
+    ObjectAnimator@3d31da5, target android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@68a157a, target android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@e927634{
+    ValueAnimator@afcef21
+    :  0.0  1.0
+    ObjectAnimator@3140f46, target android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@2560507, target android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@3fac1a0{
+    ValueAnimator@4985c5d
+    :  0.0  1.0
+    ObjectAnimator@df1d9d2, target android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@ac3eaa3, target android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@9da57cc{
+    ValueAnimator@a836159
+    :  0.0  1.0
+    ObjectAnimator@56fc11e, target android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@8a08dff, target android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@63b24b8{
+    ValueAnimator@c7fba15
+    :  0.0  1.0
+    ObjectAnimator@e52d12a, target android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@57a0b1b, target android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@3d9d464{
+    ValueAnimator@aaee291
+    :  0.0  1.0
+    ObjectAnimator@2a4d5f6, target android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@ba43df7, target android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@a91d2d0{
+    ValueAnimator@bce16cd
+    :  0.0  1.0
+    ObjectAnimator@1405b82, target android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@cd4c293, target android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@2894bfc{
+    ValueAnimator@b3252c9
+    :  0.0  1.0
+    ObjectAnimator@a1cadce, target android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@67ef4ef, target android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@e1d2be8{
+    ValueAnimator@a845285
+    :  0.0  1.0
+    ObjectAnimator@359d8da, target android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@feff10b, target android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@68d1e94{
+    ValueAnimator@33c9201
+    :  0.0  1.0
+    ObjectAnimator@30ca8a6, target android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@e2a92e7, target android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@7679000{
+    ValueAnimator@3df4d3d
+    :  0.0  1.0
+    ObjectAnimator@9caa932, target android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@9837683, target android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@4b5ac2c{
+    ValueAnimator@4f88039
+    :  0.0  1.0
+    ObjectAnimator@9f6267e, target android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@fcf7df, target android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@7e75f18{
+    ValueAnimator@1d7e6f5
+    :  0.0  1.0
+    ObjectAnimator@7ca2c8a, target android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@76332fb, target android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -16777216  -16777216
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{53f8cf V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@f7f54c4{
+    ValueAnimator@10cfd71
+    :  0.0  1.0
+    ObjectAnimator@e268756, target android.widget.TextView{53f8cf V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@62803d7, target android.widget.TextView{53f8cf V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -16777216  -16777216
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -16777216  -16777216
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{e190a83 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@d7ef930{
+    ValueAnimator@8a2ffad
+    :  0.0  1.0
+    ObjectAnimator@41bc2e2, target android.widget.TextView{e190a83 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@1ff0673, target android.widget.TextView{e190a83 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -16777216  -16777216
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -16777216  -16777216
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{f2a44be V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@92785c{
+    ValueAnimator@a1ce9a9
+    :  0.0  1.0
+    ObjectAnimator@f372b2e, target android.widget.TextView{f2a44be V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@d3996cf, target android.widget.TextView{f2a44be V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -16777216  -16777216
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -16777216  -16777216
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{d392567 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@3fcbe48{
+    ValueAnimator@2317765
+    :  0.0  1.0
+    ObjectAnimator@e8ecc3a, target android.widget.TextView{d392567 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@3e2d0eb, target android.widget.TextView{d392567 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -16777216  -16777216
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -16777216  -16777216
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{7405a4b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@24376f4{
+    ValueAnimator@84724e1
+    :  0.0  1.0
+    ObjectAnimator@a8d7206, target android.widget.TextView{7405a4b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@d9b90c7, target android.widget.TextView{7405a4b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -16777216  -16777216
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -16777216  -16777216
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{1e9edf V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@69b0e60{
+    ValueAnimator@9b02e1d
+    :  0.0  1.0
+    ObjectAnimator@57ea892, target android.widget.TextView{1e9edf V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@1367263, target android.widget.TextView{1e9edf V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -16777216  -16777216
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -16777216  -16777216
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{53f8cf V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@912b08c{
+    ValueAnimator@ca68f19
+    :  0.0  1.0
+    ObjectAnimator@8dabbde, target android.widget.TextView{53f8cf V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@613d1bf, target android.widget.TextView{53f8cf V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -16777216  -16777216
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -16777216  -16777216
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{e190a83 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@1804978{
+    ValueAnimator@70803d5
+    :  0.0  1.0
+    ObjectAnimator@b52b7ea, target android.widget.TextView{e190a83 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@f3dcadb, target android.widget.TextView{e190a83 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -16777216  -16777216
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -16777216  -16777216
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{f2a44be V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@d2c8524{
+    ValueAnimator@4d20851
+    :  0.0  1.0
+    ObjectAnimator@b9c68b6, target android.widget.TextView{f2a44be V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@c4439b7, target android.widget.TextView{f2a44be V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -16777216  -16777216
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -16777216  -16777216
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{d392567 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@33ecf90{
+    ValueAnimator@a5dd88d
+    :  0.0  1.0
+    ObjectAnimator@bfe5a42, target android.widget.TextView{d392567 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@bd8ba53, target android.widget.TextView{d392567 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -16777216  -16777216
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -16777216  -16777216
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{7405a4b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@3e954bc{
+    ValueAnimator@e5c7089
+    :  0.0  1.0
+    ObjectAnimator@a9bd88e, target android.widget.TextView{7405a4b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@c2aa8af, target android.widget.TextView{7405a4b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -16777216  -16777216
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -16777216  -16777216
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{1e9edf V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@e5500a8{
+    ValueAnimator@7928c45
+    :  0.0  1.0
+    ObjectAnimator@280ef9a, target android.widget.TextView{1e9edf V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@50320cb, target android.widget.TextView{1e9edf V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -16777216  -16777216
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@94d7f54{
+    ValueAnimator@a54a7c1
+    :  0.0  1.0
+    ObjectAnimator@16e6b66, target android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@7a0fea7, target android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@aad3cc0{
+    ValueAnimator@1c2fefd
+    :  0.0  1.0
+    ObjectAnimator@e65d7f2, target android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@54de43, target android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@98964ec{
+    ValueAnimator@c58df9
+    :  0.0  1.0
+    ObjectAnimator@cf5813e, target android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@5dd1b9f, target android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@71de3d8{
+    ValueAnimator@6c810b5
+    :  0.0  1.0
+    ObjectAnimator@944734a, target android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@281d2bb, target android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@a796584{
+    ValueAnimator@4360331
+    :  0.0  1.0
+    ObjectAnimator@8de7a16, target android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@2f0df97, target android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@ae955f0{
+    ValueAnimator@ab6a16d
+    :  0.0  1.0
+    ObjectAnimator@c4021a2, target android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@6d9de33, target android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@525e11c{
+    ValueAnimator@528e769
+    :  0.0  1.0
+    ObjectAnimator@d22b5ee, target android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@f4a2a8f, target android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@73df308{
+    ValueAnimator@35f9125
+    :  0.0  1.0
+    ObjectAnimator@58842fa, target android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@6c8e0ab, target android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@f4337b4{
+    ValueAnimator@59d1aa1
+    :  0.0  1.0
+    ObjectAnimator@b8794c6, target android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@f32dc87, target android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@8b61b20{
+    ValueAnimator@3cfbfdd
+    :  0.0  1.0
+    ObjectAnimator@dd83752, target android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@156ba23, target android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@4b1c94c{
+    ValueAnimator@c8d7cd9
+    :  0.0  1.0
+    ObjectAnimator@d1e769e, target android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@a50d57f, target android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@8d82e38{
+    ValueAnimator@7d00d95
+    :  0.0  1.0
+    ObjectAnimator@df75eaa, target android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@2a74a9b, target android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@fdf5e4{
+    ValueAnimator@970ee11
+    :  0.0  1.0
+    ObjectAnimator@fc4bb76, target android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@b25f577, target android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@f968c50{
+    ValueAnimator@f655a4d
+    :  0.0  1.0
+    ObjectAnimator@4391902, target android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@b7a7213, target android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@8e01d7c{
+    ValueAnimator@7ba4e49
+    :  0.0  1.0
+    ObjectAnimator@3a3c34e, target android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@e901c6f, target android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@4cf9568{
+    ValueAnimator@a508605
+    :  0.0  1.0
+    ObjectAnimator@9fcc65a, target android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@8ac108b, target android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@3bca014{
+    ValueAnimator@2587d81
+    :  0.0  1.0
+    ObjectAnimator@8b0ee26, target android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@3492a67, target android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@1cda980{
+    ValueAnimator@38e70bd
+    :  0.0  1.0
+    ObjectAnimator@92dc6b2, target android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@ab40603, target android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@523ddac{
+    ValueAnimator@7365bb9
+    :  0.0  1.0
+    ObjectAnimator@c2d9bfe, target android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@966ff5f, target android.widget.TextView{a8e3993 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@2c72898{
+    ValueAnimator@cd7fa75
+    :  0.0  1.0
+    ObjectAnimator@1c37a0a, target android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@d26327b, target android.widget.TextView{455133f V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@6523644{
+    ValueAnimator@abac8f1
+    :  0.0  1.0
+    ObjectAnimator@6272cd6, target android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@1db7b57, target android.widget.TextView{5cb91f7 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@85e72b0{
+    ValueAnimator@a22032d
+    :  0.0  1.0
+    ObjectAnimator@f414062, target android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@e3275f3, target android.widget.TextView{a0405c2 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@fb009dc{
+    ValueAnimator@b48a529
+    :  0.0  1.0
+    ObjectAnimator@6f700ae, target android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@df47e4f, target android.widget.TextView{204d59b V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key : textColor
+[map] val : textColor:  -617954  -617954
+[map] key : textColor
+[map] val : textColor:  -3523003  -3523003
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+[map] val : AnimatorSet@921e7c8{
+    ValueAnimator@d1d6ae5
+    :  0.0  1.0
+    ObjectAnimator@e3679ba, target android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -617954  -617954
+    ObjectAnimator@624b06b, target android.widget.TextView{e73883 V.ED..... ......ID 579,43-772,101 #7f0906d7 app:id/txt_Price}
+    textColor:  -3523003  -3523003
+}
+[map] key :
+[map] val : 0
+[map] key : androidx.fragment.app.l@290ac5
+[map] val : java.lang.Object@e883ab1
+[map] key : androidx.fragment.app.l@c1fcc1a
+[map] val : java.lang.Object@e883ab1
+[map] key : androidx.fragment.app.l@290ac5
+[map] val : java.lang.Object@e883ab1
+[map] key : androidx.fragment.app.l@c1fcc1a
+[map] val : java.lang.Object@e883ab1
+[map] key : androidx.fragment.app.l@da6a2af
+[map] val : java.lang.Object@e883ab1
+[map] key : y.b@900c56a
+[map] val : java.lang.Object@e883ab1
+[map] key : y.b@b768a5b
+[map] val : java.lang.Object@e883ab1
+[map] key : Operation {d02d2f8} {mFinalState = REMOVED} {mLifecycleImpact = REMOVING} {mFragment = k{66f0dd5} (0feca1b8-e52c-4db7-81fc-609ae8b6ea05 id=0x7f0901ee)}
+[map] val : false
+[map] key : androidx.fragment.app.l@290ac5
+[map] val : java.lang.Object@e883ab1
+[map] key : androidx.fragment.app.l@c1fcc1a
+[map] val : java.lang.Object@e883ab1
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : androidx.savedstate.Recreator@8e31627
+[map] val : androidx.savedstate.Recreator@8e31627=androidx.lifecycle.s@29a80d4
+[map] key : androidx.savedstate.SavedStateRegistry$1@701a27d
+[map] val : androidx.savedstate.SavedStateRegistry$1@701a27d=androidx.lifecycle.s@4e27572
+[map] key : androidx.fragment.app.l@da6a2af
+[map] val : java.lang.Object@e883ab1
+[map] key : y.b@e5e76be
+[map] val : java.lang.Object@e883ab1
+[map] key : y.b@b5aa31f
+[map] val : java.lang.Object@e883ab1
+[map] key : Operation {c45166c} {mFinalState = VISIBLE} {mLifecycleImpact = ADDING} {mFragment = r{5502335} (7828e2a8-3b16-4d77-a820-54d4099857e4 id=0x7f0901ee)}
+[map] val : false
+[map] key : androidx.fragment.app.l@da6a2af
+[map] val : java.lang.Object@e883ab1
+[map] key : y.b@d9bde2
+[map] val : java.lang.Object@e883ab1
+[map] key : y.b@35ce573
+[map] val : java.lang.Object@e883ab1
+[map] key : Operation {668ec30} {mFinalState = REMOVED} {mLifecycleImpact = REMOVING} {mFragment = r{5502335} (7828e2a8-3b16-4d77-a820-54d4099857e4 id=0x7f0901ee)}
+[map] val : false
+[map] key :
+[map] val : :  0.0  1.0
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : android.widget.Editor$EditOperation
+[map] val : android.widget.Editor$EditOperation$1@58c619
+[map] key : androidx.savedstate.Recreator@d4260bf
+[map] val : androidx.savedstate.Recreator@d4260bf=androidx.lifecycle.s@177938c
+[map] key : androidx.savedstate.SavedStateRegistry$1@926aad5
+[map] val : androidx.savedstate.SavedStateRegistry$1@926aad5=androidx.lifecycle.s@341d2ea
+[map] key : androidx.fragment.app.l@da6a2af
+[map] val : java.lang.Object@e883ab1
+[map] key : y.b@2e233b6
+[map] val : java.lang.Object@e883ab1
+[map] key : y.b@ad5a8b7
+[map] val : java.lang.Object@e883ab1
+[map] key : Operation {aeac824} {mFinalState = VISIBLE} {mLifecycleImpact = ADDING} {mFragment = n{bac1da3} (d6018f00-edd6-427b-a919-7c7e3b39949e id=0x7f0901ee)}
+[map] val : false
+[map] key : android.widget.LinearLayout{f2add51 V.E...... ......ID 0,0-1080,1920}
+[map] val : Rect(0, 0 - 1080, 1920)
+[map] key : android.view.View{25519b6 V.ED..... ........ 0,0-1080,72 #102002f android:id/statusBarBackground}
+[map] val : Rect(0, 0 - 1080, 72)
+[map] key : com.afe.mobilecore.tcuicomponent.UCStatusView{8080ec0 V.E...... ......I. 0,1810-1080,1848 #7f09066c app:id/statusView}
+[map] val : Rect(0, 1810 - 1080, 1848)
+[map] key : android.widget.FrameLayout{4d596b7 V.E...... .......D 0,0-1080,1810 #7f0901ee app:id/frame_Main}
+[map] val : Rect(0, 0 - 1080, 1810)
+[map] key : android.widget.FrameLayout{6b5ee5a V.E...... ........ 0,0-1080,1848 #7f0901f0 app:id/frame_Overlay}
+[map] val : Rect(0, 0 - 1080, 1848)
+[map] key : android.widget.RelativeLayout{4f11ca2 V.E...... ........ 0,0-1080,145 #7f09076c app:id/viewTitle}
+[map] val : Rect(0, 0 - 1080, 145)
+[map] key : android.view.View{8aebd33 V.ED..... ........ 0,145-1080,151 #7f09074b app:id/viewSep}
+[map] val : Rect(0, 145 - 1080, 151)
+[map] key : android.widget.ImageView{87e48f0 V.ED..... ........ 0,145-39,184 #7f09022e app:id/imgView_imgSep}
+[map] val : Rect(0, 145 - 39, 184)
+[map] key : android.widget.ImageView{19e5e69 V.ED..... ........ 0,184-1080,309 #7f09022c app:id/imgView_appTopLogo}
+[map] val : Rect(0, 184 - 1080, 309)
+[map] key : android.widget.EditText{f6860ee VFED..CL. .F....ID 193,348-887,435 #7f0906cc app:id/txt_EditID}
+[map] val : Rect(193, 348 - 887, 435)
+[map] key : android.widget.EditText{30df98f VFED..CL. ........ 193,474-887,561 #7f0906cd app:id/txt_EditPwd}
+[map] val : Rect(193, 474 - 887, 561)
+[map] key : android.widget.Button{297041c VFED..C.. ...p.... 193,600-887,687 #7f0900a8 app:id/btn_Login}
+[map] val : Rect(193, 600 - 887, 687)
+[map] key : android.widget.Button{7357825 VFED..C.. ........ 193,726-540,803 #7f0900c0 app:id/btn_OpenAccount}
+[map] val : Rect(193, 726 - 540, 803)
+[map] key : android.widget.Button{dfd9dfa VFED..C.. ........ 540,726-887,803 #7f0900e3 app:id/btn_ResetPwd}
+[map] val : Rect(540, 726 - 887, 803)
+[map] key : android.widget.LinearLayout{47a9fab V.E...... ........ 136,1694-943,1771}
+[map] val : Rect(136, 1694 - 943, 1771)
+[map] key : android.widget.ImageView{e1e4608 V.ED..... ........ 0,0-1080,42 #7f09021c app:id/imgTitleTop}
+[map] val : Rect(0, 0 - 1080, 42)
+[map] key : com.afe.mobilecore.customctrl.CustImageButton{e6a71a1 VFED..C.. ........ 0,0-125,145 #7f090071 app:id/btn_Back}
+[map] val : Rect(0, 0 - 125, 145)
+[map] key : android.widget.TextView{5779fc6 V.ED..... ........ 0,42-1080,145 #7f0906e4 app:id/txt_Title}
+[map] val : Rect(0, 42 - 1080, 145)
+[map] key : android.widget.Button{fc18b87 VFED..C.. ........ 19,0-250,77 #7f09008b app:id/btn_Disclaimer}
+[map] val : Rect(19, 0 - 250, 77)
+[map] key : android.widget.Button{f55bab4 VFED..C.. ........ 288,0-519,77 #7f090084 app:id/btn_Contact}
+[map] val : Rect(288, 0 - 519, 77)
+[map] key : android.widget.Button{19b86dd VFED..C.. ........ 557,0-788,77 #7f0900df app:id/btn_RegToken}
+[map] val : Rect(557, 0 - 788, 77)
+[map] key : android.widget.TextView{be05854 V.ED..... ........ 19,0-733,38 #7f090565 app:id/lbl_Copyright}
+[map] val : Rect(19, 0 - 733, 38)
+[map] key : android.widget.TextView{e6763fd V.ED..... ........ 733,0-1061,38 #7f090574 app:id/lbl_Extra}
+[map] val : Rect(733, 0 - 1061, 38)
+[b1.c.e] param>> a:771589S, b:Gr89LM, c:null, d: NmZmMzk2NjktM2VlYy00NjZi, e: 76, f：F
+[o5.e.d] param>> a:1, b:0, c:http://trade.firstsechk.com/i-trade/streaming/streamLogin, d: re=1&clm=d2DQCtCDX8VLR3SW%2FaBRNm7WcpS%2BQAoDOW5f4kwPIn%2BeGVOmGzAXm2dJTiGF%2BCweW3SqFOK1ljub%0Anp4YPB2nKH5OJk9OSPZ5TcaXSagomcARCBGPcgneZq%2BQCZhNRNF7wdseFzYYQrmm9FH4eveUGtsB%0AsSwNHQ6nPLAai4v0AgV8LIk7wooUzTFMfnFQ4qP4%2BcTdGRMQj85HxvE1QAFgy9eQzQ9SKmSzyrVV%0A5otB%2FSx%2FYVqM%2B8JoCoXFssNVaFSIKwsokqBJ%2FTAleWUC%2BplnVl1WoM5gjwtZGKvsdutolIwirSnF%0AtFYpcUA1se1%2Fkf89hLr1KpW%2FKR1TFSmIIFXZjjrB6cXV9dxdGcWakDlA9eggXvFjlIP36wvu5G6L%0AE2vO6sc6b0nmsReok%2BO6%2FlrHKeHm9SyMRsGOZx1pbUaBx0m0NPV83sJPG8yM%2B3t28tKFBnJvYFQx%0AQl6uki6pjg%2BBLpV0O8kqfSTGNOejMg47zr9wCIgjyZGKvE5z5CHjSoaFOosELecWyK6wk9js1yXl%0AKfZ4J%2B3QLCy%2FPtEnWQEPLXelzU%2F9l%2BqS%2FHlfC7BgV7YYBdaq0N1VZXZgApT8TC7TGMFQbmpakhyt%0AB0wALQXMiMkgcAsNOWIeUteOy0AJREq0g8rdyccQ2f289O2jebYqE2vaDCkqVRXgF7QdbMgWN9k%3D%0A
+加密前URL：http://trade.firstsechk.com/i-trade/streaming/streamLogin
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at o5.e.d(SourceFile:30)
+	at o5.e.d(Native Method)
+	at b1.c.e(SourceFile:11)
+	at b1.c.e(Native Method)
+	at com.afe.mobilecore.AppCoreDelegate.p(SourceFile:532)
+	at com.afe.mobilecore.AppCoreDelegate.J(SourceFile:2239)
+	at k1.v.c(Unknown Source:50)
+	at j1.b.j1(Unknown Source:8)
+	at f.x.run(SourceFile:948)
+	at java.lang.Thread.run(Thread.java:764)
+
+[o5.e.d] result begin
+2823
+[o5.e.d] result end
+java.lang.Exception
+	at o5.e.d(Native Method)
+	at b1.c.e(SourceFile:11)
+	at b1.c.e(Native Method)
+	at com.afe.mobilecore.AppCoreDelegate.p(SourceFile:532)
+	at com.afe.mobilecore.AppCoreDelegate.J(SourceFile:2239)
+	at k1.v.c(Unknown Source:50)
+	at j1.b.j1(Unknown Source:8)
+	at f.x.run(SourceFile:948)
+	at java.lang.Thread.run(Thread.java:764)
+
+[b1.c.e] result begin
+true
+[b1.c.e] result end
+加密前URL：http://trade.firstsechk.com/i-trade/streaming/streamLogin
+java.lang.Exception
+	at b1.c.e(Native Method)
+	at com.afe.mobilecore.AppCoreDelegate.p(SourceFile:532)
+	at com.afe.mobilecore.AppCoreDelegate.J(SourceFile:2239)
+	at k1.v.c(Unknown Source:50)
+	at j1.b.j1(Unknown Source:8)
+	at f.x.run(SourceFile:948)
+	at java.lang.Thread.run(Thread.java:764)
+
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at com.android.okhttp.HttpUrl.url(HttpUrl.java:327)
+	at com.android.okhttp.Request.url(Request.java:53)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:463)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:132)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:263)
+	at o5.c.run(SourceFile:23)
+
+[map] key : java.net.AddressCache$AddressCacheKey@431ade92
+[map] val : java.net.AddressCache$AddressCacheEntry@da4e19e
+[map] key : java.net.CookieManager
+[map] val : java.lang.ref.WeakReference@c6db495
+[map] key : 01
+[map] val : At-auction
+[map] key : 02
+[map] val : Enhanced Limit
+[map] key : 03
+[map] val : At-auction Limit
+[map] key : 04
+[map] val : Limit Order
+[map] key : 05
+[map] val : Special Limit
+[map] key : 101
+[map] val : At-auction Limit (GTD)
+[map] key : 102
+[map] val : Enhanced Limit (GTD)
+[map] key : 103
+[map] val : Limit Order (GTD)
+[map] key : 201
+[map] val : Market Order
+[map] key : 202
+[map] val : Price Chasing
+[map] key : 203
+[map] val : Stop Loss
+[map] key : 204
+[map] val : Market If Touched
+[map] key : 205
+[map] val : Market After Time
+[map] key : 206
+[map] val : Stop Profit
+[map] key : 901
+[map] val : CD Order
+[map] key : 902
+[map] val : CD Order - LO
+[map] key : 903
+[map] val : CD Order - ELO
+[map] key : 904
+[map] val : CD Order - SLO
+[map] key : 212
+[map] val : Trail Limit Order
+[map] key : 905
+[map] val : CD VWAP Order
+[map] key : 207
+[map] val : Warrant Tracking
+[map] key : 211
+[map] val : Bracket Order
+[map] key : SEHK
+[map] val : []
+[map] key : LastLoginID
+[map] val :
+[map] key : LastLoginPassword
+[map] val :
+[map] key : LinkTradeLoginID
+[map] val : RNHafSd4MaI%3D%0AdZ5Sqcb29Oc%3D%0A
+[map] key : LinkTradeLoginID
+[map] val : RNHafSd4MaI%3D%0AdZ5Sqcb29Oc%3D%0A
+[map] key : LinkTradePassword
+[map] val : tgylSp5UKTs%3D%0AfSSa%2F%2FSLOA0%3D%0A
+[map] key : LinkTradePassword
+[map] val : tgylSp5UKTs%3D%0AfSSa%2F%2FSLOA0%3D%0A
+[map] key : LinkFuturesLoginID
+[map] val :
+[map] key : LinkFuturesPassword
+[map] val :
+[map] key : LinkStockOptsLoginID
+[map] val :
+[map] key : LinkStockOptsPassword
+[map] val :
+[map] key : BioTradeLoginID
+[map] val :
+[map] key : BioFuturesLoginID
+[map] val :
+[map] key : BioStockOptsLoginID
+[map] val :
+[map] key : IsNeedBioMetric
+[map] val : false
+[map] key : SLModifyDate
+[map] val : 20280402-164156
+[map] key : Watchlist
+[map] val : 5.HK,700.HK,388.HK,1398.HK,7.HK,ATER.O,NYMT.O,CATO.N,2203.HK,8277.HK,846.HK,2211.HK,8262.HK,1810.HK,AAPL.O
+[map] key : WatchlistDer
+[map] val : null
+[map] key : WatchlistSO
+[map] val : null
+[map] key : UpDownColor
+[map] val : true
+[map] key : NeedConfirmOrder
+[map] val : true
+[map] key : IsRememberID
+[map] val : true
+[map] key : IsRememberPW
+[map] val : false
+[map] key : EnabledAutoLogon
+[map] val : false
+[map] key : IsClearTradePWOnLock
+[map] val : true
+[map] key : TradePwdExpiry
+[map] val : 0
+[map] key : IsScreenKeepON
+[map] val : true
+[map] key : CurrTheme
+[map] val : White
+[map] key : CurrLanguage
+[map] val : TraditionalChinese
+[map] key : androidx.fragment.app.l@da6a2af
+[map] val : java.lang.Object@e883ab1
+[map] key : y.b@b2ad113
+[map] val : java.lang.Object@e883ab1
+[map] key : y.b@4a0ff50
+[map] val : java.lang.Object@e883ab1
+[map] key : Operation {e374549} {mFinalState = REMOVED} {mLifecycleImpact = REMOVING} {mFragment = n{bac1da3} (d6018f00-edd6-427b-a919-7c7e3b39949e id=0x7f0901ee)}
+[map] val : false
+[map] key :
+[map] val : :  0.0  1.0
+[map] key : androidx.savedstate.Recreator@c556868
+[map] val : androidx.savedstate.Recreator@c556868=androidx.lifecycle.s@e9d5481
+[map] key : androidx.savedstate.SavedStateRegistry$1@5827926
+[map] val : androidx.savedstate.SavedStateRegistry$1@5827926=androidx.lifecycle.s@2db5967
+[map] key : androidx.fragment.app.l@da6a2af
+[map] val : java.lang.Object@e883ab1
+[map] key : y.b@2ba2503
+[map] val : java.lang.Object@e883ab1
+[map] key : y.b@3dadc80
+[map] val : java.lang.Object@e883ab1
+[map] key : Operation {e5f12b9} {mFinalState = VISIBLE} {mLifecycleImpact = ADDING} {mFragment = r{5502335} (7828e2a8-3b16-4d77-a820-54d4099857e4 id=0x7f0901ee)}
+[map] val : false
+[o5.e.d] param>> a:1, b:0, c:http://trade.firstsechk.com/i-trade/streaming/streamHandler, d: param=login&channel=IH&lid=771589S&msg=ei6aR6kEWP8%3D%0A%2FqgZh4AXvK5JSY8MaH%2Fhlg%3D%3D%0A
+加密前URL：http://trade.firstsechk.com/i-trade/streaming/streamHandler
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at o5.e.d(SourceFile:30)
+	at o5.e.d(Native Method)
+	at o5.e.e(Unknown Source:2)
+	at b1.c.f(SourceFile:200)
+	at i1.h.run(SourceFile:61)
+	at java.lang.Thread.run(Thread.java:764)
+
+[o5.e.d] result begin
+2829
+[o5.e.d] result end
+java.lang.Exception
+	at o5.e.d(Native Method)
+	at o5.e.e(Unknown Source:2)
+	at b1.c.f(SourceFile:200)
+	at i1.h.run(SourceFile:61)
+	at java.lang.Thread.run(Thread.java:764)
+
+加密前URL：http://trade.firstsechk.com/i-trade/streaming/streamHandler
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at com.android.okhttp.HttpUrl.url(HttpUrl.java:327)
+	at com.android.okhttp.Request.url(Request.java:53)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:463)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:132)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:263)
+	at o5.c.run(SourceFile:23)
+
+[o5.e.d] param>> a:1, b:0, c:http://trade.firstsechk.com/i-trade/streaming/streamSyncRequest, d: encrypt=1&channel=IH&lang=tw&param=a7ZnynqmXO8%3D%0Apbo%2BCamny6vFptz%2BkC2LnIeUUNJCUK%2Fz4bjXv0nxqdjPvAlcKYCK7%2BEVSeJ7vIzMsL1w7HOmwjtn%0AaLREtmC3M4gA6RugRLyScoTBY1lBx9V%2FHgEou58kGlmWpMG%2Bukhlp4tRzyoU9yjqe00YpHdUXLoC%0AHx7T5LwtKqTnR9WQK68MeY6WVDgtWaJZnyMie81i2xkQhVsS5KEqE6lRSGHrkthgshQfjKBWS6At%0AfEeG4Lpnf3QyLR%2FM4T9VSRF5dzQf%0A
+加密前URL：http://trade.firstsechk.com/i-trade/streaming/streamSyncRequest
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at o5.e.d(SourceFile:30)
+	at o5.e.d(Native Method)
+	at b1.c.s(SourceFile:899)
+	at a2.l.T(Unknown Source:30)
+	at a2.l.h(SourceFile:293)
+	at b1.a.a(SourceFile:185)
+	at b1.a.run(Unknown Source:22)
+
+[o5.e.d] result begin
+2832
+[o5.e.d] result end
+java.lang.Exception
+	at o5.e.d(Native Method)
+	at b1.c.s(SourceFile:899)
+	at a2.l.T(Unknown Source:30)
+	at a2.l.h(SourceFile:293)
+	at b1.a.a(SourceFile:185)
+	at b1.a.run(Unknown Source:22)
+
+加密前URL：http://trade.firstsechk.com/i-trade/streaming/streamSyncRequest
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at com.android.okhttp.HttpUrl.url(HttpUrl.java:327)
+	at com.android.okhttp.Request.url(Request.java:53)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:463)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:132)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:263)
+	at o5.c.run(SourceFile:23)
+
+[map] key : 4261479169.HK
+[map] val : .HSI
+[map] key : 837811.HK
+[map] val : HSIc1
+[map] key : 4261479172.HK
+[map] val : .HSCE
+[map] key : 837815.HK
+[map] val : HCEIc1
+[map] key : 10030001.HK
+[map] val : MAIN.HKG
+[map] key : 10030003.HK
+[map] val : WRT.HKG
+[o5.e.d] param>> a:1, b:0, c:http://m.afe.com.hk/iphone/ssLogon.asp, d: SupportSnapshot=Y&groupid=27&params=rO0ABXNyABpqYXZhLnNlY3VyaXR5LlNpZ25lZE9iamVjdAn%252FvWgqPNX%252FAgADWwAH%250AY29udGVudHQAAltCWwAJc2lnbmF0dXJlcQB%252BAAFMAAx0aGVhbGdvcml0aG10ABJM%250AamF2YS9sYW5nL1N0cmluZzt4cHVyAAJbQqzzF%252FgGCFTgAgAAeHAAAAE8rO0ABXNy%250AADBjb20uYWZlLnN5cy5nMmZvLmNvbW1vbi51dGlscy5zZWN1cml0eS5BRkVNc2dP%250AYmoVB71id%252BAIRQIAAkwAAWh0ABNMamF2YS91dGlsL0hhc2hNYXA7TAACdHN0ABBM%250AamF2YS91dGlsL0RhdGU7eHBzcgARamF2YS51dGlsLkhhc2hNYXAFB9rBwxZg0QMA%250AAkYACmxvYWRGYWN0b3JJAAl0aHJlc2hvbGR4cD9AAAAAAAAMdwgAAAAQAAAABHQA%250ACVRpbWVTdGFtcHNyAA5qYXZhLnV0aWwuRGF0ZWhqgQFLWXQZAwAAeHB3CAAAAY%252B4%250AqAlveHQACUlQQWRkcmVzc3QADTYxLjE0MS42NC4yMjZ0AAZQbGFuSUR0AAM0NDN0%250AAAJJRHQADTc3MTU4OVNAZmlyc3R4cHVxAH4ABAAAAC4wLAIUGipm%252Fb%252B4XQx179vK%250AfaqbjDWPtqoCFC7YHpujvcGfp7N%252FZnCoXtLHt3PpdAALU0hBMXdpdGhEU0E%253D%250A
+加密前URL：http://m.afe.com.hk/iphone/ssLogon.asp
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at o5.e.d(SourceFile:30)
+	at o5.e.d(Native Method)
+	at j5.f.i(SourceFile:54)
+	at i1.j.run(SourceFile:165)
+	at java.lang.Thread.run(Thread.java:764)
+
+[o5.e.d] result begin
+2833
+[o5.e.d] result end
+java.lang.Exception
+	at o5.e.d(Native Method)
+	at j5.f.i(SourceFile:54)
+	at i1.j.run(SourceFile:165)
+	at java.lang.Thread.run(Thread.java:764)
+
+加密前URL：http://m.afe.com.hk/iphone/ssLogon.asp
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at com.android.okhttp.HttpUrl.url(HttpUrl.java:327)
+	at com.android.okhttp.Request.url(Request.java:53)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:463)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:132)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:263)
+	at o5.c.run(SourceFile:23)
+
+[map] key : java.net.AddressCache$AddressCacheKey@7ba75390
+[map] val : java.net.AddressCache$AddressCacheEntry@5c5dbca
+[o5.e.d] param>> a:0, b:0, c:http://m.afe.com.hk/ssProxy/ssQuoteMeterProxy3.asp?case=1&userid=771589S@first&sessionid=fjEZ8xF8FYLuaYanB!mOKdqF&market=92&requesttype=10&getquota=Y&quote3=N&gettradehour=Y, d:
+加密前URL：http://m.afe.com.hk/ssProxy/ssQuoteMeterProxy3.asp?case=1&userid=771589S@first&sessionid=fjEZ8xF8FYLuaYanB!mOKdqF&market=92&requesttype=10&getquota=Y&quote3=N&gettradehour=Y
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at o5.e.d(SourceFile:30)
+	at o5.e.d(Native Method)
+	at j5.d.run(SourceFile:495)
+
+[o5.e.d] result begin
+2839
+[o5.e.d] result end
+java.lang.Exception
+	at o5.e.d(Native Method)
+	at j5.d.run(SourceFile:495)
+
+加密前URL：http://m.afe.com.hk/ssProxy/ssQuoteMeterProxy3.asp?case=1&userid=771589S@first&sessionid=fjEZ8xF8FYLuaYanB!mOKdqF&market=92&requesttype=10&getquota=Y&quote3=N&gettradehour=Y
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at com.android.okhttp.HttpUrl.url(HttpUrl.java:327)
+	at com.android.okhttp.Request.url(Request.java:53)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:463)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:412)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:543)
+	at o5.c.run(SourceFile:42)
+
+[o5.e.d] param>> a:0, b:0, c:http://m.afe.com.hk/dbasp/stock_list.asp?DBUid=771589S@first&DBSid=fjEZ8xF8FYLuaYanB!mOKdqF&grp=12, d: null
+加密前URL：http://m.afe.com.hk/dbasp/stock_list.asp?DBUid=771589S@first&DBSid=fjEZ8xF8FYLuaYanB!mOKdqF&grp=12
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at o5.e.d(SourceFile:30)
+	at o5.e.d(Native Method)
+	at n5.a.d(Unknown Source:14)
+	at a2.l.W(Unknown Source:63)
+	at a2.l.M(SourceFile:129)
+	at a2.l.U(SourceFile:10)
+	at j5.f.c(SourceFile:331)
+	at o5.e.a(Unknown Source:12)
+	at o5.c.run(SourceFile:267)
+
+[o5.e.d] result begin
+2840
+[o5.e.d] result end
+java.lang.Exception
+	at o5.e.d(Native Method)
+	at n5.a.d(Unknown Source:14)
+	at a2.l.W(Unknown Source:63)
+	at a2.l.M(SourceFile:129)
+	at a2.l.U(SourceFile:10)
+	at j5.f.c(SourceFile:331)
+	at o5.e.a(Unknown Source:12)
+	at o5.c.run(SourceFile:267)
+
+加密前URL：http://m.afe.com.hk/dbasp/stock_list.asp?DBUid=771589S@first&DBSid=fjEZ8xF8FYLuaYanB!mOKdqF&grp=12
+[o5.e.d] param>> a:0, b:0, c:http://m.afe.com.hk/dbasp/stock_list.asp?DBUid=771589S@first&DBSid=fjEZ8xF8FYLuaYanB!mOKdqF&grp=13, d: null
+加密前URL：http://m.afe.com.hk/dbasp/stock_list.asp?DBUid=771589S@first&DBSid=fjEZ8xF8FYLuaYanB!mOKdqF&grp=13
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at com.android.okhttp.HttpUrl.url(HttpUrl.java:327)
+	at com.android.okhttp.Request.url(Request.java:53)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:463)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:412)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:543)
+	at o5.c.run(SourceFile:42)
+
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at o5.e.d(SourceFile:30)
+	at o5.e.d(Native Method)
+	at n5.a.d(Unknown Source:14)
+	at a2.l.W(Unknown Source:63)
+	at a2.l.M(SourceFile:129)
+	at a2.l.U(SourceFile:15)
+	at j5.f.c(SourceFile:331)
+	at o5.e.a(Unknown Source:12)
+	at o5.c.run(SourceFile:267)
+
+[o5.e.d] result begin
+2841
+[o5.e.d] result end
+java.lang.Exception
+	at o5.e.d(Native Method)
+	at n5.a.d(Unknown Source:14)
+	at a2.l.W(Unknown Source:63)
+	at a2.l.M(SourceFile:129)
+	at a2.l.U(SourceFile:15)
+	at j5.f.c(SourceFile:331)
+	at o5.e.a(Unknown Source:12)
+	at o5.c.run(SourceFile:267)
+
+[o5.e.d] param>> a:0, b:0, c:http://m.afe.com.hk/dbasp/get_cas_stocklist.asp?DBUid=771589S@first&DBSid=fjEZ8xF8FYLuaYanB!mOKdqF, d: null
+加密前URL：http://m.afe.com.hk/dbasp/get_cas_stocklist.asp?DBUid=771589S@first&DBSid=fjEZ8xF8FYLuaYanB!mOKdqF
+加密前URL：http://m.afe.com.hk/dbasp/stock_list.asp?DBUid=771589S@first&DBSid=fjEZ8xF8FYLuaYanB!mOKdqF&grp=13
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at com.android.okhttp.HttpUrl.url(HttpUrl.java:327)
+	at com.android.okhttp.Request.url(Request.java:53)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:463)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:412)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:543)
+	at o5.c.run(SourceFile:42)
+
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at o5.e.d(SourceFile:30)
+	at o5.e.d(Native Method)
+	at n5.a.d(Unknown Source:14)
+	at a2.l.W(Unknown Source:63)
+	at a2.l.Q(SourceFile:129)
+	at a2.l.U(SourceFile:33)
+	at j5.f.c(SourceFile:331)
+	at o5.e.a(Unknown Source:12)
+	at o5.c.run(SourceFile:267)
+
+[o5.e.d] result begin
+2842
+[o5.e.d] result end
+加密前URL：http://m.afe.com.hk/dbasp/get_cas_stocklist.asp?DBUid=771589S@first&DBSid=fjEZ8xF8FYLuaYanB!mOKdqF
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at com.android.okhttp.HttpUrl.url(HttpUrl.java:327)
+	at com.android.okhttp.Request.url(Request.java:53)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:463)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:412)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:543)
+	at o5.c.run(SourceFile:42)
+
+java.lang.Exception
+	at o5.e.d(Native Method)
+	at n5.a.d(Unknown Source:14)
+	at a2.l.W(Unknown Source:63)
+	at a2.l.Q(SourceFile:129)
+	at a2.l.U(SourceFile:33)
+	at j5.f.c(SourceFile:331)
+	at o5.e.a(Unknown Source:12)
+	at o5.c.run(SourceFile:267)
+
+[o5.e.d] param>> a:0, b:0, c:http://m.afe.com.hk/dbasp/stock_list.asp?DBUid=771589S@first&DBSid=fjEZ8xF8FYLuaYanB!mOKdqF&grp=11, d: null
+加密前URL：http://m.afe.com.hk/dbasp/stock_list.asp?DBUid=771589S@first&DBSid=fjEZ8xF8FYLuaYanB!mOKdqF&grp=11
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at o5.e.d(SourceFile:30)
+	at o5.e.d(Native Method)
+	at n5.a.d(Unknown Source:14)
+	at a2.l.W(Unknown Source:63)
+	at a2.l.M(SourceFile:129)
+	at a2.l.U(SourceFile:36)
+	at j5.f.c(SourceFile:331)
+	at o5.e.a(Unknown Source:12)
+	at o5.c.run(SourceFile:267)
+
+[o5.e.d] result begin
+2843
+[o5.e.d] result end
+java.lang.Exception
+	at o5.e.d(Native Method)
+	at n5.a.d(Unknown Source:14)
+	at a2.l.W(Unknown Source:63)
+	at a2.l.M(SourceFile:129)
+	at a2.l.U(SourceFile:36)
+	at j5.f.c(SourceFile:331)
+	at o5.e.a(Unknown Source:12)
+	at o5.c.run(SourceFile:267)
+
+[o5.e.d] param>> a:0, b:0, c:http://m.afe.com.hk/iphone/disclaimer.asp?package=443, d: null
+加密前URL：http://m.afe.com.hk/iphone/disclaimer.asp?package=443
+加密前URL：http://m.afe.com.hk/dbasp/stock_list.asp?DBUid=771589S@first&DBSid=fjEZ8xF8FYLuaYanB!mOKdqF&grp=11
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at o5.e.d(SourceFile:30)
+	at o5.e.d(Native Method)
+	at n5.a.d(Unknown Source:14)
+	at a2.l.W(Unknown Source:63)
+	at a2.l.K(SourceFile:81)
+	at a2.l.U(SourceFile:39)
+	at j5.f.c(SourceFile:331)
+	at o5.e.a(Unknown Source:12)
+	at o5.c.run(SourceFile:267)
+
+[o5.e.d] result begin
+2844
+[o5.e.d] result end
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at com.android.okhttp.HttpUrl.url(HttpUrl.java:327)
+	at com.android.okhttp.Request.url(Request.java:53)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:463)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:412)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:543)
+	at o5.c.run(SourceFile:42)
+
+加密前URL：http://m.afe.com.hk/iphone/disclaimer.asp?package=443
+java.lang.Exception
+	at o5.e.d(Native Method)
+	at n5.a.d(Unknown Source:14)
+	at a2.l.W(Unknown Source:63)
+	at a2.l.K(SourceFile:81)
+	at a2.l.U(SourceFile:39)
+	at j5.f.c(SourceFile:331)
+	at o5.e.a(Unknown Source:12)
+	at o5.c.run(SourceFile:267)
+
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at com.android.okhttp.HttpUrl.url(HttpUrl.java:327)
+	at com.android.okhttp.Request.url(Request.java:53)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:463)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:412)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:543)
+	at o5.c.run(SourceFile:42)
+
+[o5.e.d] param>> a:0, b:0, c:http://m.afe.com.hk/mapping/config/snapshotDialogMsg.txt, d: null
+加密前URL：http://m.afe.com.hk/mapping/config/snapshotDialogMsg.txt
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at o5.e.d(SourceFile:30)
+	at o5.e.d(Native Method)
+	at n5.a.d(Unknown Source:14)
+	at a2.l.W(Unknown Source:63)
+	at a2.l.U(SourceFile:217)
+	at j5.f.c(SourceFile:331)
+	at o5.e.a(Unknown Source:12)
+	at o5.c.run(SourceFile:267)
+
+[o5.e.d] result begin
+2845
+[o5.e.d] result end
+加密前URL：http://m.afe.com.hk/mapping/config/snapshotDialogMsg.txt
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at com.android.okhttp.HttpUrl.url(HttpUrl.java:327)
+	at com.android.okhttp.Request.url(Request.java:53)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:463)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponse(HttpURLConnectionImpl.java:412)
+	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getResponseCode(HttpURLConnectionImpl.java:543)
+	at o5.c.run(SourceFile:42)
+
+java.lang.Exception
+	at o5.e.d(Native Method)
+	at n5.a.d(Unknown Source:14)
+	at a2.l.W(Unknown Source:63)
+	at a2.l.U(SourceFile:217)
+	at j5.f.c(SourceFile:331)
+	at o5.e.a(Unknown Source:12)
+	at o5.c.run(SourceFile:267)
+
+[map] key : LastLoginID
+[map] val :
+[map] key : LastLoginPassword
+[map] val :
+[map] key : java.net.AddressCache$AddressCacheKey@d7477550
+[map] val : java.net.AddressCache$AddressCacheEntry@ab77c34
+[map] key : java.net.AddressCache$AddressCacheKey@d7477550
+[map] key : LinkTradeLoginID
+[map] val : GccarfeaS1w%3D%0AA%2FOiFv%2FSvSQ%3D%0A
+[map] key : LinkTradeLoginID
+[map] val : GccarfeaS1w%3D%0AA%2FOiFv%2FSvSQ%3D%0A
+[map] val : java.net.AddressCache$AddressCacheEntry@c2fea5d
+[map] key : LinkTradePassword
+[map] key : java.net.AddressCache$AddressCacheKey@d7477550
+[map] val : iQZxlDIJnCw%3D%0AxVSOTLafdvw%3D%0A
+[map] key : LinkTradePassword
+[map] val : iQZxlDIJnCw%3D%0AxVSOTLafdvw%3D%0A
+[map] val : java.net.AddressCache$AddressCacheEntry@44babff
+[map] key : java.net.AddressCache$AddressCacheKey@d7477550
+[map] val : java.net.AddressCache$AddressCacheEntry@8da1dcc
+[map] key : java.net.AddressCache$AddressCacheKey@d7477550
+[map] val : java.net.AddressCache$AddressCacheEntry@1bb0815
+[map] key : LinkFuturesLoginID
+[map] val :
+[map] key : LinkFuturesPassword
+[map] val :
+[map] key : LinkStockOptsLoginID
+[map] val :
+[map] key : LinkStockOptsPassword
+[map] val :
+[map] key : BioTradeLoginID
+[map] val :
+[map] key : BioFuturesLoginID
+[map] val :
+[map] key : BioStockOptsLoginID
+[map] val :
+[map] key : IsNeedBioMetric
+[map] val : false
+[map] key : SLModifyDate
+[map] val : 20280402-164156
+[map] key : Watchlist
+[map] val : 5.HK,700.HK,388.HK,1398.HK,7.HK,ATER.O,NYMT.O,CATO.N,2203.HK,8277.HK,846.HK,2211.HK,8262.HK,1810.HK,AAPL.O
+[map] key : WatchlistDer
+[map] val : null
+[map] key : WatchlistSO
+[map] val : null
+[map] key : UpDownColor
+[map] val : true
+[map] key : NeedConfirmOrder
+[map] val : true
+[map] key : IsRememberID
+[map] val : true
+[map] key : IsRememberPW
+[map] val : false
+[map] key : EnabledAutoLogon
+[map] val : false
+[map] key : IsClearTradePWOnLock
+[map] val : true
+[map] key : TradePwdExpiry
+[map] val : 0
+[map] key : IsScreenKeepON
+[map] val : true
+[map] key : CurrTheme
+[map] val : White
+[map] key : CurrLanguage
+[map] val : TraditionalChinese
+[map] key : id
+[map] val : en
+[map] key : id
+[map] val : tw
+[map] key : id
+[map] val : cn
+[map] key : 0
+[map] val :           888800          Phillip Sec Grey Market Page Menu
+[map] key : 1
+[map] val : 
+[map] key : 2
+[map] val :    AFE Page Code    Stock Code     Stock Name          Grey Market Trading Day
+[map] key : 3
+[map] val : --------------------------------------------------------------------------------
+[map] key : 4
+[map] val :       888817           917         QUNABOX GROUP            24/5/2024
+[map] key : 5
+[map] val :       888818           2505        EDA GROUP HLDGS          27/5/2024
+[map] key : 6
+[map] val :       888819           2443        AUTOSTREETS              30/5/2024
+[map] key : 7
+[map] val :       888820           8529        YUANXIN TECH             31/5/2024
+[map] key : 8
+[map] val : 
+[map] key : 9
+[map] val : 
+[map] key : 10
+[map] val : 
+[map] key : 11
+[map] val : 
+[map] key : 12
+[map] val : 
+[map] key : 13
+[map] val : 
+[map] key : 14
+[map] val : 
+[map] key : 15
+[map] val : 
+[map] key : 16
+[map] val : 
+[map] key : 17
+[map] val : 
+[map] key : 18
+[map] val : 
+[map] key : 19
+[map] val : 
+[map] key : 20
+[map] val : 
+[map] key : 21
+[map] val : 
+[map] key : 22
+[map] val : 
+[map] key : 23
+[map] val : 
+[map] key : 24
+[map] val : --------------------------------------------------------------------------------
+[map] key : 25
+[map] val :                 **Info by Phillip Sec(HK) for reference only**
+[map] key : 888817.HK
+[map] val : 917.PM
+[map] key : 917.PM
+[map] val : 888817.HK
+[map] key : 888818.HK
+[map] val : 2505.PM
+[map] key : 2505.PM
+[map] val : 888818.HK
+[map] key : 888819.HK
+[map] val : 2443.PM
+[map] key : 2443.PM
+[map] val : 888819.HK
+[map] key : 888820.HK
+[map] val : 8529.PM
+[map] key : 8529.PM
+[map] val : 888820.HK
+[map] key : 0
+[map] val :              888800          輝立証券暗盤頁號目錄
+[map] key : 1
+[map] val : 
+[map] key : 2
+[map] val :        頁號          股票代號      股票名稱                  暗盤交易日
+[map] key : 3
+[map] val : --------------------------------------------------------------------------------
+[map] key : 4
+[map] val :       888817           917         趣致集團                 24/5/2024
+[map] key : 5
+[map] val :       888818           2505        EDA集團控股              27/5/2024
+[map] key : 6
+[map] val :       888819           2443        汽車街                   30/5/2024
+[map] key : 7
+[map] val :       888820           8529        優博控股                 31/5/2024
+[map] key : 8
+[map] val : 
+[map] key : 9
+[map] val : 
+[map] key : 10
+[map] val : 
+[map] key : 11
+[map] val : 
+[map] key : 12
+[map] val : 
+[map] key : 13
+[map] val : 
+[map] key : 14
+[map] val : 
+[map] key : 15
+[map] val : 
+[map] key : 16
+[map] val : 
+[map] key : 17
+[map] val : 
+[map] key : 18
+[map] val : 
+[map] key : 19
+[map] val : 
+[map] key : 20
+[map] val : 
+[map] key : 21
+[map] val : 
+[map] key : 22
+[map] val : 
+[map] key : 23
+[map] val : 
+[map] key : 24
+[map] val : --------------------------------------------------------------------------------
+[map] key : 25
+[map] val :                      **以上資訊由輝立証券提供， 僅供參考**
+[map] key : 888817.HK
+[map] val : 917.PM
+[map] key : 917.PM
+[map] val : 888817.HK
+[map] key : 888818.HK
+[map] val : 2505.PM
+[map] key : 2505.PM
+[map] val : 888818.HK
+[map] key : 888819.HK
+[map] val : 2443.PM
+[map] key : 2443.PM
+[map] val : 888819.HK
+[map] key : 888820.HK
+[map] val : 8529.PM
+[map] key : 8529.PM
+[map] val : 888820.HK
+加密前URL：http://trade.firstsechk.com/i-trade/streaming/streamSyncRequest
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at b1.b.run(SourceFile:169)
+	at java.util.TimerThread.mainLoop(Timer.java:562)
+	at java.util.TimerThread.run(Timer.java:512)
+
+[map] key : java.net.AddressCache$AddressCacheKey@431ade92
+[map] val : java.net.AddressCache$AddressCacheEntry@e4c5a64
+加密前URL：http://trade.firstsechk.com/i-trade/streaming/streamSyncRequest
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at b1.b.run(SourceFile:169)
+	at java.util.TimerThread.mainLoop(Timer.java:562)
+	at java.util.TimerThread.run(Timer.java:512)
+
+[map] key : java.net.AddressCache$AddressCacheKey@431ade92
+[map] val : java.net.AddressCache$AddressCacheEntry@ad55182
+加密前URL：http://trade.firstsechk.com/i-trade/streaming/streamSyncRequest
+java.lang.Exception
+	at java.net.URL.<init>(Native Method)
+	at b1.b.run(SourceFile:169)
+	at java.util.TimerThread.mainLoop(Timer.java:562)
+	at java.util.TimerThread.run(Timer.java:512)
+
+[map] key : java.net.AddressCache$AddressCacheKey@431ade92
+[map] val : java.net.AddressCache$AddressCacheEntry@a6b8d0
