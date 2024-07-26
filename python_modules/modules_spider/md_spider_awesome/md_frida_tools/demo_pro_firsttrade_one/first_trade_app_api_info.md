@@ -39,7 +39,7 @@ apk文件， 本质是压缩包（代码）
 ## 配置 frida-server 环境 
 ### 配置 frida-server 环境 
 pip install frida-tools -i https://pypi.tuna.tsinghua.edu.cn/simple
-会一快安装两个库： 
+会一块安装两个库： 
 frida-tools:  12.4.2
 frida:  16.2.5版本。 (后面下载frida-server得要下载这个版本， 否则会不匹配。)
 可能会报下面的错误： 

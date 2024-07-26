@@ -177,15 +177,15 @@
     // ============== 调用hook方法 begin================
     // ===============================================
     hook_java_net_URL();
-    // hook_o5_e_d();
-    // hook_b1_c_t();
-    // hook_b1_c_e();
-    // hook_g5_b_e();
-    // hook_javax_cerpto_KeyGenerator();
-    // hook_java_security_KeyFactory();
-    // hook_javax_crypto_SecretKeyFactory();
-    // hook_javax_crypto_spec_PBEKeySpec();
-    // hook_java_crypto_Cipher();
+    hook_o5_e_d();
+    hook_b1_c_t();
+    hook_b1_c_e();
+    hook_g5_b_e();
+    hook_javax_cerpto_KeyGenerator();
+    hook_java_security_KeyFactory();
+    hook_javax_crypto_SecretKeyFactory();
+    hook_javax_crypto_spec_PBEKeySpec();
+    hook_java_crypto_Cipher();
     // ===============================================
     // ============== 调用hook方法 end==================
 });

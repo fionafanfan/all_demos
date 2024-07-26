@@ -6,6 +6,25 @@
 # @Desc     :
 import frida
 import sys
+import time
+
+
+class Logger(object):
+    def __init__(self, fileN="Default.log"):
+        self.terminal = sys.stdout
+        self.log = open(fileN, "a")
+
+    def write(self, message):
+        self.terminal.write(message)
+        self.log.write(message)
+
+    def flush(self):
+        pass
+
+
+time_array = time.localtime(int(time.time()))
+log_time = time.strftime("%Y%m%d_%H_%M_%S", time_array)
+sys.stdout = Logger(f"log_frida_hook_{log_time}.txt")  # 保存到文件中
 
 DEVICE_UID = 'emulator-5554'
 
