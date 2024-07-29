@@ -22,10 +22,6 @@ class Logger(object):
         pass
 
 
-time_array = time.localtime(int(time.time()))
-log_time = time.strftime("%Y%m%d_%H_%M_%S", time_array)
-sys.stdout = Logger(f"log_frida_hook_{log_time}.txt")  # 保存到文件中
-
 DEVICE_UID = 'emulator-5554'
 
 
@@ -98,5 +94,26 @@ def main(process_matches):
 
 
 if __name__ == '__main__':
-    process_matches = ['firstsechk', '第一证券']  # 自动匹配所需进程，有时进程名会在两个之间变化
-    main(process_matches)
+    def run():
+        from std_out_threading import gThreadMgr
+        def listen_std_out():
+            time_array = time.localtime(int(time.time()))
+            log_time = time.strftime("%Y%m%d_%H%M%S", time_array)
+            sys.stdout = Logger(f"log_frida_hook_{log_time}.log")  # 保存到文件中
+
+            print("--------b------------")
+            process_matches = ['firstsechk', '第一证券']  # 自动匹配所需进程，有时进程名会在两个之间变化
+            main(process_matches)
+            print('--------e-----------')
+
+        gThreadMgr.add(name="Thread_listen_std_out", target=listen_std_out, register=False)
+        while True:
+            time.sleep(0.5)
+
+
+    run()  # 记录print日志 和 js里面的log日志。
+
+    # print("--------b------------")
+    # process_matches = ['firstsechk', '第一证券']  # 自动匹配所需进程，有时进程名会在两个之间变化
+    # main(process_matches)
+    # print('--------e-----------')

@@ -24,10 +24,15 @@ class Logger(object):
 time_array = time.localtime(int(time.time()))
 log_time = time.strftime("%Y_%m_%d_%H_%M_%S", time_array)
 sys.stdout = Logger(f"log_{log_time}.log")  # 保存到文件中
-while True:
-    s = input('输入:')
-    print(s)
-    if s == 'q':
-        print('已退出')
-        break
+
+for i in range(1, 10):
+    print(i)
+
+
+# while True:
+#     s = input('输入:')
+#     print(s)
+#     if s == 'q':
+#         print('已退出')
+#         break
 
