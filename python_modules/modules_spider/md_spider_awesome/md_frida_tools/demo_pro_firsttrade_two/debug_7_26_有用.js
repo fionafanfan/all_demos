@@ -9,6 +9,12 @@
         }).join('');
     }
 
+    // 打印堆栈信息
+    function showStacks() {
+        Java.perform(function () {
+                    console.log(Java.use("android.util.Log").getStackTraceString(Java.use("java.lang.Exception").$new()));
+                });
+    };
     // ===============================================
     // ============== 定义公共方法 end===================
 
@@ -17,9 +23,19 @@
     // ===============================================
     function hook_java_net_URL() {
         var URL = Java.use('java.net.URL');
+        URL.$init.overload('java.lang.String').implementation = function (the_url) {
+            console.log('[java.net.URL] URL---：' + the_url)
+            this.$init(the_url)
+        }
+
+    };
+
+    function hook_java_net_URL_track() {
+        var URL = Java.use('java.net.URL');
         URL.$init.overload('java.lang.String').implementation = function (url) {
-            console.log('[java.net.URL] URL：' + url)
-            this.$init(url)
+            console.log('[java.net.URL track] [track] URL：' + url);
+            showStacks();
+            this.$init(url);
         }
 
     };
@@ -33,6 +49,7 @@
             console.log("[o5.e.d] result begin");
             console.log(`[o5.e.d]result: ${result}`);
             console.log("[o5.e.d] result end");
+
             return result;
         };
     };
@@ -45,7 +62,7 @@
             console.log(`[b1.t类属性]: a.B: ${a.B} a.d: ${a.d} a.f: ${a.f} a.g: ${a.g} a.h: ${a.h}  a.i: ${a.i}  `)
             var result = this["t"](a, b, c);
             console.log("[b1.c.t] result begin");
-            console.log(result);
+            console.log(`[b1.c.t] result: ${result}`);
             console.log("[b1.c.t] result end");
             return result;
         };
@@ -59,24 +76,137 @@
         // Hook目标方法
         b1_c.e.overload('java.lang.String', 'java.lang.String', 'java.lang.String', 'java.lang.String', 'int', 'java.lang.String').implementation = function(paramString1, paramString2, paramString3, paramString4, paramInt, paramString5) {
             // 打印传入参数
-            console.log('paramString1: ' + paramString1);
-            console.log('paramString2: ' + paramString2);
-            console.log('paramString3): ' + paramString3) ;
-            console.log('paramString4): '  + paramString4);
-            console.log('paramInt): ' + paramInt);
-            console.log('paramString5: ' + paramString5);
+            console.log('[b1.c.e]paramString1: ' + paramString1);
+            console.log('[b1.c.e]paramString2: ' + paramString2);
+            console.log('[b1.c.e]paramString3: ' + paramString3) ;
+            console.log('[b1.c.e]paramString4: '  + paramString4);
+            console.log('[b1.c.e]paramInt: ' + paramInt);
+            console.log('[b1.c.e]paramString5: ' + paramString5);
 
             // 调用原始方法
             var result = this.e(paramString1, paramString2, paramString3, paramString4, paramInt, paramString5);
 
             // 打印返回值
-            console.log('Result: ' + result);
+            console.log('[b1.c.e]Result: ' + result);
+            return result;
+        };
+
+    };
+    // === 新加hook， 待验证hook begin===
+
+    function hook_b1_c_a() {
+        // 获取目标类
+        var b1_c = Java.use('b1.c');
+
+        // Hook目标方法
+        b1_c.a.overload('long', 'int', 'java.lang.String').implementation = function(p1, p2, p3) {
+            // 打印传入参数
+            console.log(`[b1.c.a] param>> p1:${p1}, p2:${p2},  p3:${p3}, `);
+
+            // 调用原始方法
+            var result = this.a(p1, p2, p3);
+
+            // 打印返回值
+            console.log('[b1.c.a]Result: ' + result);
             return result;
         };
 
     };
 
+    function hook_b1_c_q() {
+      var b1_c = Java.use('b1.c');
+      b1_c["q"].implementation = function (p1, p2, p3) {
+            console.log(`[b1.c.q] p1=${p1};  p2=${p2};  p3=${p3}`);
+            let result = this["q"](p1, p2, p3);
+            console.log(`[b1.c.q] result=${result}`);
+            return result;
+        };
 
+    };
+
+    function hook_g5_b_f() {
+      var g5_b = Java.use('g5.b');
+      g5_b["F"].implementation = function (p1, p2, p3) {
+            console.log(`[g5.b.F] p1=${p1};  p2=${p2};  p3=${p3}`);
+            let result = this["F"](p1, p2, p3);
+            console.log(`[g5.b.F] result=${result}`);
+            return result;
+        };
+
+    };
+
+    function  hook_b1_c_j() {
+      let b1_c = Java.use("b1.c");
+      b1_c["j"].implementation = function (str) {
+            console.log(`[b1.c.j] param=${str}`);
+            send(str);
+            let result = this["j"](str);
+            console.log(`[b1.c.j] result=${result}`);
+            return result;
+        };
+    };
+
+    function  hook_o5_c_run() {
+      var o5_c = Java.use('o5.c');
+      o5_c["run"].implementation = function () {
+            console.log(`[o5.c.run]`);
+            let result = this["run"]();
+            console.log(`[o5.c.run] result=${result}`);
+            return result;
+        };
+    };
+
+    function  hook_o5_e_c() {
+      var o5_d = Java.use('o5.e');
+      o5_d["c"].implementation = function (p1) {
+            console.log(`[o5.e.c] p1:${p1}`);
+            let result = this["c"](p1);
+            console.log(`[o5.e.c] result=${result}`);
+            return result;
+        };
+    };
+
+    function hook_android_support_v4_media(){
+        // android.support.v4.media.f.z
+           let obj = Java.use("android.support.v4.media.f");
+            obj["q"].implementation = function (bArr) {
+                console.log(`[android.support.v4.media.f.q] param=${bArr}`);
+                send(bArr);
+                let result = this["q"](bArr);
+                console.log(`[android.support.v4.media.f.q] result=${result}`);
+                return result;
+            };
+
+            let obj2 = Java.use("android.support.v4.media.g");
+            obj2["r0"].implementation = function (a, b, c, d) {
+                console.log(`[android.support.v4.media.g.r0] a=${a};  b=${b};  c=${c};  d=${d}`);
+                let result = this["q"](a, b, c, d);
+                console.log(`[android.support.v4.media.g.r0] result=${result}`);
+                return result;
+            };
+
+            let obj3 = Java.use("android.support.v4.media.f");
+            obj3["z"].implementation = function (a, b, c, d='') {
+                console.log(`[android.support.v4.media.f.z] a=${a};  b=${b};  c=${c};  d=${d}`);
+                showStacks();
+                let result = this["z"](a, b, c, d);
+                console.log(`[android.support.v4.media.f.z] result=${result}`);
+
+                return result;
+            };
+
+            let obj4 = Java.use("android.support.v4.media.f");
+            obj4["z"].implementation = function (a, b, c) {
+                console.log(`[android.support.v4.media.f.z-abc] a=${a};  b=${b};  c=${c}`);
+                showStacks();
+                let result = this["z"](a, b, c);
+                console.log(`[android.support.v4.media.f.z-abc] result=${result}`);
+
+                return result;
+            };
+    }
+
+    // === 新加hook， 待验证hook 结束===
     function hook_g5_b_e() {
         // hook g5.b.e 获取成功
         var g5_b = Java.use("g5.b")
@@ -177,15 +307,25 @@
     // ============== 调用hook方法 begin================
     // ===============================================
     hook_java_net_URL();
+    // hook_java_net_URL_track();
     hook_o5_e_d();
     hook_b1_c_t();
     hook_b1_c_e();
+    hook_b1_c_a();
+    hook_b1_c_j();
     hook_g5_b_e();
     hook_javax_cerpto_KeyGenerator();
     hook_java_security_KeyFactory();
     hook_javax_crypto_SecretKeyFactory();
     hook_javax_crypto_spec_PBEKeySpec();
     hook_java_crypto_Cipher();
+
+    // 待认证hook()
+    hook_o5_c_run();
+    hook_o5_e_c();
+    hook_android_support_v4_media();
+    hook_b1_c_q();
+    hook_g5_b_f();
     // ===============================================
     // ============== 调用hook方法 end==================
 });
