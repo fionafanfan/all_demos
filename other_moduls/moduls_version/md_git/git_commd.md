@@ -18,3 +18,6 @@ Github SSH key的创建和删除:
         打开github的setting,找到SSH Key and GPG Key 进入后 New SSH key,将复制的字符粘贴到 key里面，取一个名字保存，就可以了。
    
 ```
+
+# 参考链接：
+1. cherry-pick使用: https://blog.csdn.net/m0_57996540/article/details/141501046

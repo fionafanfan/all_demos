@@ -28,13 +28,15 @@ def req_demo2():
 [2023/11/16 18:05:27.779][INFO][auto_test] server_shape_indicator_check.py:1363 => end
     :return:
     """
-    url = "http://172.16.6.196:8888/getShapeIndicator"
+    # url = "http://172.16.6.196:8888/getShapeIndicator"
     # url = "http://127.0.0.1:8888/getShapeIndicator"
+    url = "http://127.0.0.1:8888/getStockShapeIndicator"
     end_time = int(datetime.datetime.strptime("2023-11-17 2:00:00", "%Y-%m-%d %H:%M:%S").timestamp())
     req_body = {"market": "us",
                 "kType": "min15",
                 "time": end_time,
-                "stockCode": "AAPL.us"
+                "stockCode": "AAPL.us",
+                "stockId": 1000000603
                 }
     import time
     s = time.time()
@@ -88,8 +90,8 @@ def req_duckduckgo(keywords):
 
 if __name__ == '__main__':
     # print(req_duckduckgo("刘德华"))
-    req_demo_vv('00700.hk')
-
+    # req_demo_vv('00700.hk')
+    req_demo2()
 
 #
 # if __name__ == '__main__':
