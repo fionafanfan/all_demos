@@ -25,7 +25,26 @@
   
   - modules_other【其他】
     - 暂无
-  
+- c_modules【c模块及框架】
+  - modules_projects【项目】
+- other_modules【其它模块】
+  - modules_chatgpt
+    - md_chatgpt_demmo【chatgpt示例】
+  - modules_finance【金融】
+    - md_finance_base_knowledge【金融基础知识】
+  - modules_manager
+  - modules_reverse_pro
+    - md_reverse
+  - modules_something
+  - modules_study
+  - modules_thinkings
+  - modules_tools
+  - modules_hardware
+  - modules_version
+    - md_docker
+    - md_git
+    - md_svn
+
 在执行某些demo时，可以单独构建自己的虚拟环境：
 譬如：
 - conda create -n all_demos_py36 python==3.6
